@@ -1,0 +1,42 @@
+.button{
+    -fx-background-color: #FFFFFF;
+}
+.button:hover{
+    -fx-background-color: #DDDDDD;
+}
+.check-box {
+    -fx-text-fill: #FFFFFF;
+}
+.radio-button {
+    -fx-text-fill: #FFFFFF;
+}
+.separator{
+    -fx-background-color: #FFFFFF;
+}
+.titled-pane > .title {
+    -fx-background-color: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-border-color: #336699;
+}
+.titled-pane > .title:hover {
+    -fx-background-color: #DDDDDD;
+}
+.titled-pane:focused > .title > .arrow-button .arrow {
+    -fx-background-color: #336699;
+}
+.titled-pane:focused {
+    -fx-text-fill: #336699;
+}
+.titled-pane > *.content {
+    -fx-background-color: #336699;
+}
+.combo-box>.list-cell {
+    -fx-alignment: center;
+    -fx-background-color: white;
+}
+.combo-box .arrow-button{
+    -fx-background-color: white;
+}
+.combo-box .arrow{
+    -fx-background-color: #336699;;
+}

@@ -1,0 +1,100 @@
+/*NODE PROPERTIES*/
+node {
+    fill-color: #AAAAAA; /*Light Gray*/
+    size: 25px, 25px;
+    text-alignment: under;
+    stroke-mode: plain;
+    stroke-color: black;
+    stroke-width: 1px;
+}
+node.modelNode {
+    size: 40px, 40px;
+    text-size: 15;
+}
+node.artificial{
+    size: 20px, 50px;
+    text-size: 15;
+    fill-color: #336699;
+    shape: box;
+}
+node.ptNode{
+    size: 50px, 50px;
+    text-size: 15;
+}
+node.pnPlace{
+    size: 40px, 40px;
+    fill-color: #FFFFFF;
+}
+node.pnTransition{
+    size: 32px, 32px;
+    text-size: 15;
+    shape: box;
+}
+node.pnTau{
+    size: 16px, 40px;
+    fill-color: #000000;
+    shape: box;
+}
+node.pnStartEnd{
+    size: 40px, 40px;
+    text-size: 15;
+    fill-color: #AAAAAA;
+}
+node.type1{fill-color: #003594;} /*Blue*/
+node.type2{fill-color: #ffd100;} /*Yellow*/
+node.type3{fill-color: #d43333;} /*Red*/
+node.type4{fill-color: #05982a;} /*Green*/
+node.type5{fill-color: #db6127;} /*Orange*/
+node.type6{fill-color: #1b9fcf;} /*Light Blue*/
+node.type7{fill-color: #d32f77;} /*Pink*/
+node.type8{fill-color: #532ea9;} /*Purple*/
+
+/*EDGE PROPERTIES*/
+edge{
+    size: 2px;
+}
+edge.E_EN{
+    size: 0px;
+    stroke-mode: dashes;
+}
+edge.REL{
+    size: 1px;
+    stroke-mode: dots;
+}
+edge.REL_R{
+    size: 0px;
+    stroke-mode: dots;
+}
+edge.E_C{
+    size: 0px;
+    stroke-mode: dashes;
+}
+edge.DF_C{
+    size: 2px;
+}
+edge.MODEL_EDGE{
+    size: 3px;
+    text-alignment: under;
+    text-alignment: center;
+    text-size: 15;
+    arrow-size: 10,6;
+}
+edge.PNComp{
+    size: 2px;
+    fill-color: #AAAAAA;
+    stroke-mode: dashes;
+}
+edge.PNComp1{
+    size: 3px;
+    fill-color: #d43333;
+    stroke-mode: dashes;
+}
+
+edge.type1{fill-color: #003594;} /*Blue*/
+edge.type2{fill-color: #ffd100;} /*Yellow*/
+edge.type3{fill-color: #d43333;} /*Red*/
+edge.type4{fill-color: #05982a;} /*Green*/
+edge.type5{fill-color: #db6127;} /*Orange*/
+edge.type6{fill-color: #1b9fcf;} /*Light Blue*/
+edge.type7{fill-color: #d32f77;} /*Pink*/
+edge.type8{fill-color: #532ea9;} /*Purple*/

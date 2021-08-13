@@ -1,0 +1,766 @@
+idx,case,Activity,timestamp,lifecycle,ApplicationType,LoanGoal,RequestedAmount,MonthlyCost,resource,Selected,EventID,OfferID,FirstWithdrawalAmount,Action,Accepted,CreditScore,NumberOfTerms,EventOrigin,OfferedAmount,EventIDraw
+442,Application_1036621789,A_Create Application,2016-09-09T21:07:48.927+0100,COMPLETE,New credit,Car,15000.0,,User_1,,Application_1036621789,,,Created,,,,Application,,Application_1036621789
+443,Application_1036621789,A_Submitted,2016-09-09T21:07:48.962+0100,COMPLETE,New credit,Car,15000.0,,User_1,,ApplState_847105443,,,statechange,,,,Application,,ApplState_847105443
+444,Application_1036621789,W_Handle leads,2016-09-09T21:07:49.226+0100,SCHEDULE,New credit,Car,15000.0,,User_1,,Workitem_1747297264,,,Created,,,,Workflow,,Workitem_1747297264
+445,Application_1036621789,W_Handle leads,2016-09-09T21:08:39.012+0100,WITHDRAW,New credit,Car,15000.0,,User_1,,Workitem_1970750418,,,Deleted,,,,Workflow,,Workitem_1970750418
+446,Application_1036621789,W_Complete application,2016-09-09T21:08:39.020+0100,SCHEDULE,New credit,Car,15000.0,,User_1,,Workitem_1048560567,,,Created,,,,Workflow,,Workitem_1048560567
+447,Application_1036621789,A_Concept,2016-09-09T21:08:39.024+0100,COMPLETE,New credit,Car,15000.0,,User_1,,ApplState_1674034971,,,statechange,,,,Application,,ApplState_1674034971
+448,Application_1036621789,W_Complete application,2016-09-10T12:44:36.504+0100,START,New credit,Car,15000.0,,User_49,,Workitem_614823709,,,Obtained,,,,Workflow,,Workitem_614823709
+449,Application_1036621789,W_Complete application,2016-09-10T12:45:50.167+0100,SUSPEND,New credit,Car,15000.0,,User_49,,Workitem_1086586329,,,Released,,,,Workflow,,Workitem_1086586329
+450,Application_1036621789,A_Accepted,2016-09-10T16:39:42.446+0100,COMPLETE,New credit,Car,15000.0,,User_39,,ApplState_632295224,,,statechange,,,,Application,,ApplState_632295224
+451,Application_1036621789,O_Create Offer,2016-09-10T16:45:34.087+0100,COMPLETE,New credit,Car,15000.0,300.0,User_39,False,Offer_1182954134,Offer_1182954134,0.0,Created,True,0.0,78.0,Offer,20000.0,Offer_1182954134
+452,Application_1036621789,O_Created,2016-09-10T16:45:34.621+0100,COMPLETE,New credit,Car,15000.0,,User_39,,OfferState_4341348,Offer_1182954134,,statechange,,,,Offer,,OfferState_4341348
+453,Application_1036621789,O_Sent (mail and online),2016-09-10T16:46:05.312+0100,COMPLETE,New credit,Car,15000.0,,User_39,,OfferState_361943561,Offer_1182954134,,statechange,,,,Offer,,OfferState_361943561
+454,Application_1036621789,W_Complete application,2016-09-10T16:46:05.325+0100,ATE_ABORT,New credit,Car,15000.0,,User_39,,Workitem_1904823615,,,Deleted,,,,Workflow,,Workitem_1904823615
+455,Application_1036621789,W_Call after offers,2016-09-10T16:46:05.331+0100,SCHEDULE,New credit,Car,15000.0,,User_39,,Workitem_2125111726,,,Created,,,,Workflow,,Workitem_2125111726
+456,Application_1036621789,W_Call after offers,2016-09-10T16:46:05.333+0100,START,New credit,Car,15000.0,,User_39,,Workitem_1944045123,,,Obtained,,,,Workflow,,Workitem_1944045123
+457,Application_1036621789,A_Complete,2016-09-10T16:46:05.335+0100,COMPLETE,New credit,Car,15000.0,,User_39,,ApplState_1888740392,,,statechange,,,,Application,,ApplState_1888740392
+458,Application_1036621789,W_Call after offers,2016-09-11T00:00:01.359+0100,SUSPEND,New credit,Car,15000.0,,User_1,,Workitem_1746451507,,,Released,,,,Workflow,,Workitem_1746451507
+459,Application_1036621789,W_Call after offers,2016-09-11T00:00:01.363+0100,SUSPEND,New credit,Car,15000.0,,User_1,,Workitem_1523695560,,,Released,,,,Workflow,,Workitem_1523695560
+460,Application_1036621789,W_Call after offers,2016-09-11T00:00:01.366+0100,SUSPEND,New credit,Car,15000.0,,User_1,,Workitem_1416874664,,,Released,,,,Workflow,,Workitem_1416874664
+461,Application_1036621789,W_Call after offers,2016-09-11T00:00:01.368+0100,SUSPEND,New credit,Car,15000.0,,User_1,,Workitem_1785330213,,,Released,,,,Workflow,,Workitem_1785330213
+462,Application_1036621789,W_Call after offers,2016-09-14T09:55:05.333+0100,RESUME,New credit,Car,15000.0,,User_132,,Workitem_396922810,,,Obtained,,,,Workflow,,Workitem_396922810
+463,Application_1036621789,W_Call after offers,2016-09-14T09:55:27.594+0100,SUSPEND,New credit,Car,15000.0,,User_132,,Workitem_1195955542,,,Released,,,,Workflow,,Workitem_1195955542
+464,Application_1036621789,O_Cancelled,2016-09-14T18:18:28.787+0100,COMPLETE,New credit,Car,15000.0,,User_63,,OfferState_2090184380,Offer_1182954134,,statechange,,,,Offer,,OfferState_2090184380
+465,Application_1036621789,O_Create Offer,2016-09-14T18:19:59.599+0100,COMPLETE,New credit,Car,15000.0,253.38,User_63,True,Offer_312521947,Offer_312521947,20000.0,Created,True,797.0,93.0,Offer,20000.0,Offer_312521947
+466,Application_1036621789,O_Created,2016-09-14T18:20:00.225+0100,COMPLETE,New credit,Car,15000.0,,User_63,,OfferState_1579179340,Offer_312521947,,statechange,,,,Offer,,OfferState_1579179340
+467,Application_1036621789,O_Sent (mail and online),2016-09-14T18:20:08.855+0100,COMPLETE,New credit,Car,15000.0,,User_63,,OfferState_1802608036,Offer_312521947,,statechange,,,,Offer,,OfferState_1802608036
+468,Application_1036621789,W_Call after offers,2016-09-23T14:35:35.880+0100,ATE_ABORT,New credit,Car,15000.0,,User_27,,Workitem_191928028,,,Deleted,,,,Workflow,,Workitem_191928028
+469,Application_1036621789,W_Validate application,2016-09-23T14:35:35.885+0100,SCHEDULE,New credit,Car,15000.0,,User_27,,Workitem_482701169,,,Created,,,,Workflow,,Workitem_482701169
+470,Application_1036621789,W_Validate application,2016-09-23T14:35:35.886+0100,START,New credit,Car,15000.0,,User_27,,Workitem_47730743,,,Obtained,,,,Workflow,,Workitem_47730743
+471,Application_1036621789,A_Validating,2016-09-23T14:35:36.637+0100,COMPLETE,New credit,Car,15000.0,,User_27,,ApplState_1767743284,,,statechange,,,,Application,,ApplState_1767743284
+472,Application_1036621789,O_Returned,2016-09-23T14:36:08.921+0100,COMPLETE,New credit,Car,15000.0,,User_27,,OfferState_211856892,Offer_312521947,,statechange,,,,Offer,,OfferState_211856892
+473,Application_1036621789,W_Validate application,2016-09-23T14:49:11.548+0100,SUSPEND,New credit,Car,15000.0,,User_27,,Workitem_2139198182,,,Released,,,,Workflow,,Workitem_2139198182
+474,Application_1036621789,W_Validate application,2016-09-28T08:47:23.422+0100,RESUME,New credit,Car,15000.0,,User_93,,Workitem_1522064321,,,Obtained,,,,Workflow,,Workitem_1522064321
+475,Application_1036621789,W_Validate application,2016-09-28T08:48:47.427+0100,SUSPEND,New credit,Car,15000.0,,User_93,,Workitem_1714474987,,,Released,,,,Workflow,,Workitem_1714474987
+476,Application_1036621789,W_Validate application,2016-09-28T08:50:02.698+0100,RESUME,New credit,Car,15000.0,,User_93,,Workitem_626955715,,,Obtained,,,,Workflow,,Workitem_626955715
+477,Application_1036621789,W_Validate application,2016-09-28T09:15:34.740+0100,COMPLETE,New credit,Car,15000.0,,User_93,,Workitem_1446943071,,,Deleted,,,,Workflow,,Workitem_1446943071
+478,Application_1036621789,W_Call incomplete files,2016-09-28T09:15:34.745+0100,SCHEDULE,New credit,Car,15000.0,,User_93,,Workitem_1358672451,,,Created,,,,Workflow,,Workitem_1358672451
+479,Application_1036621789,W_Call incomplete files,2016-09-28T09:15:34.747+0100,START,New credit,Car,15000.0,,User_93,,Workitem_1000524333,,,Obtained,,,,Workflow,,Workitem_1000524333
+480,Application_1036621789,A_Incomplete,2016-09-28T09:15:34.748+0100,COMPLETE,New credit,Car,15000.0,,User_93,,ApplState_1961629228,,,statechange,,,,Application,,ApplState_1961629228
+481,Application_1036621789,W_Call incomplete files,2016-09-28T09:15:43.762+0100,SUSPEND,New credit,Car,15000.0,,User_93,,Workitem_1273522387,,,Released,,,,Workflow,,Workitem_1273522387
+482,Application_1036621789,W_Call incomplete files,2016-09-28T10:35:01.999+0100,RESUME,New credit,Car,15000.0,,User_41,,Workitem_1593390360,,,Obtained,,,,Workflow,,Workitem_1593390360
+483,Application_1036621789,W_Call incomplete files,2016-09-28T10:39:05.338+0100,SUSPEND,New credit,Car,15000.0,,User_41,,Workitem_466402873,,,Released,,,,Workflow,,Workitem_466402873
+484,Application_1036621789,W_Call incomplete files,2016-09-28T17:08:50.474+0100,ATE_ABORT,New credit,Car,15000.0,,User_41,,Workitem_1243827823,,,Deleted,,,,Workflow,,Workitem_1243827823
+485,Application_1036621789,W_Validate application,2016-09-28T17:08:50.480+0100,SCHEDULE,New credit,Car,15000.0,,User_41,,Workitem_847542429,,,Created,,,,Workflow,,Workitem_847542429
+486,Application_1036621789,W_Validate application,2016-09-28T17:08:50.482+0100,START,New credit,Car,15000.0,,User_41,,Workitem_902457947,,,Obtained,,,,Workflow,,Workitem_902457947
+487,Application_1036621789,A_Validating,2016-09-28T17:08:50.535+0100,COMPLETE,New credit,Car,15000.0,,User_41,,ApplState_1185847844,,,statechange,,,,Application,,ApplState_1185847844
+488,Application_1036621789,W_Validate application,2016-09-28T18:56:18.703+0100,SUSPEND,New credit,Car,15000.0,,User_47,,Workitem_1399656887,,,Released,,,,Workflow,,Workitem_1399656887
+489,Application_1036621789,O_Accepted,2016-09-29T08:16:20.996+0100,COMPLETE,New credit,Car,15000.0,,User_29,,OfferState_766109586,Offer_312521947,,statechange,,,,Offer,,OfferState_766109586
+490,Application_1036621789,A_Pending,2016-09-29T08:16:21.001+0100,COMPLETE,New credit,Car,15000.0,,User_29,,ApplState_146403193,,,statechange,,,,Application,,ApplState_146403193
+491,Application_1036621789,W_Validate application,2016-09-29T08:16:21.004+0100,ATE_ABORT,New credit,Car,15000.0,,User_29,,Workitem_900812833,,,Deleted,,,,Workflow,,Workitem_900812833
+305,Application_104058265,A_Create Application,2016-07-12T10:21:57.190+0100,COMPLETE,New credit,Unknown,0.0,,User_45,,Application_104058265,,,Created,,,,Application,,Application_104058265
+306,Application_104058265,W_Complete application,2016-07-12T10:21:57.240+0100,SCHEDULE,New credit,Unknown,0.0,,User_45,,Workitem_1783206658,,,Created,,,,Workflow,,Workitem_1783206658
+307,Application_104058265,W_Complete application,2016-07-12T10:21:57.243+0100,START,New credit,Unknown,0.0,,User_45,,Workitem_2047799544,,,Obtained,,,,Workflow,,Workitem_2047799544
+308,Application_104058265,A_Concept,2016-07-12T10:21:57.246+0100,COMPLETE,New credit,Unknown,0.0,,User_45,,ApplState_2011623820,,,statechange,,,,Application,,ApplState_2011623820
+309,Application_104058265,W_Complete application,2016-07-12T10:28:04.229+0100,SUSPEND,New credit,Unknown,0.0,,User_45,,Workitem_1885935181,,,Released,,,,Workflow,,Workitem_1885935181
+310,Application_104058265,W_Complete application,2016-07-13T11:48:54.747+0100,RESUME,New credit,Unknown,0.0,,User_16,,Workitem_1689087252,,,Obtained,,,,Workflow,,Workitem_1689087252
+311,Application_104058265,W_Complete application,2016-07-13T11:49:59.765+0100,SUSPEND,New credit,Unknown,0.0,,User_16,,Workitem_312784780,,,Released,,,,Workflow,,Workitem_312784780
+312,Application_104058265,A_Accepted,2016-07-14T18:10:51.915+0100,COMPLETE,New credit,Unknown,0.0,,User_35,,ApplState_559452041,,,statechange,,,,Application,,ApplState_559452041
+313,Application_104058265,O_Create Offer,2016-07-14T18:15:38.187+0100,COMPLETE,New credit,Unknown,0.0,56.3,User_35,False,Offer_1939264376,Offer_1939264376,817.0,Created,True,0.0,120.0,Offer,5000.0,Offer_1939264376
+314,Application_104058265,O_Created,2016-07-14T18:15:38.862+0100,COMPLETE,New credit,Unknown,0.0,,User_35,,OfferState_965397829,Offer_1939264376,,statechange,,,,Offer,,OfferState_965397829
+315,Application_104058265,O_Sent (mail and online),2016-07-14T18:15:48.819+0100,COMPLETE,New credit,Unknown,0.0,,User_35,,OfferState_1130276518,Offer_1939264376,,statechange,,,,Offer,,OfferState_1130276518
+316,Application_104058265,W_Complete application,2016-07-14T18:15:48.835+0100,ATE_ABORT,New credit,Unknown,0.0,,User_35,,Workitem_831601700,,,Deleted,,,,Workflow,,Workitem_831601700
+317,Application_104058265,W_Call after offers,2016-07-14T18:15:48.842+0100,SCHEDULE,New credit,Unknown,0.0,,User_35,,Workitem_1324535936,,,Created,,,,Workflow,,Workitem_1324535936
+318,Application_104058265,W_Call after offers,2016-07-14T18:15:48.845+0100,START,New credit,Unknown,0.0,,User_35,,Workitem_743936742,,,Obtained,,,,Workflow,,Workitem_743936742
+319,Application_104058265,A_Complete,2016-07-14T18:15:48.847+0100,COMPLETE,New credit,Unknown,0.0,,User_35,,ApplState_1006093858,,,statechange,,,,Application,,ApplState_1006093858
+320,Application_104058265,O_Cancelled,2016-07-14T18:20:26.968+0100,COMPLETE,New credit,Unknown,0.0,,User_35,,OfferState_414502865,Offer_1939264376,,statechange,,,,Offer,,OfferState_414502865
+321,Application_104058265,A_Cancelled,2016-07-14T18:23:11.524+0100,COMPLETE,New credit,Unknown,0.0,,User_35,,ApplState_1524545573,,,statechange,,,,Application,,ApplState_1524545573
+322,Application_104058265,W_Call after offers,2016-07-14T18:23:11.561+0100,COMPLETE,New credit,Unknown,0.0,,User_35,,Workitem_654772686,,,Deleted,,,,Workflow,,Workitem_654772686
+0,Application_1059131551,A_Create Application,2016-01-14T12:01:09.610+0100,COMPLETE,New credit,Car,5000.0,,User_6,,Application_1059131551,,,Created,,,,Application,,Application_1059131551
+1,Application_1059131551,W_Complete application,2016-01-14T12:01:09.617+0100,SCHEDULE,New credit,Car,5000.0,,User_6,,Workitem_374662778,,,Created,,,,Workflow,,Workitem_374662778
+2,Application_1059131551,W_Complete application,2016-01-14T12:01:09.619+0100,START,New credit,Car,5000.0,,User_6,,Workitem_1078251229,,,Obtained,,,,Workflow,,Workitem_1078251229
+3,Application_1059131551,A_Concept,2016-01-14T12:01:09.621+0100,COMPLETE,New credit,Car,5000.0,,User_6,,ApplState_132527931,,,statechange,,,,Application,,ApplState_132527931
+4,Application_1059131551,A_Accepted,2016-01-14T12:02:16.575+0100,COMPLETE,New credit,Car,5000.0,,User_6,,ApplState_764288733,,,statechange,,,,Application,,ApplState_764288733
+5,Application_1059131551,O_Create Offer,2016-01-14T12:03:53.476+0100,COMPLETE,New credit,Car,5000.0,100.0,User_6,True,Offer_908877938,Offer_908877938,5000.0,Created,True,860.0,58.0,Offer,5000.0,Offer_908877938
+6,Application_1059131551,O_Created,2016-01-14T12:03:54.681+0100,COMPLETE,New credit,Car,5000.0,,User_6,,OfferState_1373356564,Offer_908877938,,statechange,,,,Offer,,OfferState_1373356564
+7,Application_1059131551,O_Sent (mail and online),2016-01-14T12:04:07.521+0100,COMPLETE,New credit,Car,5000.0,,User_6,,OfferState_880509059,Offer_908877938,,statechange,,,,Offer,,OfferState_880509059
+8,Application_1059131551,W_Complete application,2016-01-14T12:04:07.536+0100,COMPLETE,New credit,Car,5000.0,,User_6,,Workitem_2010510279,,,Deleted,,,,Workflow,,Workitem_2010510279
+9,Application_1059131551,W_Call after offers,2016-01-14T12:04:07.542+0100,SCHEDULE,New credit,Car,5000.0,,User_6,,Workitem_936382821,,,Created,,,,Workflow,,Workitem_936382821
+10,Application_1059131551,W_Call after offers,2016-01-14T12:04:07.544+0100,START,New credit,Car,5000.0,,User_6,,Workitem_1311236898,,,Obtained,,,,Workflow,,Workitem_1311236898
+11,Application_1059131551,A_Complete,2016-01-14T12:04:07.546+0100,COMPLETE,New credit,Car,5000.0,,User_6,,ApplState_526399148,,,statechange,,,,Application,,ApplState_526399148
+12,Application_1059131551,W_Call after offers,2016-01-14T12:05:36.227+0100,SUSPEND,New credit,Car,5000.0,,User_6,,Workitem_425616812,,,Released,,,,Workflow,,Workitem_425616812
+13,Application_1059131551,W_Call after offers,2016-01-18T09:33:10.000+0100,RESUME,New credit,Car,5000.0,,User_85,,Workitem_1397158442,,,Obtained,,,,Workflow,,Workitem_1397158442
+14,Application_1059131551,W_Call after offers,2016-01-18T09:33:26.150+0100,SUSPEND,New credit,Car,5000.0,,User_85,,Workitem_1596933455,,,Released,,,,Workflow,,Workitem_1596933455
+15,Application_1059131551,W_Call after offers,2016-01-20T09:40:12.875+0100,ATE_ABORT,New credit,Car,5000.0,,User_114,,Workitem_869043466,,,Deleted,,,,Workflow,,Workitem_869043466
+16,Application_1059131551,W_Validate application,2016-01-20T09:40:12.888+0100,SCHEDULE,New credit,Car,5000.0,,User_114,,Workitem_525828361,,,Created,,,,Workflow,,Workitem_525828361
+17,Application_1059131551,W_Validate application,2016-01-20T09:40:12.891+0100,START,New credit,Car,5000.0,,User_114,,Workitem_169481177,,,Obtained,,,,Workflow,,Workitem_169481177
+18,Application_1059131551,A_Validating,2016-01-20T09:40:13.812+0100,COMPLETE,New credit,Car,5000.0,,User_114,,ApplState_1395715581,,,statechange,,,,Application,,ApplState_1395715581
+19,Application_1059131551,O_Returned,2016-01-20T09:40:51.327+0100,COMPLETE,New credit,Car,5000.0,,User_114,,OfferState_1775741011,Offer_908877938,,statechange,,,,Offer,,OfferState_1775741011
+20,Application_1059131551,W_Validate application,2016-01-20T09:43:21.601+0100,SUSPEND,New credit,Car,5000.0,,User_114,,Workitem_691082496,,,Released,,,,Workflow,,Workitem_691082496
+21,Application_1059131551,W_Validate application,2016-01-21T07:00:46.383+0100,RESUME,New credit,Car,5000.0,,User_68,,Workitem_2011914660,,,Obtained,,,,Workflow,,Workitem_2011914660
+22,Application_1059131551,W_Validate application,2016-01-21T07:01:01.885+0100,SUSPEND,New credit,Car,5000.0,,User_68,,Workitem_452316557,,,Released,,,,Workflow,,Workitem_452316557
+23,Application_1059131551,W_Validate application,2016-01-21T10:00:53.837+0100,RESUME,New credit,Car,5000.0,,User_68,,Workitem_1120696870,,,Obtained,,,,Workflow,,Workitem_1120696870
+24,Application_1059131551,O_Accepted,2016-01-21T10:24:15.182+0100,COMPLETE,New credit,Car,5000.0,,User_68,,OfferState_1469283394,Offer_908877938,,statechange,,,,Offer,,OfferState_1469283394
+25,Application_1059131551,A_Pending,2016-01-21T10:24:15.186+0100,COMPLETE,New credit,Car,5000.0,,User_68,,ApplState_1725260056,,,statechange,,,,Application,,ApplState_1725260056
+26,Application_1059131551,W_Validate application,2016-01-21T10:24:15.188+0100,COMPLETE,New credit,Car,5000.0,,User_68,,Workitem_1021085674,,,Deleted,,,,Workflow,,Workitem_1021085674
+90,Application_111093497,A_Create Application,2016-02-20T19:25:48.289+0100,COMPLETE,New credit,Home improvement,15000.0,,User_1,,Application_111093497,,,Created,,,,Application,,Application_111093497
+91,Application_111093497,A_Submitted,2016-02-20T19:25:48.328+0100,COMPLETE,New credit,Home improvement,15000.0,,User_1,,ApplState_1292348426,,,statechange,,,,Application,,ApplState_1292348426
+92,Application_111093497,W_Handle leads,2016-02-20T19:25:48.717+0100,SCHEDULE,New credit,Home improvement,15000.0,,User_1,,Workitem_146753158,,,Created,,,,Workflow,,Workitem_146753158
+93,Application_111093497,W_Handle leads,2016-02-20T19:27:03.931+0100,WITHDRAW,New credit,Home improvement,15000.0,,User_1,,Workitem_225835950,,,Deleted,,,,Workflow,,Workitem_225835950
+94,Application_111093497,W_Complete application,2016-02-20T19:27:03.939+0100,SCHEDULE,New credit,Home improvement,15000.0,,User_1,,Workitem_36314607,,,Created,,,,Workflow,,Workitem_36314607
+95,Application_111093497,A_Concept,2016-02-20T19:27:03.946+0100,COMPLETE,New credit,Home improvement,15000.0,,User_1,,ApplState_1077901577,,,statechange,,,,Application,,ApplState_1077901577
+96,Application_111093497,W_Complete application,2016-02-23T10:39:56.111+0100,START,New credit,Home improvement,15000.0,,User_3,,Workitem_1604821506,,,Obtained,,,,Workflow,,Workitem_1604821506
+97,Application_111093497,W_Complete application,2016-02-23T10:40:51.000+0100,SUSPEND,New credit,Home improvement,15000.0,,User_3,,Workitem_1801795774,,,Released,,,,Workflow,,Workitem_1801795774
+98,Application_111093497,A_Accepted,2016-02-23T14:28:27.735+0100,COMPLETE,New credit,Home improvement,15000.0,,User_41,,ApplState_2057578522,,,statechange,,,,Application,,ApplState_2057578522
+99,Application_111093497,O_Create Offer,2016-02-23T14:34:17.144+0100,COMPLETE,New credit,Home improvement,15000.0,157.59,User_41,False,Offer_1734707259,Offer_1734707259,15000.0,Created,True,0.0,120.0,Offer,15000.0,Offer_1734707259
+100,Application_111093497,O_Created,2016-02-23T14:34:18.429+0100,COMPLETE,New credit,Home improvement,15000.0,,User_41,,OfferState_998507438,Offer_1734707259,,statechange,,,,Offer,,OfferState_998507438
+101,Application_111093497,O_Create Offer,2016-02-23T14:34:41.173+0100,COMPLETE,New credit,Home improvement,15000.0,108.81,User_41,False,Offer_1958078844,Offer_1958078844,10000.0,Created,True,0.0,120.0,Offer,10000.0,Offer_1958078844
+102,Application_111093497,O_Created,2016-02-23T14:34:42.387+0100,COMPLETE,New credit,Home improvement,15000.0,,User_41,,OfferState_1170766347,Offer_1958078844,,statechange,,,,Offer,,OfferState_1170766347
+103,Application_111093497,O_Sent (mail and online),2016-02-23T14:35:32.034+0100,COMPLETE,New credit,Home improvement,15000.0,,User_41,,OfferState_97124241,Offer_1958078844,,statechange,,,,Offer,,OfferState_97124241
+104,Application_111093497,O_Sent (mail and online),2016-02-23T14:35:32.036+0100,COMPLETE,New credit,Home improvement,15000.0,,User_41,,OfferState_741707577,Offer_1734707259,,statechange,,,,Offer,,OfferState_741707577
+105,Application_111093497,W_Complete application,2016-02-23T14:35:32.051+0100,ATE_ABORT,New credit,Home improvement,15000.0,,User_41,,Workitem_1856793792,,,Deleted,,,,Workflow,,Workitem_1856793792
+106,Application_111093497,W_Call after offers,2016-02-23T14:35:32.058+0100,SCHEDULE,New credit,Home improvement,15000.0,,User_41,,Workitem_1532442818,,,Created,,,,Workflow,,Workitem_1532442818
+107,Application_111093497,W_Call after offers,2016-02-23T14:35:32.060+0100,START,New credit,Home improvement,15000.0,,User_41,,Workitem_1112034028,,,Obtained,,,,Workflow,,Workitem_1112034028
+108,Application_111093497,A_Complete,2016-02-23T14:35:32.062+0100,COMPLETE,New credit,Home improvement,15000.0,,User_41,,ApplState_722964179,,,statechange,,,,Application,,ApplState_722964179
+109,Application_111093497,W_Call after offers,2016-02-23T14:42:44.496+0100,SUSPEND,New credit,Home improvement,15000.0,,User_41,,Workitem_431850795,,,Released,,,,Workflow,,Workitem_431850795
+110,Application_111093497,W_Call after offers,2016-02-29T11:27:28.246+0100,RESUME,New credit,Home improvement,15000.0,,User_31,,Workitem_1028011682,,,Obtained,,,,Workflow,,Workitem_1028011682
+111,Application_111093497,W_Call after offers,2016-02-29T11:30:09.666+0100,SUSPEND,New credit,Home improvement,15000.0,,User_31,,Workitem_773429506,,,Released,,,,Workflow,,Workitem_773429506
+112,Application_111093497,A_Cancelled,2016-03-25T08:01:20.365+0100,COMPLETE,New credit,Home improvement,15000.0,,User_1,,ApplState_1054171063,,,statechange,,,,Application,,ApplState_1054171063
+113,Application_111093497,O_Cancelled,2016-03-25T08:01:20.409+0100,COMPLETE,New credit,Home improvement,15000.0,,User_1,,OfferState_782323064,Offer_1958078844,,statechange,,,,Offer,,OfferState_782323064
+114,Application_111093497,O_Cancelled,2016-03-25T08:01:20.418+0100,COMPLETE,New credit,Home improvement,15000.0,,User_1,,OfferState_1292146794,Offer_1734707259,,statechange,,,,Offer,,OfferState_1292146794
+115,Application_111093497,W_Call after offers,2016-03-25T08:01:20.430+0100,ATE_ABORT,New credit,Home improvement,15000.0,,User_1,,Workitem_2098843333,,,Deleted,,,,Workflow,,Workitem_2098843333
+213,Application_1244824900,A_Create Application,2016-06-13T12:45:01.616+0100,COMPLETE,New credit,Existing loan takeover,18500.0,,User_49,,Application_1244824900,,,Created,,,,Application,,Application_1244824900
+214,Application_1244824900,W_Complete application,2016-06-13T12:45:01.628+0100,SCHEDULE,New credit,Existing loan takeover,18500.0,,User_49,,Workitem_725175903,,,Created,,,,Workflow,,Workitem_725175903
+215,Application_1244824900,W_Complete application,2016-06-13T12:45:01.632+0100,START,New credit,Existing loan takeover,18500.0,,User_49,,Workitem_1609925693,,,Obtained,,,,Workflow,,Workitem_1609925693
+216,Application_1244824900,A_Concept,2016-06-13T12:45:01.635+0100,COMPLETE,New credit,Existing loan takeover,18500.0,,User_49,,ApplState_195595783,,,statechange,,,,Application,,ApplState_195595783
+217,Application_1244824900,A_Accepted,2016-06-13T12:48:14.486+0100,COMPLETE,New credit,Existing loan takeover,18500.0,,User_49,,ApplState_1950694412,,,statechange,,,,Application,,ApplState_1950694412
+218,Application_1244824900,O_Create Offer,2016-06-13T12:49:59.844+0100,COMPLETE,New credit,Existing loan takeover,18500.0,224.31,User_49,True,Offer_1388757244,Offer_1388757244,0.0,Created,False,0.0,98.0,Offer,18500.0,Offer_1388757244
+219,Application_1244824900,O_Created,2016-06-13T12:50:01.564+0100,COMPLETE,New credit,Existing loan takeover,18500.0,,User_49,,OfferState_1036676034,Offer_1388757244,,statechange,,,,Offer,,OfferState_1036676034
+220,Application_1244824900,O_Sent (mail and online),2016-06-13T12:50:20.395+0100,COMPLETE,New credit,Existing loan takeover,18500.0,,User_49,,OfferState_1411847512,Offer_1388757244,,statechange,,,,Offer,,OfferState_1411847512
+221,Application_1244824900,W_Complete application,2016-06-13T12:50:20.436+0100,COMPLETE,New credit,Existing loan takeover,18500.0,,User_49,,Workitem_536991880,,,Deleted,,,,Workflow,,Workitem_536991880
+222,Application_1244824900,W_Call after offers,2016-06-13T12:50:20.454+0100,SCHEDULE,New credit,Existing loan takeover,18500.0,,User_49,,Workitem_536752048,,,Created,,,,Workflow,,Workitem_536752048
+223,Application_1244824900,W_Call after offers,2016-06-13T12:50:20.459+0100,START,New credit,Existing loan takeover,18500.0,,User_49,,Workitem_313489927,,,Obtained,,,,Workflow,,Workitem_313489927
+224,Application_1244824900,A_Complete,2016-06-13T12:50:20.465+0100,COMPLETE,New credit,Existing loan takeover,18500.0,,User_49,,ApplState_383444483,,,statechange,,,,Application,,ApplState_383444483
+225,Application_1244824900,W_Call after offers,2016-06-13T12:51:44.496+0100,SUSPEND,New credit,Existing loan takeover,18500.0,,User_49,,Workitem_625538271,,,Released,,,,Workflow,,Workitem_625538271
+226,Application_1244824900,W_Call after offers,2016-06-20T11:51:00.978+0100,ATE_ABORT,New credit,Existing loan takeover,18500.0,,User_123,,Workitem_490235351,,,Deleted,,,,Workflow,,Workitem_490235351
+227,Application_1244824900,W_Validate application,2016-06-20T11:51:00.985+0100,SCHEDULE,New credit,Existing loan takeover,18500.0,,User_123,,Workitem_889968053,,,Created,,,,Workflow,,Workitem_889968053
+228,Application_1244824900,W_Validate application,2016-06-20T11:51:00.986+0100,START,New credit,Existing loan takeover,18500.0,,User_123,,Workitem_1206121518,,,Obtained,,,,Workflow,,Workitem_1206121518
+229,Application_1244824900,A_Validating,2016-06-20T11:51:01.937+0100,COMPLETE,New credit,Existing loan takeover,18500.0,,User_123,,ApplState_1307023781,,,statechange,,,,Application,,ApplState_1307023781
+230,Application_1244824900,O_Returned,2016-06-20T11:51:23.211+0100,COMPLETE,New credit,Existing loan takeover,18500.0,,User_123,,OfferState_2036893994,Offer_1388757244,,statechange,,,,Offer,,OfferState_2036893994
+231,Application_1244824900,W_Validate application,2016-06-20T11:58:08.996+0100,SUSPEND,New credit,Existing loan takeover,18500.0,,User_123,,Workitem_2002842072,,,Released,,,,Workflow,,Workitem_2002842072
+232,Application_1244824900,W_Validate application,2016-06-23T07:16:41.700+0100,RESUME,New credit,Existing loan takeover,18500.0,,User_87,,Workitem_1127431407,,,Obtained,,,,Workflow,,Workitem_1127431407
+233,Application_1244824900,W_Validate application,2016-06-23T07:16:46.719+0100,SUSPEND,New credit,Existing loan takeover,18500.0,,User_87,,Workitem_44505574,,,Released,,,,Workflow,,Workitem_44505574
+234,Application_1244824900,W_Validate application,2016-06-23T13:03:53.659+0100,RESUME,New credit,Existing loan takeover,18500.0,,User_68,,Workitem_1593518368,,,Obtained,,,,Workflow,,Workitem_1593518368
+235,Application_1244824900,W_Validate application,2016-06-23T13:32:34.267+0100,SUSPEND,New credit,Existing loan takeover,18500.0,,User_68,,Workitem_1893517782,,,Released,,,,Workflow,,Workitem_1893517782
+236,Application_1244824900,W_Validate application,2016-06-23T13:38:44.829+0100,RESUME,New credit,Existing loan takeover,18500.0,,User_68,,Workitem_1428804851,,,Obtained,,,,Workflow,,Workitem_1428804851
+237,Application_1244824900,W_Validate application,2016-06-23T13:39:03.483+0100,SUSPEND,New credit,Existing loan takeover,18500.0,,User_68,,Workitem_1930827737,,,Released,,,,Workflow,,Workitem_1930827737
+238,Application_1244824900,W_Validate application,2016-06-23T13:39:11.764+0100,RESUME,New credit,Existing loan takeover,18500.0,,User_68,,Workitem_1934380804,,,Obtained,,,,Workflow,,Workitem_1934380804
+239,Application_1244824900,W_Validate application,2016-06-23T13:40:07.857+0100,START,New credit,Existing loan takeover,18500.0,,User_68,,Workitem_2119986613,,,Obtained,,,,Workflow,,Workitem_2119986613
+240,Application_1244824900,A_Denied,2016-06-23T13:45:00.910+0100,COMPLETE,New credit,Existing loan takeover,18500.0,,User_68,,ApplState_1687581560,,,statechange,,,,Application,,ApplState_1687581560
+241,Application_1244824900,O_Refused,2016-06-23T13:45:01.000+0100,COMPLETE,New credit,Existing loan takeover,18500.0,,User_68,,OfferState_619403287,Offer_1388757244,,statechange,,,,Offer,,OfferState_619403287
+242,Application_1244824900,W_Validate application,2016-06-23T13:45:01.016+0100,COMPLETE,New credit,Existing loan takeover,18500.0,,User_68,,Workitem_1283101928,,,Deleted,,,,Workflow,,Workitem_1283101928
+629,Application_1496349825,A_Create Application,2016-10-30T13:07:42.350+0100,COMPLETE,New credit,Existing loan takeover,57750.0,,User_1,,Application_1496349825,,,Created,,,,Application,,Application_1496349825
+630,Application_1496349825,A_Submitted,2016-10-30T13:07:43.476+0100,COMPLETE,New credit,Existing loan takeover,57750.0,,User_1,,ApplState_1151679401,,,statechange,,,,Application,,ApplState_1151679401
+631,Application_1496349825,W_Handle leads,2016-10-30T13:07:43.750+0100,SCHEDULE,New credit,Existing loan takeover,57750.0,,User_1,,Workitem_82365428,,,Created,,,,Workflow,,Workitem_82365428
+632,Application_1496349825,W_Handle leads,2016-10-30T13:08:25.466+0100,WITHDRAW,New credit,Existing loan takeover,57750.0,,User_1,,Workitem_306266030,,,Deleted,,,,Workflow,,Workitem_306266030
+633,Application_1496349825,W_Complete application,2016-10-30T13:08:25.474+0100,SCHEDULE,New credit,Existing loan takeover,57750.0,,User_1,,Workitem_1789259671,,,Created,,,,Workflow,,Workitem_1789259671
+634,Application_1496349825,A_Concept,2016-10-30T13:08:25.482+0100,COMPLETE,New credit,Existing loan takeover,57750.0,,User_1,,ApplState_352560252,,,statechange,,,,Application,,ApplState_352560252
+635,Application_1496349825,W_Complete application,2016-10-31T14:05:50.213+0100,START,New credit,Existing loan takeover,57750.0,,User_84,,Workitem_1293112422,,,Obtained,,,,Workflow,,Workitem_1293112422
+636,Application_1496349825,W_Complete application,2016-10-31T14:13:24.214+0100,SUSPEND,New credit,Existing loan takeover,57750.0,,User_84,,Workitem_655985808,,,Released,,,,Workflow,,Workitem_655985808
+637,Application_1496349825,A_Accepted,2016-10-31T14:36:48.599+0100,COMPLETE,New credit,Existing loan takeover,57750.0,,User_46,,ApplState_2023148588,,,statechange,,,,Application,,ApplState_2023148588
+638,Application_1496349825,W_Complete application,2016-10-31T14:40:34.752+0100,RESUME,New credit,Existing loan takeover,57750.0,,User_84,,Workitem_53627709,,,Obtained,,,,Workflow,,Workitem_53627709
+639,Application_1496349825,W_Complete application,2016-10-31T14:40:44.391+0100,SUSPEND,New credit,Existing loan takeover,57750.0,,User_84,,Workitem_521134416,,,Released,,,,Workflow,,Workitem_521134416
+640,Application_1496349825,O_Create Offer,2016-10-31T14:41:28.428+0100,COMPLETE,New credit,Existing loan takeover,57750.0,650.0,User_46,True,Offer_508251031,Offer_508251031,0.0,Created,True,879.0,109.0,Offer,57750.0,Offer_508251031
+641,Application_1496349825,O_Created,2016-10-31T14:41:29.489+0100,COMPLETE,New credit,Existing loan takeover,57750.0,,User_46,,OfferState_1398209534,Offer_508251031,,statechange,,,,Offer,,OfferState_1398209534
+642,Application_1496349825,O_Sent (mail and online),2016-10-31T14:42:44.276+0100,COMPLETE,New credit,Existing loan takeover,57750.0,,User_46,,OfferState_1599405351,Offer_508251031,,statechange,,,,Offer,,OfferState_1599405351
+643,Application_1496349825,W_Complete application,2016-10-31T14:42:44.287+0100,ATE_ABORT,New credit,Existing loan takeover,57750.0,,User_46,,Workitem_1430362696,,,Deleted,,,,Workflow,,Workitem_1430362696
+644,Application_1496349825,W_Call after offers,2016-10-31T14:42:44.295+0100,SCHEDULE,New credit,Existing loan takeover,57750.0,,User_46,,Workitem_1940155646,,,Created,,,,Workflow,,Workitem_1940155646
+645,Application_1496349825,W_Call after offers,2016-10-31T14:42:44.296+0100,START,New credit,Existing loan takeover,57750.0,,User_46,,Workitem_1759467439,,,Obtained,,,,Workflow,,Workitem_1759467439
+646,Application_1496349825,A_Complete,2016-10-31T14:42:44.298+0100,COMPLETE,New credit,Existing loan takeover,57750.0,,User_46,,ApplState_1441577976,,,statechange,,,,Application,,ApplState_1441577976
+647,Application_1496349825,W_Call after offers,2016-10-31T14:46:00.655+0100,SUSPEND,New credit,Existing loan takeover,57750.0,,User_46,,Workitem_1827493083,,,Released,,,,Workflow,,Workitem_1827493083
+648,Application_1496349825,W_Call after offers,2016-11-04T13:16:12.693+0100,RESUME,New credit,Existing loan takeover,57750.0,,User_65,,Workitem_1303436536,,,Obtained,,,,Workflow,,Workitem_1303436536
+649,Application_1496349825,W_Call after offers,2016-11-04T13:16:37.264+0100,SUSPEND,New credit,Existing loan takeover,57750.0,,User_65,,Workitem_290595274,,,Released,,,,Workflow,,Workitem_290595274
+650,Application_1496349825,W_Call after offers,2016-11-16T14:25:39.498+0100,ATE_ABORT,New credit,Existing loan takeover,57750.0,,User_131,,Workitem_956837518,,,Deleted,,,,Workflow,,Workitem_956837518
+651,Application_1496349825,W_Validate application,2016-11-16T14:25:39.503+0100,SCHEDULE,New credit,Existing loan takeover,57750.0,,User_131,,Workitem_1224310840,,,Created,,,,Workflow,,Workitem_1224310840
+652,Application_1496349825,W_Validate application,2016-11-16T14:25:39.504+0100,START,New credit,Existing loan takeover,57750.0,,User_131,,Workitem_2114590365,,,Obtained,,,,Workflow,,Workitem_2114590365
+653,Application_1496349825,A_Validating,2016-11-16T14:25:40.164+0100,COMPLETE,New credit,Existing loan takeover,57750.0,,User_131,,ApplState_515928774,,,statechange,,,,Application,,ApplState_515928774
+654,Application_1496349825,O_Returned,2016-11-16T14:25:55.701+0100,COMPLETE,New credit,Existing loan takeover,57750.0,,User_131,,OfferState_628540467,Offer_508251031,,statechange,,,,Offer,,OfferState_628540467
+655,Application_1496349825,W_Validate application,2016-11-16T14:33:25.857+0100,SUSPEND,New credit,Existing loan takeover,57750.0,,User_131,,Workitem_1902149938,,,Released,,,,Workflow,,Workitem_1902149938
+656,Application_1496349825,W_Validate application,2016-11-21T08:23:57.995+0100,RESUME,New credit,Existing loan takeover,57750.0,,User_30,,Workitem_936662071,,,Obtained,,,,Workflow,,Workitem_936662071
+657,Application_1496349825,W_Validate application,2016-11-21T08:24:24.268+0100,SUSPEND,New credit,Existing loan takeover,57750.0,,User_30,,Workitem_989262276,,,Released,,,,Workflow,,Workitem_989262276
+658,Application_1496349825,O_Accepted,2016-11-22T12:43:52.791+0100,COMPLETE,New credit,Existing loan takeover,57750.0,,User_75,,OfferState_1236244212,Offer_508251031,,statechange,,,,Offer,,OfferState_1236244212
+659,Application_1496349825,A_Pending,2016-11-22T12:43:52.795+0100,COMPLETE,New credit,Existing loan takeover,57750.0,,User_75,,ApplState_1477811617,,,statechange,,,,Application,,ApplState_1477811617
+660,Application_1496349825,W_Validate application,2016-11-22T12:43:52.797+0100,ATE_ABORT,New credit,Existing loan takeover,57750.0,,User_75,,Workitem_1027084393,,,Deleted,,,,Workflow,,Workitem_1027084393
+167,Application_1626445025,A_Create Application,2016-04-18T20:36:03.237+0100,COMPLETE,Limit raise,Car,35000.0,,User_20,,Application_1626445025,,,Created,,,,Application,,Application_1626445025
+168,Application_1626445025,A_Concept,2016-04-18T20:36:03.241+0100,COMPLETE,Limit raise,Car,35000.0,,User_20,,ApplState_1252674340,,,statechange,,,,Application,,ApplState_1252674340
+169,Application_1626445025,W_Complete application,2016-04-18T20:36:03.267+0100,SCHEDULE,Limit raise,Car,35000.0,,User_20,,Workitem_1761569686,,,Created,,,,Workflow,,Workitem_1761569686
+170,Application_1626445025,W_Complete application,2016-04-18T20:36:03.271+0100,START,Limit raise,Car,35000.0,,User_20,,Workitem_1984778975,,,Obtained,,,,Workflow,,Workitem_1984778975
+171,Application_1626445025,W_Complete application,2016-04-18T20:37:22.924+0100,SUSPEND,Limit raise,Car,35000.0,,User_20,,Workitem_842044579,,,Released,,,,Workflow,,Workitem_842044579
+172,Application_1626445025,W_Complete application,2016-04-19T16:36:16.013+0100,RESUME,Limit raise,Car,35000.0,,User_48,,Workitem_1709749221,,,Obtained,,,,Workflow,,Workitem_1709749221
+173,Application_1626445025,W_Complete application,2016-04-19T16:36:21.318+0100,SUSPEND,Limit raise,Car,35000.0,,User_48,,Workitem_246739146,,,Released,,,,Workflow,,Workitem_246739146
+174,Application_1626445025,A_Accepted,2016-04-19T17:32:41.227+0100,COMPLETE,Limit raise,Car,35000.0,,User_49,,ApplState_983994314,,,statechange,,,,Application,,ApplState_983994314
+175,Application_1626445025,O_Create Offer,2016-04-19T17:34:12.615+0100,COMPLETE,Limit raise,Car,35000.0,350.0,User_49,True,Offer_2057356138,Offer_2057356138,0.0,Created,True,0.0,126.0,Offer,35000.0,Offer_2057356138
+176,Application_1626445025,O_Created,2016-04-19T17:34:14.124+0100,COMPLETE,Limit raise,Car,35000.0,,User_49,,OfferState_547926186,Offer_2057356138,,statechange,,,,Offer,,OfferState_547926186
+177,Application_1626445025,O_Sent (mail and online),2016-04-19T17:34:28.723+0100,COMPLETE,Limit raise,Car,35000.0,,User_49,,OfferState_897425429,Offer_2057356138,,statechange,,,,Offer,,OfferState_897425429
+178,Application_1626445025,W_Complete application,2016-04-19T17:34:28.739+0100,ATE_ABORT,Limit raise,Car,35000.0,,User_49,,Workitem_1013681064,,,Deleted,,,,Workflow,,Workitem_1013681064
+179,Application_1626445025,W_Call after offers,2016-04-19T17:34:28.747+0100,SCHEDULE,Limit raise,Car,35000.0,,User_49,,Workitem_172466323,,,Created,,,,Workflow,,Workitem_172466323
+180,Application_1626445025,W_Call after offers,2016-04-19T17:34:28.749+0100,START,Limit raise,Car,35000.0,,User_49,,Workitem_514285493,,,Obtained,,,,Workflow,,Workitem_514285493
+181,Application_1626445025,A_Complete,2016-04-19T17:34:28.752+0100,COMPLETE,Limit raise,Car,35000.0,,User_49,,ApplState_659460819,,,statechange,,,,Application,,ApplState_659460819
+182,Application_1626445025,W_Call after offers,2016-04-19T17:35:51.601+0100,SUSPEND,Limit raise,Car,35000.0,,User_49,,Workitem_1358342502,,,Released,,,,Workflow,,Workitem_1358342502
+183,Application_1626445025,W_Call after offers,2016-04-21T11:32:33.048+0100,ATE_ABORT,Limit raise,Car,35000.0,,User_117,,Workitem_88873100,,,Deleted,,,,Workflow,,Workitem_88873100
+184,Application_1626445025,W_Validate application,2016-04-21T11:32:33.076+0100,SCHEDULE,Limit raise,Car,35000.0,,User_117,,Workitem_766364171,,,Created,,,,Workflow,,Workitem_766364171
+185,Application_1626445025,W_Validate application,2016-04-21T11:32:33.082+0100,START,Limit raise,Car,35000.0,,User_117,,Workitem_1116458498,,,Obtained,,,,Workflow,,Workitem_1116458498
+186,Application_1626445025,A_Validating,2016-04-21T11:32:34.118+0100,COMPLETE,Limit raise,Car,35000.0,,User_117,,ApplState_174988286,,,statechange,,,,Application,,ApplState_174988286
+187,Application_1626445025,W_Validate application,2016-04-21T11:33:26.642+0100,SUSPEND,Limit raise,Car,35000.0,,User_117,,Workitem_1975601722,,,Released,,,,Workflow,,Workitem_1975601722
+188,Application_1626445025,O_Returned,2016-04-25T09:51:06.085+0100,COMPLETE,Limit raise,Car,35000.0,,User_118,,OfferState_95125513,Offer_2057356138,,statechange,,,,Offer,,OfferState_95125513
+189,Application_1626445025,W_Validate application,2016-04-25T14:36:23.282+0100,RESUME,Limit raise,Car,35000.0,,User_75,,Workitem_751915945,,,Obtained,,,,Workflow,,Workitem_751915945
+190,Application_1626445025,W_Validate application,2016-04-25T14:52:08.865+0100,COMPLETE,Limit raise,Car,35000.0,,User_75,,Workitem_1155146388,,,Deleted,,,,Workflow,,Workitem_1155146388
+191,Application_1626445025,W_Call incomplete files,2016-04-25T14:52:08.874+0100,SCHEDULE,Limit raise,Car,35000.0,,User_75,,Workitem_2057365644,,,Created,,,,Workflow,,Workitem_2057365644
+192,Application_1626445025,W_Call incomplete files,2016-04-25T14:52:08.876+0100,START,Limit raise,Car,35000.0,,User_75,,Workitem_2137066063,,,Obtained,,,,Workflow,,Workitem_2137066063
+193,Application_1626445025,A_Incomplete,2016-04-25T14:52:08.880+0100,COMPLETE,Limit raise,Car,35000.0,,User_75,,ApplState_141941911,,,statechange,,,,Application,,ApplState_141941911
+194,Application_1626445025,W_Call incomplete files,2016-04-25T14:58:02.722+0100,SUSPEND,Limit raise,Car,35000.0,,User_75,,Workitem_59437001,,,Released,,,,Workflow,,Workitem_59437001
+195,Application_1626445025,W_Call incomplete files,2016-04-25T16:42:26.237+0100,RESUME,Limit raise,Car,35000.0,,User_25,,Workitem_459440886,,,Obtained,,,,Workflow,,Workitem_459440886
+196,Application_1626445025,W_Call incomplete files,2016-04-25T16:45:57.045+0100,SUSPEND,Limit raise,Car,35000.0,,User_25,,Workitem_599785492,,,Released,,,,Workflow,,Workitem_599785492
+197,Application_1626445025,W_Call incomplete files,2016-04-26T14:43:25.947+0100,ATE_ABORT,Limit raise,Car,35000.0,,User_119,,Workitem_1291400377,,,Deleted,,,,Workflow,,Workitem_1291400377
+198,Application_1626445025,W_Validate application,2016-04-26T14:43:25.953+0100,SCHEDULE,Limit raise,Car,35000.0,,User_119,,Workitem_1472515675,,,Created,,,,Workflow,,Workitem_1472515675
+199,Application_1626445025,W_Validate application,2016-04-26T14:43:25.955+0100,START,Limit raise,Car,35000.0,,User_119,,Workitem_2055503112,,,Obtained,,,,Workflow,,Workitem_2055503112
+200,Application_1626445025,A_Validating,2016-04-26T14:43:26.021+0100,COMPLETE,Limit raise,Car,35000.0,,User_119,,ApplState_1980999383,,,statechange,,,,Application,,ApplState_1980999383
+201,Application_1626445025,W_Validate application,2016-04-26T14:44:07.012+0100,SUSPEND,Limit raise,Car,35000.0,,User_119,,Workitem_624040511,,,Released,,,,Workflow,,Workitem_624040511
+202,Application_1626445025,W_Validate application,2016-04-27T13:18:23.741+0100,RESUME,Limit raise,Car,35000.0,,User_75,,Workitem_2107277718,,,Obtained,,,,Workflow,,Workitem_2107277718
+203,Application_1626445025,W_Validate application,2016-04-28T05:04:51.268+0100,SUSPEND,Limit raise,Car,35000.0,,User_1,,Workitem_1225334836,,,Released,,,,Workflow,,Workitem_1225334836
+204,Application_1626445025,W_Validate application,2016-04-28T05:04:51.411+0100,SUSPEND,Limit raise,Car,35000.0,,User_1,,Workitem_1440399805,,,Released,,,,Workflow,,Workitem_1440399805
+205,Application_1626445025,W_Validate application,2016-04-28T05:04:51.477+0100,SUSPEND,Limit raise,Car,35000.0,,User_1,,Workitem_1303037486,,,Released,,,,Workflow,,Workitem_1303037486
+206,Application_1626445025,W_Validate application,2016-04-28T05:04:51.501+0100,SUSPEND,Limit raise,Car,35000.0,,User_1,,Workitem_574175386,,,Released,,,,Workflow,,Workitem_574175386
+207,Application_1626445025,W_Validate application,2016-04-28T05:04:51.517+0100,SUSPEND,Limit raise,Car,35000.0,,User_1,,Workitem_940609934,,,Released,,,,Workflow,,Workitem_940609934
+208,Application_1626445025,W_Validate application,2016-04-28T05:04:51.535+0100,SUSPEND,Limit raise,Car,35000.0,,User_1,,Workitem_2060913131,,,Released,,,,Workflow,,Workitem_2060913131
+209,Application_1626445025,W_Validate application,2016-04-28T15:30:10.226+0100,RESUME,Limit raise,Car,35000.0,,User_75,,Workitem_1867815444,,,Obtained,,,,Workflow,,Workitem_1867815444
+210,Application_1626445025,O_Accepted,2016-04-28T15:47:32.181+0100,COMPLETE,Limit raise,Car,35000.0,,User_75,,OfferState_653541572,Offer_2057356138,,statechange,,,,Offer,,OfferState_653541572
+211,Application_1626445025,A_Pending,2016-04-28T15:47:32.187+0100,COMPLETE,Limit raise,Car,35000.0,,User_75,,ApplState_1477449189,,,statechange,,,,Application,,ApplState_1477449189
+212,Application_1626445025,W_Validate application,2016-04-28T15:47:32.193+0100,COMPLETE,Limit raise,Car,35000.0,,User_75,,Workitem_1792491265,,,Deleted,,,,Workflow,,Workitem_1792491265
+401,Application_1726161229,A_Create Application,2016-08-13T13:15:31.753+0100,COMPLETE,Limit raise,Home improvement,0.0,,User_31,,Application_1726161229,,,Created,,,,Application,,Application_1726161229
+402,Application_1726161229,A_Concept,2016-08-13T13:15:31.756+0100,COMPLETE,Limit raise,Home improvement,0.0,,User_31,,ApplState_2085284514,,,statechange,,,,Application,,ApplState_2085284514
+403,Application_1726161229,W_Complete application,2016-08-13T13:15:31.763+0100,SCHEDULE,Limit raise,Home improvement,0.0,,User_31,,Workitem_859212916,,,Created,,,,Workflow,,Workitem_859212916
+404,Application_1726161229,W_Complete application,2016-08-13T13:15:31.766+0100,START,Limit raise,Home improvement,0.0,,User_31,,Workitem_180917383,,,Obtained,,,,Workflow,,Workitem_180917383
+405,Application_1726161229,W_Complete application,2016-08-13T13:15:50.567+0100,SUSPEND,Limit raise,Home improvement,0.0,,User_31,,Workitem_1575272688,,,Released,,,,Workflow,,Workitem_1575272688
+406,Application_1726161229,A_Accepted,2016-08-15T14:15:36.605+0100,COMPLETE,Limit raise,Home improvement,0.0,,User_42,,ApplState_575157893,,,statechange,,,,Application,,ApplState_575157893
+407,Application_1726161229,O_Create Offer,2016-08-15T14:16:16.874+0100,COMPLETE,Limit raise,Home improvement,0.0,295.0,User_42,True,Offer_1657155685,Offer_1657155685,0.0,Created,True,0.0,126.0,Offer,29500.0,Offer_1657155685
+408,Application_1726161229,O_Created,2016-08-15T14:16:17.690+0100,COMPLETE,Limit raise,Home improvement,0.0,,User_42,,OfferState_1476363231,Offer_1657155685,,statechange,,,,Offer,,OfferState_1476363231
+409,Application_1726161229,O_Sent (mail and online),2016-08-15T14:16:29.983+0100,COMPLETE,Limit raise,Home improvement,0.0,,User_42,,OfferState_1118446669,Offer_1657155685,,statechange,,,,Offer,,OfferState_1118446669
+410,Application_1726161229,W_Complete application,2016-08-15T14:16:29.998+0100,ATE_ABORT,Limit raise,Home improvement,0.0,,User_42,,Workitem_435119554,,,Deleted,,,,Workflow,,Workitem_435119554
+411,Application_1726161229,W_Call after offers,2016-08-15T14:16:30.005+0100,SCHEDULE,Limit raise,Home improvement,0.0,,User_42,,Workitem_802440694,,,Created,,,,Workflow,,Workitem_802440694
+412,Application_1726161229,W_Call after offers,2016-08-15T14:16:30.007+0100,START,Limit raise,Home improvement,0.0,,User_42,,Workitem_1556734384,,,Obtained,,,,Workflow,,Workitem_1556734384
+413,Application_1726161229,A_Complete,2016-08-15T14:16:30.022+0100,COMPLETE,Limit raise,Home improvement,0.0,,User_42,,ApplState_2086777935,,,statechange,,,,Application,,ApplState_2086777935
+414,Application_1726161229,W_Call after offers,2016-08-15T14:17:47.446+0100,SUSPEND,Limit raise,Home improvement,0.0,,User_42,,Workitem_1264445844,,,Released,,,,Workflow,,Workitem_1264445844
+415,Application_1726161229,W_Call after offers,2016-08-20T11:25:11.647+0100,RESUME,Limit raise,Home improvement,0.0,,User_63,,Workitem_1443675327,,,Obtained,,,,Workflow,,Workitem_1443675327
+416,Application_1726161229,W_Call after offers,2016-08-20T11:25:47.603+0100,SUSPEND,Limit raise,Home improvement,0.0,,User_63,,Workitem_2092606238,,,Released,,,,Workflow,,Workitem_2092606238
+417,Application_1726161229,W_Call after offers,2016-08-25T10:57:43.997+0100,ATE_ABORT,Limit raise,Home improvement,0.0,,User_112,,Workitem_629327392,,,Deleted,,,,Workflow,,Workitem_629327392
+418,Application_1726161229,W_Validate application,2016-08-25T10:57:44.004+0100,SCHEDULE,Limit raise,Home improvement,0.0,,User_112,,Workitem_1321162175,,,Created,,,,Workflow,,Workitem_1321162175
+419,Application_1726161229,W_Validate application,2016-08-25T10:57:44.006+0100,START,Limit raise,Home improvement,0.0,,User_112,,Workitem_1821228310,,,Obtained,,,,Workflow,,Workitem_1821228310
+420,Application_1726161229,A_Validating,2016-08-25T10:57:44.807+0100,COMPLETE,Limit raise,Home improvement,0.0,,User_112,,ApplState_403565403,,,statechange,,,,Application,,ApplState_403565403
+421,Application_1726161229,O_Returned,2016-08-25T10:58:58.544+0100,COMPLETE,Limit raise,Home improvement,0.0,,User_112,,OfferState_840991215,Offer_1657155685,,statechange,,,,Offer,,OfferState_840991215
+422,Application_1726161229,W_Validate application,2016-08-25T11:00:49.426+0100,SUSPEND,Limit raise,Home improvement,0.0,,User_112,,Workitem_326235904,,,Released,,,,Workflow,,Workitem_326235904
+423,Application_1726161229,W_Validate application,2016-08-26T13:06:06.891+0100,ATE_ABORT,Limit raise,Home improvement,0.0,,User_29,,Workitem_1787771747,,,Deleted,,,,Workflow,,Workitem_1787771747
+424,Application_1726161229,W_Call incomplete files,2016-08-26T13:06:06.897+0100,SCHEDULE,Limit raise,Home improvement,0.0,,User_29,,Workitem_2011236981,,,Created,,,,Workflow,,Workitem_2011236981
+425,Application_1726161229,W_Call incomplete files,2016-08-26T13:06:06.899+0100,START,Limit raise,Home improvement,0.0,,User_29,,Workitem_2079091581,,,Obtained,,,,Workflow,,Workitem_2079091581
+426,Application_1726161229,A_Incomplete,2016-08-26T13:06:06.900+0100,COMPLETE,Limit raise,Home improvement,0.0,,User_29,,ApplState_1296865969,,,statechange,,,,Application,,ApplState_1296865969
+427,Application_1726161229,W_Call incomplete files,2016-08-26T13:06:17.807+0100,SUSPEND,Limit raise,Home improvement,0.0,,User_29,,Workitem_356090310,,,Released,,,,Workflow,,Workitem_356090310
+428,Application_1726161229,W_Call incomplete files,2016-08-29T10:06:50.951+0100,RESUME,Limit raise,Home improvement,0.0,,User_11,,Workitem_896385714,,,Obtained,,,,Workflow,,Workitem_896385714
+429,Application_1726161229,W_Call incomplete files,2016-08-29T10:08:47.838+0100,SUSPEND,Limit raise,Home improvement,0.0,,User_11,,Workitem_508975341,,,Released,,,,Workflow,,Workitem_508975341
+430,Application_1726161229,W_Call incomplete files,2016-08-29T14:10:48.168+0100,ATE_ABORT,Limit raise,Home improvement,0.0,,User_27,,Workitem_2068597778,,,Deleted,,,,Workflow,,Workitem_2068597778
+431,Application_1726161229,W_Validate application,2016-08-29T14:10:48.172+0100,SCHEDULE,Limit raise,Home improvement,0.0,,User_27,,Workitem_288509012,,,Created,,,,Workflow,,Workitem_288509012
+432,Application_1726161229,W_Validate application,2016-08-29T14:10:48.174+0100,START,Limit raise,Home improvement,0.0,,User_27,,Workitem_1925168788,,,Obtained,,,,Workflow,,Workitem_1925168788
+433,Application_1726161229,A_Validating,2016-08-29T14:10:48.228+0100,COMPLETE,Limit raise,Home improvement,0.0,,User_27,,ApplState_1328459134,,,statechange,,,,Application,,ApplState_1328459134
+434,Application_1726161229,W_Validate application,2016-08-29T14:12:26.733+0100,SUSPEND,Limit raise,Home improvement,0.0,,User_27,,Workitem_181382286,,,Released,,,,Workflow,,Workitem_181382286
+435,Application_1726161229,W_Validate application,2016-08-29T14:31:00.566+0100,RESUME,Limit raise,Home improvement,0.0,,User_29,,Workitem_1313163618,,,Obtained,,,,Workflow,,Workitem_1313163618
+436,Application_1726161229,W_Validate application,2016-08-29T14:31:17.998+0100,SUSPEND,Limit raise,Home improvement,0.0,,User_29,,Workitem_1906888613,,,Released,,,,Workflow,,Workitem_1906888613
+437,Application_1726161229,W_Validate application,2016-08-29T14:45:31.643+0100,RESUME,Limit raise,Home improvement,0.0,,User_29,,Workitem_1975022583,,,Obtained,,,,Workflow,,Workitem_1975022583
+438,Application_1726161229,W_Validate application,2016-08-29T14:45:49.429+0100,SUSPEND,Limit raise,Home improvement,0.0,,User_29,,Workitem_1074761891,,,Released,,,,Workflow,,Workitem_1074761891
+439,Application_1726161229,O_Accepted,2016-08-29T15:30:50.513+0100,COMPLETE,Limit raise,Home improvement,0.0,,User_29,,OfferState_1053693340,Offer_1657155685,,statechange,,,,Offer,,OfferState_1053693340
+440,Application_1726161229,A_Pending,2016-08-29T15:30:50.517+0100,COMPLETE,Limit raise,Home improvement,0.0,,User_29,,ApplState_1079767422,,,statechange,,,,Application,,ApplState_1079767422
+441,Application_1726161229,W_Validate application,2016-08-29T15:30:50.520+0100,ATE_ABORT,Limit raise,Home improvement,0.0,,User_29,,Workitem_1595981816,,,Deleted,,,,Workflow,,Workitem_1595981816
+116,Application_1795984214,A_Create Application,2016-02-27T15:32:55.103+0100,COMPLETE,New credit,Car,6500.0,,User_1,,Application_1795984214,,,Created,,,,Application,,Application_1795984214
+117,Application_1795984214,A_Submitted,2016-02-27T15:32:55.144+0100,COMPLETE,New credit,Car,6500.0,,User_1,,ApplState_9164715,,,statechange,,,,Application,,ApplState_9164715
+118,Application_1795984214,W_Handle leads,2016-02-27T15:32:55.329+0100,SCHEDULE,New credit,Car,6500.0,,User_1,,Workitem_659287309,,,Created,,,,Workflow,,Workitem_659287309
+119,Application_1795984214,W_Handle leads,2016-02-27T15:33:28.945+0100,WITHDRAW,New credit,Car,6500.0,,User_1,,Workitem_56951262,,,Deleted,,,,Workflow,,Workitem_56951262
+120,Application_1795984214,W_Complete application,2016-02-27T15:33:28.957+0100,SCHEDULE,New credit,Car,6500.0,,User_1,,Workitem_414408515,,,Created,,,,Workflow,,Workitem_414408515
+121,Application_1795984214,A_Concept,2016-02-27T15:33:28.962+0100,COMPLETE,New credit,Car,6500.0,,User_1,,ApplState_831546820,,,statechange,,,,Application,,ApplState_831546820
+122,Application_1795984214,W_Complete application,2016-02-27T16:18:35.199+0100,START,New credit,Car,6500.0,,User_13,,Workitem_1908594897,,,Obtained,,,,Workflow,,Workitem_1908594897
+123,Application_1795984214,A_Accepted,2016-02-27T16:26:06.314+0100,COMPLETE,New credit,Car,6500.0,,User_13,,ApplState_336799485,,,statechange,,,,Application,,ApplState_336799485
+124,Application_1795984214,O_Create Offer,2016-02-27T16:30:27.477+0100,COMPLETE,New credit,Car,6500.0,518.61,User_13,False,Offer_1124771372,Offer_1124771372,6500.0,Created,False,0.0,13.0,Offer,6500.0,Offer_1124771372
+125,Application_1795984214,O_Created,2016-02-27T16:30:28.751+0100,COMPLETE,New credit,Car,6500.0,,User_13,,OfferState_405767733,Offer_1124771372,,statechange,,,,Offer,,OfferState_405767733
+126,Application_1795984214,O_Sent (mail and online),2016-02-27T16:30:40.780+0100,COMPLETE,New credit,Car,6500.0,,User_13,,OfferState_1722429814,Offer_1124771372,,statechange,,,,Offer,,OfferState_1722429814
+127,Application_1795984214,W_Complete application,2016-02-27T16:30:40.797+0100,COMPLETE,New credit,Car,6500.0,,User_13,,Workitem_2093878335,,,Deleted,,,,Workflow,,Workitem_2093878335
+128,Application_1795984214,W_Call after offers,2016-02-27T16:30:40.805+0100,SCHEDULE,New credit,Car,6500.0,,User_13,,Workitem_641383681,,,Created,,,,Workflow,,Workitem_641383681
+129,Application_1795984214,W_Call after offers,2016-02-27T16:30:40.807+0100,START,New credit,Car,6500.0,,User_13,,Workitem_1336517609,,,Obtained,,,,Workflow,,Workitem_1336517609
+130,Application_1795984214,A_Complete,2016-02-27T16:30:40.809+0100,COMPLETE,New credit,Car,6500.0,,User_13,,ApplState_155969120,,,statechange,,,,Application,,ApplState_155969120
+131,Application_1795984214,W_Call after offers,2016-02-27T16:31:37.295+0100,SUSPEND,New credit,Car,6500.0,,User_13,,Workitem_1429661183,,,Released,,,,Workflow,,Workitem_1429661183
+132,Application_1795984214,W_Call after offers,2016-03-02T09:22:02.937+0100,RESUME,New credit,Car,6500.0,,User_19,,Workitem_1323396899,,,Obtained,,,,Workflow,,Workitem_1323396899
+133,Application_1795984214,W_Call after offers,2016-03-02T09:22:37.043+0100,SUSPEND,New credit,Car,6500.0,,User_19,,Workitem_1005405558,,,Released,,,,Workflow,,Workitem_1005405558
+134,Application_1795984214,A_Cancelled,2016-03-29T08:00:36.912+0100,COMPLETE,New credit,Car,6500.0,,User_1,,ApplState_904605610,,,statechange,,,,Application,,ApplState_904605610
+135,Application_1795984214,O_Cancelled,2016-03-29T08:00:36.945+0100,COMPLETE,New credit,Car,6500.0,,User_1,,OfferState_1330835106,Offer_1124771372,,statechange,,,,Offer,,OfferState_1330835106
+136,Application_1795984214,W_Call after offers,2016-03-29T08:00:36.956+0100,ATE_ABORT,New credit,Car,6500.0,,User_1,,Workitem_176743243,,,Deleted,,,,Workflow,,Workitem_176743243
+574,Application_2076314524,A_Create Application,2016-10-25T16:08:03.606+0100,COMPLETE,New credit,Unknown,0.0,,User_2,,Application_2076314524,,,Created,,,,Application,,Application_2076314524
+575,Application_2076314524,W_Complete application,2016-10-25T16:08:03.616+0100,SCHEDULE,New credit,Unknown,0.0,,User_2,,Workitem_427611319,,,Created,,,,Workflow,,Workitem_427611319
+576,Application_2076314524,W_Complete application,2016-10-25T16:08:03.622+0100,START,New credit,Unknown,0.0,,User_2,,Workitem_293098454,,,Obtained,,,,Workflow,,Workitem_293098454
+577,Application_2076314524,A_Concept,2016-10-25T16:08:03.630+0100,COMPLETE,New credit,Unknown,0.0,,User_2,,ApplState_66840240,,,statechange,,,,Application,,ApplState_66840240
+578,Application_2076314524,A_Accepted,2016-10-25T16:11:37.095+0100,COMPLETE,New credit,Unknown,0.0,,User_2,,ApplState_1275104856,,,statechange,,,,Application,,ApplState_1275104856
+579,Application_2076314524,O_Create Offer,2016-10-25T16:12:08.936+0100,COMPLETE,New credit,Unknown,0.0,354.08,User_2,True,Offer_1017403840,Offer_1017403840,69.0,Created,True,796.0,36.0,Offer,11800.0,Offer_1017403840
+580,Application_2076314524,O_Created,2016-10-25T16:12:09.427+0100,COMPLETE,New credit,Unknown,0.0,,User_2,,OfferState_1790721805,Offer_1017403840,,statechange,,,,Offer,,OfferState_1790721805
+581,Application_2076314524,O_Sent (mail and online),2016-10-25T16:12:18.684+0100,COMPLETE,New credit,Unknown,0.0,,User_2,,OfferState_281838380,Offer_1017403840,,statechange,,,,Offer,,OfferState_281838380
+582,Application_2076314524,W_Complete application,2016-10-25T16:12:18.695+0100,COMPLETE,New credit,Unknown,0.0,,User_2,,Workitem_1571974469,,,Deleted,,,,Workflow,,Workitem_1571974469
+583,Application_2076314524,W_Call after offers,2016-10-25T16:12:18.700+0100,SCHEDULE,New credit,Unknown,0.0,,User_2,,Workitem_1887774284,,,Created,,,,Workflow,,Workitem_1887774284
+584,Application_2076314524,W_Call after offers,2016-10-25T16:12:18.702+0100,START,New credit,Unknown,0.0,,User_2,,Workitem_2091260166,,,Obtained,,,,Workflow,,Workitem_2091260166
+585,Application_2076314524,A_Complete,2016-10-25T16:12:18.703+0100,COMPLETE,New credit,Unknown,0.0,,User_2,,ApplState_5877846,,,statechange,,,,Application,,ApplState_5877846
+586,Application_2076314524,W_Call after offers,2016-10-25T16:13:29.122+0100,SUSPEND,New credit,Unknown,0.0,,User_2,,Workitem_255917715,,,Released,,,,Workflow,,Workitem_255917715
+587,Application_2076314524,W_Call after offers,2016-10-29T13:32:12.134+0100,RESUME,New credit,Unknown,0.0,,User_35,,Workitem_324516164,,,Obtained,,,,Workflow,,Workitem_324516164
+588,Application_2076314524,W_Call after offers,2016-10-29T13:32:39.773+0100,SUSPEND,New credit,Unknown,0.0,,User_35,,Workitem_750952602,,,Released,,,,Workflow,,Workitem_750952602
+589,Application_2076314524,W_Call after offers,2016-11-23T14:00:39.487+0100,ATE_ABORT,New credit,Unknown,0.0,,User_121,,Workitem_626699408,,,Deleted,,,,Workflow,,Workitem_626699408
+590,Application_2076314524,W_Validate application,2016-11-23T14:00:39.501+0100,SCHEDULE,New credit,Unknown,0.0,,User_121,,Workitem_403448441,,,Created,,,,Workflow,,Workitem_403448441
+591,Application_2076314524,W_Validate application,2016-11-23T14:00:39.502+0100,START,New credit,Unknown,0.0,,User_121,,Workitem_1501050761,,,Obtained,,,,Workflow,,Workitem_1501050761
+592,Application_2076314524,A_Validating,2016-11-23T14:00:40.367+0100,COMPLETE,New credit,Unknown,0.0,,User_121,,ApplState_913806906,,,statechange,,,,Application,,ApplState_913806906
+593,Application_2076314524,O_Returned,2016-11-23T14:00:42.463+0100,COMPLETE,New credit,Unknown,0.0,,User_121,,OfferState_1286242719,Offer_1017403840,,statechange,,,,Offer,,OfferState_1286242719
+594,Application_2076314524,W_Validate application,2016-11-23T14:08:25.593+0100,COMPLETE,New credit,Unknown,0.0,,User_121,,Workitem_664342091,,,Deleted,,,,Workflow,,Workitem_664342091
+595,Application_2076314524,W_Call incomplete files,2016-11-23T14:08:25.601+0100,SCHEDULE,New credit,Unknown,0.0,,User_121,,Workitem_980303999,,,Created,,,,Workflow,,Workitem_980303999
+596,Application_2076314524,W_Call incomplete files,2016-11-23T14:08:25.605+0100,START,New credit,Unknown,0.0,,User_121,,Workitem_960278993,,,Obtained,,,,Workflow,,Workitem_960278993
+597,Application_2076314524,A_Incomplete,2016-11-23T14:08:25.607+0100,COMPLETE,New credit,Unknown,0.0,,User_121,,ApplState_1029504180,,,statechange,,,,Application,,ApplState_1029504180
+598,Application_2076314524,W_Call incomplete files,2016-11-23T14:08:38.696+0100,SUSPEND,New credit,Unknown,0.0,,User_121,,Workitem_104924216,,,Released,,,,Workflow,,Workitem_104924216
+599,Application_2076314524,W_Call incomplete files,2016-11-23T19:24:28.922+0100,RESUME,New credit,Unknown,0.0,,User_71,,Workitem_364977167,,,Obtained,,,,Workflow,,Workitem_364977167
+600,Application_2076314524,W_Call incomplete files,2016-11-23T19:25:01.451+0100,SUSPEND,New credit,Unknown,0.0,,User_71,,Workitem_835425134,,,Released,,,,Workflow,,Workitem_835425134
+601,Application_2076314524,W_Call incomplete files,2016-11-25T08:29:49.587+0100,ATE_ABORT,New credit,Unknown,0.0,,User_123,,Workitem_348078293,,,Deleted,,,,Workflow,,Workitem_348078293
+602,Application_2076314524,W_Validate application,2016-11-25T08:29:49.633+0100,SCHEDULE,New credit,Unknown,0.0,,User_123,,Workitem_1548813873,,,Created,,,,Workflow,,Workitem_1548813873
+603,Application_2076314524,W_Validate application,2016-11-25T08:29:49.636+0100,START,New credit,Unknown,0.0,,User_123,,Workitem_1199353635,,,Obtained,,,,Workflow,,Workitem_1199353635
+604,Application_2076314524,A_Validating,2016-11-25T08:29:49.691+0100,COMPLETE,New credit,Unknown,0.0,,User_123,,ApplState_2093777531,,,statechange,,,,Application,,ApplState_2093777531
+605,Application_2076314524,W_Validate application,2016-11-25T08:31:53.942+0100,SUSPEND,New credit,Unknown,0.0,,User_123,,Workitem_132330610,,,Released,,,,Workflow,,Workitem_132330610
+606,Application_2076314524,W_Validate application,2016-11-29T09:59:57.107+0100,ATE_ABORT,New credit,Unknown,0.0,,User_90,,Workitem_842758916,,,Deleted,,,,Workflow,,Workitem_842758916
+607,Application_2076314524,W_Call incomplete files,2016-11-29T09:59:57.112+0100,SCHEDULE,New credit,Unknown,0.0,,User_90,,Workitem_237298909,,,Created,,,,Workflow,,Workitem_237298909
+608,Application_2076314524,W_Call incomplete files,2016-11-29T09:59:57.113+0100,START,New credit,Unknown,0.0,,User_90,,Workitem_1024949606,,,Obtained,,,,Workflow,,Workitem_1024949606
+609,Application_2076314524,A_Incomplete,2016-11-29T09:59:57.115+0100,COMPLETE,New credit,Unknown,0.0,,User_90,,ApplState_1226717897,,,statechange,,,,Application,,ApplState_1226717897
+610,Application_2076314524,W_Call incomplete files,2016-11-29T10:00:01.194+0100,SUSPEND,New credit,Unknown,0.0,,User_90,,Workitem_1206381228,,,Released,,,,Workflow,,Workitem_1206381228
+611,Application_2076314524,W_Call incomplete files,2016-11-29T11:53:33.421+0100,RESUME,New credit,Unknown,0.0,,User_58,,Workitem_1817456930,,,Obtained,,,,Workflow,,Workitem_1817456930
+612,Application_2076314524,W_Call incomplete files,2016-11-29T11:54:49.354+0100,SUSPEND,New credit,Unknown,0.0,,User_58,,Workitem_735077762,,,Released,,,,Workflow,,Workitem_735077762
+613,Application_2076314524,W_Call incomplete files,2016-11-30T15:00:26.246+0100,ATE_ABORT,New credit,Unknown,0.0,,User_133,,Workitem_130204410,,,Deleted,,,,Workflow,,Workitem_130204410
+614,Application_2076314524,W_Validate application,2016-11-30T15:00:26.256+0100,SCHEDULE,New credit,Unknown,0.0,,User_133,,Workitem_632153182,,,Created,,,,Workflow,,Workitem_632153182
+615,Application_2076314524,W_Validate application,2016-11-30T15:00:26.259+0100,START,New credit,Unknown,0.0,,User_133,,Workitem_1714979614,,,Obtained,,,,Workflow,,Workitem_1714979614
+616,Application_2076314524,A_Validating,2016-11-30T15:00:26.325+0100,COMPLETE,New credit,Unknown,0.0,,User_133,,ApplState_1314441660,,,statechange,,,,Application,,ApplState_1314441660
+617,Application_2076314524,W_Validate application,2016-11-30T15:00:54.528+0100,SUSPEND,New credit,Unknown,0.0,,User_133,,Workitem_832125574,,,Released,,,,Workflow,,Workitem_832125574
+618,Application_2076314524,W_Validate application,2016-12-01T08:48:45.127+0100,RESUME,New credit,Unknown,0.0,,User_90,,Workitem_1688583708,,,Obtained,,,,Workflow,,Workitem_1688583708
+619,Application_2076314524,W_Validate application,2016-12-01T08:56:08.494+0100,COMPLETE,New credit,Unknown,0.0,,User_90,,Workitem_814774038,,,Deleted,,,,Workflow,,Workitem_814774038
+620,Application_2076314524,W_Call incomplete files,2016-12-01T08:56:08.499+0100,SCHEDULE,New credit,Unknown,0.0,,User_90,,Workitem_456680664,,,Created,,,,Workflow,,Workitem_456680664
+621,Application_2076314524,W_Call incomplete files,2016-12-01T08:56:08.501+0100,START,New credit,Unknown,0.0,,User_90,,Workitem_898786873,,,Obtained,,,,Workflow,,Workitem_898786873
+622,Application_2076314524,A_Incomplete,2016-12-01T08:56:08.502+0100,COMPLETE,New credit,Unknown,0.0,,User_90,,ApplState_821180084,,,statechange,,,,Application,,ApplState_821180084
+623,Application_2076314524,W_Call incomplete files,2016-12-01T08:56:48.653+0100,SUSPEND,New credit,Unknown,0.0,,User_90,,Workitem_1040254560,,,Released,,,,Workflow,,Workitem_1040254560
+624,Application_2076314524,W_Call incomplete files,2016-12-01T11:11:00.687+0100,RESUME,New credit,Unknown,0.0,,User_66,,Workitem_1392361527,,,Obtained,,,,Workflow,,Workitem_1392361527
+625,Application_2076314524,W_Call incomplete files,2016-12-01T11:18:52.652+0100,SUSPEND,New credit,Unknown,0.0,,User_66,,Workitem_682000327,,,Released,,,,Workflow,,Workitem_682000327
+626,Application_2076314524,O_Accepted,2016-12-22T08:29:18.914+0100,COMPLETE,New credit,Unknown,0.0,,User_112,,OfferState_2051567773,Offer_1017403840,,statechange,,,,Offer,,OfferState_2051567773
+627,Application_2076314524,A_Pending,2016-12-22T08:29:18.922+0100,COMPLETE,New credit,Unknown,0.0,,User_112,,ApplState_787055082,,,statechange,,,,Application,,ApplState_787055082
+628,Application_2076314524,W_Call incomplete files,2016-12-22T08:29:18.927+0100,ATE_ABORT,New credit,Unknown,0.0,,User_112,,Workitem_1684811626,,,Deleted,,,,Workflow,,Workitem_1684811626
+58,Application_231467531,A_Create Application,2016-02-10T18:26:07.524+0100,COMPLETE,New credit,Home improvement,7000.0,,User_1,,Application_231467531,,,Created,,,,Application,,Application_231467531
+59,Application_231467531,A_Submitted,2016-02-10T18:26:07.559+0100,COMPLETE,New credit,Home improvement,7000.0,,User_1,,ApplState_476612745,,,statechange,,,,Application,,ApplState_476612745
+60,Application_231467531,W_Handle leads,2016-02-10T18:26:08.005+0100,SCHEDULE,New credit,Home improvement,7000.0,,User_1,,Workitem_577013066,,,Created,,,,Workflow,,Workitem_577013066
+61,Application_231467531,W_Handle leads,2016-02-10T18:27:40.608+0100,WITHDRAW,New credit,Home improvement,7000.0,,User_1,,Workitem_778743184,,,Deleted,,,,Workflow,,Workitem_778743184
+62,Application_231467531,W_Complete application,2016-02-10T18:27:40.670+0100,SCHEDULE,New credit,Home improvement,7000.0,,User_1,,Workitem_1507537575,,,Created,,,,Workflow,,Workitem_1507537575
+63,Application_231467531,A_Concept,2016-02-10T18:27:40.695+0100,COMPLETE,New credit,Home improvement,7000.0,,User_1,,ApplState_1751026203,,,statechange,,,,Application,,ApplState_1751026203
+64,Application_231467531,W_Complete application,2016-02-12T13:33:56.296+0100,START,New credit,Home improvement,7000.0,,User_10,,Workitem_772553946,,,Obtained,,,,Workflow,,Workitem_772553946
+65,Application_231467531,W_Complete application,2016-02-12T13:34:05.122+0100,SUSPEND,New credit,Home improvement,7000.0,,User_10,,Workitem_123088976,,,Released,,,,Workflow,,Workitem_123088976
+66,Application_231467531,W_Complete application,2016-02-12T14:45:07.841+0100,RESUME,New credit,Home improvement,7000.0,,User_19,,Workitem_582348733,,,Obtained,,,,Workflow,,Workitem_582348733
+67,Application_231467531,W_Complete application,2016-02-12T14:45:37.127+0100,SUSPEND,New credit,Home improvement,7000.0,,User_19,,Workitem_1012078217,,,Released,,,,Workflow,,Workitem_1012078217
+68,Application_231467531,W_Complete application,2016-02-12T14:53:02.373+0100,RESUME,New credit,Home improvement,7000.0,,User_10,,Workitem_1168325476,,,Obtained,,,,Workflow,,Workitem_1168325476
+69,Application_231467531,W_Complete application,2016-02-12T14:54:42.954+0100,SUSPEND,New credit,Home improvement,7000.0,,User_10,,Workitem_1926279023,,,Released,,,,Workflow,,Workitem_1926279023
+70,Application_231467531,A_Accepted,2016-02-12T16:19:26.938+0100,COMPLETE,New credit,Home improvement,7000.0,,User_18,,ApplState_299881872,,,statechange,,,,Application,,ApplState_299881872
+71,Application_231467531,O_Create Offer,2016-02-12T16:20:10.825+0100,COMPLETE,New credit,Home improvement,7000.0,99.58,User_18,True,Offer_386945845,Offer_386945845,7000.0,Created,True,995.0,88.0,Offer,7000.0,Offer_386945845
+72,Application_231467531,O_Created,2016-02-12T16:20:12.126+0100,COMPLETE,New credit,Home improvement,7000.0,,User_18,,OfferState_681511223,Offer_386945845,,statechange,,,,Offer,,OfferState_681511223
+73,Application_231467531,O_Sent (mail and online),2016-02-12T16:20:23.924+0100,COMPLETE,New credit,Home improvement,7000.0,,User_18,,OfferState_266574262,Offer_386945845,,statechange,,,,Offer,,OfferState_266574262
+74,Application_231467531,W_Complete application,2016-02-12T16:20:23.939+0100,ATE_ABORT,New credit,Home improvement,7000.0,,User_18,,Workitem_577089957,,,Deleted,,,,Workflow,,Workitem_577089957
+75,Application_231467531,W_Call after offers,2016-02-12T16:20:23.957+0100,SCHEDULE,New credit,Home improvement,7000.0,,User_18,,Workitem_252606993,,,Created,,,,Workflow,,Workitem_252606993
+76,Application_231467531,W_Call after offers,2016-02-12T16:20:23.959+0100,START,New credit,Home improvement,7000.0,,User_18,,Workitem_54710992,,,Obtained,,,,Workflow,,Workitem_54710992
+77,Application_231467531,A_Complete,2016-02-12T16:20:23.962+0100,COMPLETE,New credit,Home improvement,7000.0,,User_18,,ApplState_1675121639,,,statechange,,,,Application,,ApplState_1675121639
+78,Application_231467531,W_Call after offers,2016-02-12T16:21:59.535+0100,SUSPEND,New credit,Home improvement,7000.0,,User_18,,Workitem_2019676796,,,Released,,,,Workflow,,Workitem_2019676796
+79,Application_231467531,W_Call after offers,2016-02-16T08:49:35.771+0100,RESUME,New credit,Home improvement,7000.0,,User_5,,Workitem_684294877,,,Obtained,,,,Workflow,,Workitem_684294877
+80,Application_231467531,W_Call after offers,2016-02-16T08:49:54.553+0100,SUSPEND,New credit,Home improvement,7000.0,,User_5,,Workitem_954108232,,,Released,,,,Workflow,,Workitem_954108232
+81,Application_231467531,W_Call after offers,2016-02-24T11:13:56.427+0100,ATE_ABORT,New credit,Home improvement,7000.0,,User_118,,Workitem_626462780,,,Deleted,,,,Workflow,,Workitem_626462780
+82,Application_231467531,W_Validate application,2016-02-24T11:13:56.434+0100,SCHEDULE,New credit,Home improvement,7000.0,,User_118,,Workitem_951002972,,,Created,,,,Workflow,,Workitem_951002972
+83,Application_231467531,W_Validate application,2016-02-24T11:13:56.436+0100,START,New credit,Home improvement,7000.0,,User_118,,Workitem_72446017,,,Obtained,,,,Workflow,,Workitem_72446017
+84,Application_231467531,A_Validating,2016-02-24T11:13:57.466+0100,COMPLETE,New credit,Home improvement,7000.0,,User_118,,ApplState_1166975170,,,statechange,,,,Application,,ApplState_1166975170
+85,Application_231467531,O_Returned,2016-02-24T11:14:22.204+0100,COMPLETE,New credit,Home improvement,7000.0,,User_118,,OfferState_665832152,Offer_386945845,,statechange,,,,Offer,,OfferState_665832152
+86,Application_231467531,W_Validate application,2016-02-24T11:15:40.409+0100,SUSPEND,New credit,Home improvement,7000.0,,User_118,,Workitem_2051456431,,,Released,,,,Workflow,,Workitem_2051456431
+87,Application_231467531,O_Accepted,2016-02-24T17:17:34.423+0100,COMPLETE,New credit,Home improvement,7000.0,,User_102,,OfferState_534667062,Offer_386945845,,statechange,,,,Offer,,OfferState_534667062
+88,Application_231467531,A_Pending,2016-02-24T17:17:34.490+0100,COMPLETE,New credit,Home improvement,7000.0,,User_102,,ApplState_2005554341,,,statechange,,,,Application,,ApplState_2005554341
+89,Application_231467531,W_Validate application,2016-02-24T17:17:34.496+0100,ATE_ABORT,New credit,Home improvement,7000.0,,User_102,,Workitem_464960081,,,Deleted,,,,Workflow,,Workitem_464960081
+137,Application_232032104,A_Create Application,2016-03-30T09:46:51.627+0100,COMPLETE,New credit,Car,25000.0,,User_17,,Application_232032104,,,Created,,,,Application,,Application_232032104
+138,Application_232032104,W_Complete application,2016-03-30T09:46:51.637+0100,SCHEDULE,New credit,Car,25000.0,,User_17,,Workitem_1972620296,,,Created,,,,Workflow,,Workitem_1972620296
+139,Application_232032104,W_Complete application,2016-03-30T09:46:51.640+0100,START,New credit,Car,25000.0,,User_17,,Workitem_907225167,,,Obtained,,,,Workflow,,Workitem_907225167
+140,Application_232032104,A_Concept,2016-03-30T09:46:51.643+0100,COMPLETE,New credit,Car,25000.0,,User_17,,ApplState_1306718897,,,statechange,,,,Application,,ApplState_1306718897
+141,Application_232032104,A_Accepted,2016-03-30T09:51:16.034+0100,COMPLETE,New credit,Car,25000.0,,User_17,,ApplState_1310125064,,,statechange,,,,Application,,ApplState_1310125064
+142,Application_232032104,O_Create Offer,2016-03-30T09:57:22.695+0100,COMPLETE,New credit,Car,25000.0,250.0,User_17,False,Offer_1923271850,Offer_1923271850,0.0,Created,True,0.0,126.0,Offer,25000.0,Offer_1923271850
+143,Application_232032104,O_Created,2016-03-30T09:57:24.234+0100,COMPLETE,New credit,Car,25000.0,,User_17,,OfferState_1406819422,Offer_1923271850,,statechange,,,,Offer,,OfferState_1406819422
+144,Application_232032104,O_Create Offer,2016-03-30T09:58:09.174+0100,COMPLETE,New credit,Car,25000.0,261.48,User_17,False,Offer_2146383945,Offer_2146383945,22000.0,Created,True,0.0,120.0,Offer,25000.0,Offer_2146383945
+145,Application_232032104,O_Created,2016-03-30T09:58:10.715+0100,COMPLETE,New credit,Car,25000.0,,User_17,,OfferState_677069380,Offer_2146383945,,statechange,,,,Offer,,OfferState_677069380
+146,Application_232032104,O_Create Offer,2016-03-30T09:58:35.041+0100,COMPLETE,New credit,Car,25000.0,280.0,User_17,False,Offer_221454371,Offer_221454371,0.0,Created,True,0.0,126.0,Offer,28000.0,Offer_221454371
+147,Application_232032104,O_Created,2016-03-30T09:58:36.893+0100,COMPLETE,New credit,Car,25000.0,,User_17,,OfferState_386373256,Offer_221454371,,statechange,,,,Offer,,OfferState_386373256
+148,Application_232032104,O_Create Offer,2016-03-30T09:58:58.056+0100,COMPLETE,New credit,Car,25000.0,292.86,User_17,False,Offer_1614027,Offer_1614027,25000.0,Created,True,0.0,120.0,Offer,28000.0,Offer_1614027
+149,Application_232032104,O_Created,2016-03-30T09:58:59.540+0100,COMPLETE,New credit,Car,25000.0,,User_17,,OfferState_1039267300,Offer_1614027,,statechange,,,,Offer,,OfferState_1039267300
+150,Application_232032104,O_Sent (mail and online),2016-03-30T09:59:34.256+0100,COMPLETE,New credit,Car,25000.0,,User_17,,OfferState_825365466,Offer_1614027,,statechange,,,,Offer,,OfferState_825365466
+151,Application_232032104,O_Sent (mail and online),2016-03-30T09:59:34.259+0100,COMPLETE,New credit,Car,25000.0,,User_17,,OfferState_1040737435,Offer_221454371,,statechange,,,,Offer,,OfferState_1040737435
+152,Application_232032104,O_Sent (mail and online),2016-03-30T09:59:34.262+0100,COMPLETE,New credit,Car,25000.0,,User_17,,OfferState_193634945,Offer_2146383945,,statechange,,,,Offer,,OfferState_193634945
+153,Application_232032104,O_Sent (mail and online),2016-03-30T09:59:34.264+0100,COMPLETE,New credit,Car,25000.0,,User_17,,OfferState_543228084,Offer_1923271850,,statechange,,,,Offer,,OfferState_543228084
+154,Application_232032104,W_Complete application,2016-03-30T09:59:34.291+0100,COMPLETE,New credit,Car,25000.0,,User_17,,Workitem_1722940688,,,Deleted,,,,Workflow,,Workitem_1722940688
+155,Application_232032104,W_Call after offers,2016-03-30T09:59:34.303+0100,SCHEDULE,New credit,Car,25000.0,,User_17,,Workitem_1407165270,,,Created,,,,Workflow,,Workitem_1407165270
+156,Application_232032104,W_Call after offers,2016-03-30T09:59:34.311+0100,START,New credit,Car,25000.0,,User_17,,Workitem_960622703,,,Obtained,,,,Workflow,,Workitem_960622703
+157,Application_232032104,A_Complete,2016-03-30T09:59:34.321+0100,COMPLETE,New credit,Car,25000.0,,User_17,,ApplState_909430303,,,statechange,,,,Application,,ApplState_909430303
+158,Application_232032104,W_Call after offers,2016-03-30T10:04:18.039+0100,SUSPEND,New credit,Car,25000.0,,User_17,,Workitem_733900627,,,Released,,,,Workflow,,Workitem_733900627
+159,Application_232032104,W_Call after offers,2016-04-04T10:50:33.568+0100,RESUME,New credit,Car,25000.0,,User_28,,Workitem_1324833955,,,Obtained,,,,Workflow,,Workitem_1324833955
+160,Application_232032104,W_Call after offers,2016-04-04T10:52:18.992+0100,SUSPEND,New credit,Car,25000.0,,User_28,,Workitem_1010269980,,,Released,,,,Workflow,,Workitem_1010269980
+161,Application_232032104,A_Cancelled,2016-04-04T11:36:33.479+0100,COMPLETE,New credit,Car,25000.0,,User_31,,ApplState_1051662827,,,statechange,,,,Application,,ApplState_1051662827
+162,Application_232032104,O_Cancelled,2016-04-04T11:36:33.768+0100,COMPLETE,New credit,Car,25000.0,,User_31,,OfferState_1432930837,Offer_1614027,,statechange,,,,Offer,,OfferState_1432930837
+163,Application_232032104,O_Cancelled,2016-04-04T11:36:33.777+0100,COMPLETE,New credit,Car,25000.0,,User_31,,OfferState_677628073,Offer_221454371,,statechange,,,,Offer,,OfferState_677628073
+164,Application_232032104,O_Cancelled,2016-04-04T11:36:33.786+0100,COMPLETE,New credit,Car,25000.0,,User_31,,OfferState_1002017681,Offer_2146383945,,statechange,,,,Offer,,OfferState_1002017681
+165,Application_232032104,O_Cancelled,2016-04-04T11:36:33.795+0100,COMPLETE,New credit,Car,25000.0,,User_31,,OfferState_1933250742,Offer_1923271850,,statechange,,,,Offer,,OfferState_1933250742
+166,Application_232032104,W_Call after offers,2016-04-04T11:36:33.807+0100,ATE_ABORT,New credit,Car,25000.0,,User_31,,Workitem_75415926,,,Deleted,,,,Workflow,,Workitem_75415926
+492,Application_392275405,A_Create Application,2016-10-16T19:55:19.814+0100,COMPLETE,New credit,Car,30000.0,,User_1,,Application_392275405,,,Created,,,,Application,,Application_392275405
+493,Application_392275405,A_Submitted,2016-10-16T19:55:20.621+0100,COMPLETE,New credit,Car,30000.0,,User_1,,ApplState_1883268206,,,statechange,,,,Application,,ApplState_1883268206
+494,Application_392275405,W_Handle leads,2016-10-16T19:55:20.904+0100,SCHEDULE,New credit,Car,30000.0,,User_1,,Workitem_782330132,,,Created,,,,Workflow,,Workitem_782330132
+495,Application_392275405,W_Handle leads,2016-10-16T19:56:30.004+0100,WITHDRAW,New credit,Car,30000.0,,User_1,,Workitem_11484842,,,Deleted,,,,Workflow,,Workitem_11484842
+496,Application_392275405,W_Complete application,2016-10-16T19:56:30.011+0100,SCHEDULE,New credit,Car,30000.0,,User_1,,Workitem_1062838459,,,Created,,,,Workflow,,Workitem_1062838459
+497,Application_392275405,A_Concept,2016-10-16T19:56:30.015+0100,COMPLETE,New credit,Car,30000.0,,User_1,,ApplState_1615580103,,,statechange,,,,Application,,ApplState_1615580103
+498,Application_392275405,W_Complete application,2016-10-18T15:37:17.205+0100,START,New credit,Car,30000.0,,User_84,,Workitem_671519010,,,Obtained,,,,Workflow,,Workitem_671519010
+499,Application_392275405,W_Complete application,2016-10-18T15:37:21.966+0100,SUSPEND,New credit,Car,30000.0,,User_84,,Workitem_111469442,,,Released,,,,Workflow,,Workitem_111469442
+500,Application_392275405,W_Complete application,2016-10-18T16:08:23.086+0100,RESUME,New credit,Car,30000.0,,User_63,,Workitem_288659292,,,Obtained,,,,Workflow,,Workitem_288659292
+501,Application_392275405,W_Complete application,2016-10-18T16:09:53.897+0100,SUSPEND,New credit,Car,30000.0,,User_63,,Workitem_1692264089,,,Released,,,,Workflow,,Workitem_1692264089
+502,Application_392275405,W_Complete application,2016-10-18T16:10:00.836+0100,RESUME,New credit,Car,30000.0,,User_80,,Workitem_1224819805,,,Obtained,,,,Workflow,,Workitem_1224819805
+503,Application_392275405,W_Complete application,2016-10-18T16:10:09.884+0100,SUSPEND,New credit,Car,30000.0,,User_80,,Workitem_438651755,,,Released,,,,Workflow,,Workitem_438651755
+504,Application_392275405,A_Accepted,2016-10-18T17:30:03.076+0100,COMPLETE,New credit,Car,30000.0,,User_40,,ApplState_1740703178,,,statechange,,,,Application,,ApplState_1740703178
+505,Application_392275405,O_Create Offer,2016-10-18T17:30:36.938+0100,COMPLETE,New credit,Car,30000.0,554.14,User_40,False,Offer_363140860,Offer_363140860,30000.0,Created,True,0.0,60.0,Offer,30000.0,Offer_363140860
+506,Application_392275405,O_Created,2016-10-18T17:30:37.526+0100,COMPLETE,New credit,Car,30000.0,,User_40,,OfferState_1446528775,Offer_363140860,,statechange,,,,Offer,,OfferState_1446528775
+507,Application_392275405,O_Sent (mail and online),2016-10-18T17:31:05.399+0100,COMPLETE,New credit,Car,30000.0,,User_40,,OfferState_1668564764,Offer_363140860,,statechange,,,,Offer,,OfferState_1668564764
+508,Application_392275405,W_Complete application,2016-10-18T17:31:05.411+0100,ATE_ABORT,New credit,Car,30000.0,,User_40,,Workitem_396909088,,,Deleted,,,,Workflow,,Workitem_396909088
+509,Application_392275405,W_Call after offers,2016-10-18T17:31:05.416+0100,SCHEDULE,New credit,Car,30000.0,,User_40,,Workitem_1669222584,,,Created,,,,Workflow,,Workitem_1669222584
+510,Application_392275405,W_Call after offers,2016-10-18T17:31:05.418+0100,START,New credit,Car,30000.0,,User_40,,Workitem_1479687307,,,Obtained,,,,Workflow,,Workitem_1479687307
+511,Application_392275405,A_Complete,2016-10-18T17:31:05.419+0100,COMPLETE,New credit,Car,30000.0,,User_40,,ApplState_100298124,,,statechange,,,,Application,,ApplState_100298124
+512,Application_392275405,W_Call after offers,2016-10-18T17:32:04.595+0100,SUSPEND,New credit,Car,30000.0,,User_40,,Workitem_1083632441,,,Released,,,,Workflow,,Workitem_1083632441
+513,Application_392275405,W_Call after offers,2016-10-22T12:05:36.455+0100,RESUME,New credit,Car,30000.0,,User_24,,Workitem_1016945392,,,Obtained,,,,Workflow,,Workitem_1016945392
+514,Application_392275405,W_Call after offers,2016-10-22T12:06:11.437+0100,SUSPEND,New credit,Car,30000.0,,User_24,,Workitem_60813958,,,Released,,,,Workflow,,Workitem_60813958
+515,Application_392275405,A_Cancelled,2016-11-18T08:00:17.006+0100,COMPLETE,New credit,Car,30000.0,,User_1,,ApplState_190564375,,,statechange,,,,Application,,ApplState_190564375
+516,Application_392275405,O_Cancelled,2016-11-18T08:00:17.028+0100,COMPLETE,New credit,Car,30000.0,,User_1,,OfferState_1195912965,Offer_363140860,,statechange,,,,Offer,,OfferState_1195912965
+517,Application_392275405,W_Call after offers,2016-11-18T08:00:17.035+0100,ATE_ABORT,New credit,Car,30000.0,,User_1,,Workitem_597593535,,,Deleted,,,,Workflow,,Workitem_597593535
+347,Application_500712470,A_Create Application,2016-07-19T18:07:23.213+0100,COMPLETE,New credit,Home improvement,17500.0,,User_1,,Application_500712470,,,Created,,,,Application,,Application_500712470
+348,Application_500712470,A_Submitted,2016-07-19T18:07:23.263+0100,COMPLETE,New credit,Home improvement,17500.0,,User_1,,ApplState_806120465,,,statechange,,,,Application,,ApplState_806120465
+349,Application_500712470,W_Handle leads,2016-07-19T18:07:24.508+0100,SCHEDULE,New credit,Home improvement,17500.0,,User_1,,Workitem_103975332,,,Created,,,,Workflow,,Workitem_103975332
+350,Application_500712470,W_Handle leads,2016-07-19T18:47:23.936+0100,START,New credit,Home improvement,17500.0,,User_26,,Workitem_1122283556,,,Obtained,,,,Workflow,,Workitem_1122283556
+351,Application_500712470,W_Handle leads,2016-07-19T18:51:35.377+0100,COMPLETE,New credit,Home improvement,17500.0,,User_26,,Workitem_1297921747,,,Deleted,,,,Workflow,,Workitem_1297921747
+352,Application_500712470,W_Complete application,2016-07-19T18:51:35.383+0100,SCHEDULE,New credit,Home improvement,17500.0,,User_26,,Workitem_1613534712,,,Created,,,,Workflow,,Workitem_1613534712
+353,Application_500712470,W_Complete application,2016-07-19T18:51:35.386+0100,START,New credit,Home improvement,17500.0,,User_26,,Workitem_107999693,,,Obtained,,,,Workflow,,Workitem_107999693
+354,Application_500712470,A_Concept,2016-07-19T18:51:35.389+0100,COMPLETE,New credit,Home improvement,17500.0,,User_26,,ApplState_1676153633,,,statechange,,,,Application,,ApplState_1676153633
+355,Application_500712470,W_Complete application,2016-07-19T18:51:40.950+0100,SUSPEND,New credit,Home improvement,17500.0,,User_26,,Workitem_541043573,,,Released,,,,Workflow,,Workitem_541043573
+356,Application_500712470,W_Complete application,2016-07-20T15:17:05.905+0100,RESUME,New credit,Home improvement,17500.0,,User_85,,Workitem_478201727,,,Obtained,,,,Workflow,,Workitem_478201727
+357,Application_500712470,W_Complete application,2016-07-20T15:18:49.336+0100,SUSPEND,New credit,Home improvement,17500.0,,User_85,,Workitem_1467482643,,,Released,,,,Workflow,,Workitem_1467482643
+358,Application_500712470,W_Complete application,2016-07-23T14:47:19.929+0100,RESUME,New credit,Home improvement,17500.0,,User_63,,Workitem_305998619,,,Obtained,,,,Workflow,,Workitem_305998619
+359,Application_500712470,W_Complete application,2016-07-23T14:47:24.835+0100,SUSPEND,New credit,Home improvement,17500.0,,User_63,,Workitem_1558526781,,,Released,,,,Workflow,,Workitem_1558526781
+360,Application_500712470,W_Complete application,2016-07-23T14:51:13.881+0100,RESUME,New credit,Home improvement,17500.0,,User_63,,Workitem_598750268,,,Obtained,,,,Workflow,,Workitem_598750268
+361,Application_500712470,W_Complete application,2016-07-23T14:51:28.010+0100,SUSPEND,New credit,Home improvement,17500.0,,User_63,,Workitem_2028686188,,,Released,,,,Workflow,,Workitem_2028686188
+362,Application_500712470,W_Complete application,2016-07-23T14:52:27.722+0100,RESUME,New credit,Home improvement,17500.0,,User_63,,Workitem_1809341362,,,Obtained,,,,Workflow,,Workitem_1809341362
+363,Application_500712470,W_Complete application,2016-07-23T14:53:50.726+0100,SUSPEND,New credit,Home improvement,17500.0,,User_63,,Workitem_947227205,,,Released,,,,Workflow,,Workitem_947227205
+364,Application_500712470,W_Complete application,2016-08-08T10:44:35.318+0100,RESUME,New credit,Home improvement,17500.0,,User_49,,Workitem_474143956,,,Obtained,,,,Workflow,,Workitem_474143956
+365,Application_500712470,W_Complete application,2016-08-08T10:44:57.913+0100,SUSPEND,New credit,Home improvement,17500.0,,User_49,,Workitem_27942915,,,Released,,,,Workflow,,Workitem_27942915
+366,Application_500712470,A_Accepted,2016-08-18T16:18:44.241+0100,COMPLETE,New credit,Home improvement,17500.0,,User_14,,ApplState_835832303,,,statechange,,,,Application,,ApplState_835832303
+367,Application_500712470,O_Create Offer,2016-08-18T16:20:23.923+0100,COMPLETE,New credit,Home improvement,17500.0,276.3,User_14,False,Offer_560789812,Offer_560789812,17500.0,Created,False,0.0,72.0,Offer,17500.0,Offer_560789812
+368,Application_500712470,O_Created,2016-08-18T16:20:24.735+0100,COMPLETE,New credit,Home improvement,17500.0,,User_14,,OfferState_2014198861,Offer_560789812,,statechange,,,,Offer,,OfferState_2014198861
+369,Application_500712470,O_Sent (mail and online),2016-08-18T16:20:38.072+0100,COMPLETE,New credit,Home improvement,17500.0,,User_14,,OfferState_1408832061,Offer_560789812,,statechange,,,,Offer,,OfferState_1408832061
+370,Application_500712470,W_Complete application,2016-08-18T16:20:38.088+0100,ATE_ABORT,New credit,Home improvement,17500.0,,User_14,,Workitem_2050060000,,,Deleted,,,,Workflow,,Workitem_2050060000
+371,Application_500712470,W_Call after offers,2016-08-18T16:20:38.104+0100,SCHEDULE,New credit,Home improvement,17500.0,,User_14,,Workitem_2029618611,,,Created,,,,Workflow,,Workitem_2029618611
+372,Application_500712470,W_Call after offers,2016-08-18T16:20:38.106+0100,START,New credit,Home improvement,17500.0,,User_14,,Workitem_1621304792,,,Obtained,,,,Workflow,,Workitem_1621304792
+373,Application_500712470,A_Complete,2016-08-18T16:20:38.109+0100,COMPLETE,New credit,Home improvement,17500.0,,User_14,,ApplState_1486140012,,,statechange,,,,Application,,ApplState_1486140012
+374,Application_500712470,W_Call after offers,2016-08-18T16:22:33.861+0100,SUSPEND,New credit,Home improvement,17500.0,,User_14,,Workitem_188858255,,,Released,,,,Workflow,,Workitem_188858255
+375,Application_500712470,W_Call after offers,2016-08-22T20:10:44.592+0100,RESUME,New credit,Home improvement,17500.0,,User_37,,Workitem_182115690,,,Obtained,,,,Workflow,,Workitem_182115690
+376,Application_500712470,W_Call after offers,2016-08-22T20:11:08.617+0100,SUSPEND,New credit,Home improvement,17500.0,,User_37,,Workitem_969842433,,,Released,,,,Workflow,,Workitem_969842433
+377,Application_500712470,W_Call after offers,2016-08-25T11:54:59.291+0100,ATE_ABORT,New credit,Home improvement,17500.0,,User_112,,Workitem_871665072,,,Deleted,,,,Workflow,,Workitem_871665072
+378,Application_500712470,W_Validate application,2016-08-25T11:54:59.296+0100,SCHEDULE,New credit,Home improvement,17500.0,,User_112,,Workitem_2038978044,,,Created,,,,Workflow,,Workitem_2038978044
+379,Application_500712470,W_Validate application,2016-08-25T11:54:59.298+0100,START,New credit,Home improvement,17500.0,,User_112,,Workitem_1234060806,,,Obtained,,,,Workflow,,Workitem_1234060806
+380,Application_500712470,A_Validating,2016-08-25T11:55:00.140+0100,COMPLETE,New credit,Home improvement,17500.0,,User_112,,ApplState_844236235,,,statechange,,,,Application,,ApplState_844236235
+381,Application_500712470,O_Returned,2016-08-25T11:58:46.936+0100,COMPLETE,New credit,Home improvement,17500.0,,User_112,,OfferState_415262209,Offer_560789812,,statechange,,,,Offer,,OfferState_415262209
+382,Application_500712470,W_Validate application,2016-08-25T11:59:42.893+0100,SUSPEND,New credit,Home improvement,17500.0,,User_112,,Workitem_875511306,,,Released,,,,Workflow,,Workitem_875511306
+383,Application_500712470,W_Validate application,2016-09-01T11:38:42.358+0100,ATE_ABORT,New credit,Home improvement,17500.0,,User_87,,Workitem_2018037328,,,Deleted,,,,Workflow,,Workitem_2018037328
+384,Application_500712470,W_Call incomplete files,2016-09-01T11:38:42.363+0100,SCHEDULE,New credit,Home improvement,17500.0,,User_87,,Workitem_1668248622,,,Created,,,,Workflow,,Workitem_1668248622
+385,Application_500712470,W_Call incomplete files,2016-09-01T11:38:42.365+0100,START,New credit,Home improvement,17500.0,,User_87,,Workitem_901607517,,,Obtained,,,,Workflow,,Workitem_901607517
+386,Application_500712470,A_Incomplete,2016-09-01T11:38:42.367+0100,COMPLETE,New credit,Home improvement,17500.0,,User_87,,ApplState_1225981856,,,statechange,,,,Application,,ApplState_1225981856
+387,Application_500712470,W_Call incomplete files,2016-09-01T11:39:27.764+0100,SUSPEND,New credit,Home improvement,17500.0,,User_87,,Workitem_1706297640,,,Released,,,,Workflow,,Workitem_1706297640
+388,Application_500712470,O_Create Offer,2016-09-01T14:31:58.113+0100,COMPLETE,New credit,Home improvement,17500.0,138.39,User_48,True,Offer_1385516529,Offer_1385516529,13000.0,Created,True,869.0,120.0,Offer,13000.0,Offer_1385516529
+389,Application_500712470,O_Created,2016-09-01T14:31:59.024+0100,COMPLETE,New credit,Home improvement,17500.0,,User_48,,OfferState_545349568,Offer_1385516529,,statechange,,,,Offer,,OfferState_545349568
+390,Application_500712470,O_Sent (online only),2016-09-01T14:32:20.502+0100,COMPLETE,New credit,Home improvement,17500.0,,User_48,,OfferState_890975854,Offer_1385516529,,statechange,,,,Offer,,OfferState_890975854
+391,Application_500712470,W_Call incomplete files,2016-09-02T08:52:28.044+0100,ATE_ABORT,New credit,Home improvement,17500.0,,User_120,,Workitem_984121918,,,Deleted,,,,Workflow,,Workitem_984121918
+392,Application_500712470,W_Validate application,2016-09-02T08:52:28.050+0100,SCHEDULE,New credit,Home improvement,17500.0,,User_120,,Workitem_1578885416,,,Created,,,,Workflow,,Workitem_1578885416
+393,Application_500712470,W_Validate application,2016-09-02T08:52:28.051+0100,START,New credit,Home improvement,17500.0,,User_120,,Workitem_1262986204,,,Obtained,,,,Workflow,,Workitem_1262986204
+394,Application_500712470,A_Validating,2016-09-02T08:52:28.109+0100,COMPLETE,New credit,Home improvement,17500.0,,User_120,,ApplState_2034517427,,,statechange,,,,Application,,ApplState_2034517427
+395,Application_500712470,O_Returned,2016-09-02T08:53:01.282+0100,COMPLETE,New credit,Home improvement,17500.0,,User_120,,OfferState_1475712723,Offer_1385516529,,statechange,,,,Offer,,OfferState_1475712723
+396,Application_500712470,W_Validate application,2016-09-02T08:55:05.254+0100,SUSPEND,New credit,Home improvement,17500.0,,User_120,,Workitem_1161681311,,,Released,,,,Workflow,,Workitem_1161681311
+397,Application_500712470,O_Accepted,2016-09-02T10:50:29.209+0100,COMPLETE,New credit,Home improvement,17500.0,,User_87,,OfferState_1384120390,Offer_1385516529,,statechange,,,,Offer,,OfferState_1384120390
+398,Application_500712470,A_Pending,2016-09-02T10:50:29.214+0100,COMPLETE,New credit,Home improvement,17500.0,,User_87,,ApplState_1290218179,,,statechange,,,,Application,,ApplState_1290218179
+399,Application_500712470,W_Validate application,2016-09-02T10:50:29.217+0100,ATE_ABORT,New credit,Home improvement,17500.0,,User_87,,Workitem_1337680508,,,Deleted,,,,Workflow,,Workitem_1337680508
+400,Application_500712470,O_Cancelled,2016-09-02T10:50:29.226+0100,COMPLETE,New credit,Home improvement,17500.0,,User_87,,OfferState_201020825,Offer_560789812,,statechange,,,,Offer,,OfferState_201020825
+243,Application_63322652,A_Create Application,2016-07-04T21:47:38.134+0100,COMPLETE,New credit,Not speficied,22500.0,,User_1,,Application_63322652,,,Created,,,,Application,,Application_63322652
+244,Application_63322652,A_Submitted,2016-07-04T21:47:38.175+0100,COMPLETE,New credit,Not speficied,22500.0,,User_1,,ApplState_1718439517,,,statechange,,,,Application,,ApplState_1718439517
+245,Application_63322652,W_Handle leads,2016-07-04T21:47:38.547+0100,SCHEDULE,New credit,Not speficied,22500.0,,User_1,,Workitem_1873731465,,,Created,,,,Workflow,,Workitem_1873731465
+246,Application_63322652,W_Handle leads,2016-07-05T08:10:58.643+0100,START,New credit,Not speficied,22500.0,,User_45,,Workitem_306938803,,,Obtained,,,,Workflow,,Workitem_306938803
+247,Application_63322652,W_Handle leads,2016-07-05T08:11:45.499+0100,COMPLETE,New credit,Not speficied,22500.0,,User_45,,Workitem_1757417546,,,Deleted,,,,Workflow,,Workitem_1757417546
+248,Application_63322652,W_Complete application,2016-07-05T08:11:45.506+0100,SCHEDULE,New credit,Not speficied,22500.0,,User_45,,Workitem_1576108107,,,Created,,,,Workflow,,Workitem_1576108107
+249,Application_63322652,W_Complete application,2016-07-05T08:11:45.508+0100,START,New credit,Not speficied,22500.0,,User_45,,Workitem_1383583901,,,Obtained,,,,Workflow,,Workitem_1383583901
+250,Application_63322652,A_Concept,2016-07-05T08:11:45.511+0100,COMPLETE,New credit,Not speficied,22500.0,,User_45,,ApplState_1177071161,,,statechange,,,,Application,,ApplState_1177071161
+251,Application_63322652,W_Complete application,2016-07-05T08:11:48.451+0100,SUSPEND,New credit,Not speficied,22500.0,,User_45,,Workitem_1160185594,,,Released,,,,Workflow,,Workitem_1160185594
+252,Application_63322652,W_Complete application,2016-07-06T15:29:00.656+0100,RESUME,New credit,Not speficied,22500.0,,User_46,,Workitem_412487011,,,Obtained,,,,Workflow,,Workitem_412487011
+253,Application_63322652,W_Complete application,2016-07-06T15:31:41.329+0100,SUSPEND,New credit,Not speficied,22500.0,,User_46,,Workitem_2036671630,,,Released,,,,Workflow,,Workitem_2036671630
+254,Application_63322652,W_Complete application,2016-07-10T15:45:49.285+0100,RESUME,New credit,Not speficied,22500.0,,User_49,,Workitem_25191013,,,Obtained,,,,Workflow,,Workitem_25191013
+255,Application_63322652,W_Complete application,2016-07-10T15:46:45.292+0100,SUSPEND,New credit,Not speficied,22500.0,,User_49,,Workitem_273658413,,,Released,,,,Workflow,,Workitem_273658413
+256,Application_63322652,W_Complete application,2016-07-25T09:51:45.201+0100,RESUME,New credit,Not speficied,22500.0,,User_49,,Workitem_1434676549,,,Obtained,,,,Workflow,,Workitem_1434676549
+257,Application_63322652,W_Complete application,2016-07-25T09:52:01.800+0100,SUSPEND,New credit,Not speficied,22500.0,,User_49,,Workitem_1291220608,,,Released,,,,Workflow,,Workitem_1291220608
+258,Application_63322652,A_Accepted,2016-07-27T15:48:44.097+0100,COMPLETE,New credit,Not speficied,22500.0,,User_42,,ApplState_1381664080,,,statechange,,,,Application,,ApplState_1381664080
+259,Application_63322652,O_Create Offer,2016-07-27T15:56:08.903+0100,COMPLETE,New credit,Not speficied,22500.0,181.32,User_42,True,Offer_873379117,Offer_873379117,0.0,Created,True,971.0,180.0,Offer,24000.0,Offer_873379117
+260,Application_63322652,O_Created,2016-07-27T15:56:09.720+0100,COMPLETE,New credit,Not speficied,22500.0,,User_42,,OfferState_201728860,Offer_873379117,,statechange,,,,Offer,,OfferState_201728860
+261,Application_63322652,O_Sent (mail and online),2016-07-27T16:03:28.949+0100,COMPLETE,New credit,Not speficied,22500.0,,User_42,,OfferState_1580511205,Offer_873379117,,statechange,,,,Offer,,OfferState_1580511205
+262,Application_63322652,W_Complete application,2016-07-27T16:03:28.977+0100,ATE_ABORT,New credit,Not speficied,22500.0,,User_42,,Workitem_1025302547,,,Deleted,,,,Workflow,,Workitem_1025302547
+263,Application_63322652,W_Call after offers,2016-07-27T16:03:28.985+0100,SCHEDULE,New credit,Not speficied,22500.0,,User_42,,Workitem_801929853,,,Created,,,,Workflow,,Workitem_801929853
+264,Application_63322652,W_Call after offers,2016-07-27T16:03:28.987+0100,START,New credit,Not speficied,22500.0,,User_42,,Workitem_1743682781,,,Obtained,,,,Workflow,,Workitem_1743682781
+265,Application_63322652,A_Complete,2016-07-27T16:03:28.991+0100,COMPLETE,New credit,Not speficied,22500.0,,User_42,,ApplState_269287950,,,statechange,,,,Application,,ApplState_269287950
+266,Application_63322652,W_Call after offers,2016-07-27T16:14:56.316+0100,SUSPEND,New credit,Not speficied,22500.0,,User_42,,Workitem_363559165,,,Released,,,,Workflow,,Workitem_363559165
+267,Application_63322652,W_Call after offers,2016-07-28T11:47:22.517+0100,RESUME,New credit,Not speficied,22500.0,,User_42,,Workitem_1688949196,,,Obtained,,,,Workflow,,Workitem_1688949196
+268,Application_63322652,W_Call after offers,2016-07-28T11:48:32.702+0100,SUSPEND,New credit,Not speficied,22500.0,,User_42,,Workitem_2067285136,,,Released,,,,Workflow,,Workitem_2067285136
+269,Application_63322652,W_Call after offers,2016-07-28T13:37:00.562+0100,ATE_ABORT,New credit,Not speficied,22500.0,,User_27,,Workitem_1190607445,,,Deleted,,,,Workflow,,Workitem_1190607445
+270,Application_63322652,W_Validate application,2016-07-28T13:37:00.569+0100,SCHEDULE,New credit,Not speficied,22500.0,,User_27,,Workitem_1313672716,,,Created,,,,Workflow,,Workitem_1313672716
+271,Application_63322652,W_Validate application,2016-07-28T13:37:00.571+0100,START,New credit,Not speficied,22500.0,,User_27,,Workitem_1907780748,,,Obtained,,,,Workflow,,Workitem_1907780748
+272,Application_63322652,A_Validating,2016-07-28T13:37:01.405+0100,COMPLETE,New credit,Not speficied,22500.0,,User_27,,ApplState_970132516,,,statechange,,,,Application,,ApplState_970132516
+273,Application_63322652,O_Returned,2016-07-28T13:37:04.093+0100,COMPLETE,New credit,Not speficied,22500.0,,User_27,,OfferState_1147387259,Offer_873379117,,statechange,,,,Offer,,OfferState_1147387259
+274,Application_63322652,W_Validate application,2016-07-28T13:49:26.492+0100,SUSPEND,New credit,Not speficied,22500.0,,User_27,,Workitem_1882309949,,,Released,,,,Workflow,,Workitem_1882309949
+275,Application_63322652,W_Validate application,2016-07-28T15:06:47.996+0100,ATE_ABORT,New credit,Not speficied,22500.0,,User_83,,Workitem_5869983,,,Deleted,,,,Workflow,,Workitem_5869983
+276,Application_63322652,W_Call incomplete files,2016-07-28T15:06:48.004+0100,SCHEDULE,New credit,Not speficied,22500.0,,User_83,,Workitem_653284259,,,Created,,,,Workflow,,Workitem_653284259
+277,Application_63322652,W_Call incomplete files,2016-07-28T15:06:48.006+0100,START,New credit,Not speficied,22500.0,,User_83,,Workitem_405006843,,,Obtained,,,,Workflow,,Workitem_405006843
+278,Application_63322652,A_Incomplete,2016-07-28T15:06:48.009+0100,COMPLETE,New credit,Not speficied,22500.0,,User_83,,ApplState_1462371037,,,statechange,,,,Application,,ApplState_1462371037
+279,Application_63322652,W_Call incomplete files,2016-07-28T15:07:05.212+0100,SUSPEND,New credit,Not speficied,22500.0,,User_83,,Workitem_1487804091,,,Released,,,,Workflow,,Workitem_1487804091
+280,Application_63322652,W_Call incomplete files,2016-07-28T16:04:56.375+0100,ATE_ABORT,New credit,Not speficied,22500.0,,User_127,,Workitem_1888465927,,,Deleted,,,,Workflow,,Workitem_1888465927
+281,Application_63322652,W_Validate application,2016-07-28T16:04:56.387+0100,SCHEDULE,New credit,Not speficied,22500.0,,User_127,,Workitem_805130464,,,Created,,,,Workflow,,Workitem_805130464
+282,Application_63322652,W_Validate application,2016-07-28T16:04:56.422+0100,START,New credit,Not speficied,22500.0,,User_127,,Workitem_1609898936,,,Obtained,,,,Workflow,,Workitem_1609898936
+283,Application_63322652,A_Validating,2016-07-28T16:04:56.508+0100,COMPLETE,New credit,Not speficied,22500.0,,User_127,,ApplState_1019085258,,,statechange,,,,Application,,ApplState_1019085258
+284,Application_63322652,W_Validate application,2016-07-28T16:05:03.505+0100,SUSPEND,New credit,Not speficied,22500.0,,User_127,,Workitem_165696727,,,Released,,,,Workflow,,Workitem_165696727
+285,Application_63322652,W_Validate application,2016-07-28T16:14:03.329+0100,ATE_ABORT,New credit,Not speficied,22500.0,,User_83,,Workitem_47531684,,,Deleted,,,,Workflow,,Workitem_47531684
+286,Application_63322652,W_Call incomplete files,2016-07-28T16:14:03.359+0100,SCHEDULE,New credit,Not speficied,22500.0,,User_83,,Workitem_204224805,,,Created,,,,Workflow,,Workitem_204224805
+287,Application_63322652,W_Call incomplete files,2016-07-28T16:14:03.370+0100,START,New credit,Not speficied,22500.0,,User_83,,Workitem_1663971037,,,Obtained,,,,Workflow,,Workitem_1663971037
+288,Application_63322652,A_Incomplete,2016-07-28T16:14:03.373+0100,COMPLETE,New credit,Not speficied,22500.0,,User_83,,ApplState_1191657790,,,statechange,,,,Application,,ApplState_1191657790
+289,Application_63322652,W_Call incomplete files,2016-07-28T16:14:32.607+0100,SUSPEND,New credit,Not speficied,22500.0,,User_83,,Workitem_1972285727,,,Released,,,,Workflow,,Workitem_1972285727
+290,Application_63322652,W_Call incomplete files,2016-07-28T20:04:35.694+0100,RESUME,New credit,Not speficied,22500.0,,User_10,,Workitem_973622613,,,Obtained,,,,Workflow,,Workitem_973622613
+291,Application_63322652,W_Call incomplete files,2016-07-28T20:05:42.697+0100,SUSPEND,New credit,Not speficied,22500.0,,User_10,,Workitem_455183253,,,Released,,,,Workflow,,Workitem_455183253
+292,Application_63322652,W_Call incomplete files,2016-07-28T20:46:58.522+0100,RESUME,New credit,Not speficied,22500.0,,User_10,,Workitem_1739230496,,,Obtained,,,,Workflow,,Workitem_1739230496
+293,Application_63322652,W_Call incomplete files,2016-07-28T20:49:18.014+0100,SUSPEND,New credit,Not speficied,22500.0,,User_10,,Workitem_1631459371,,,Released,,,,Workflow,,Workitem_1631459371
+294,Application_63322652,W_Call incomplete files,2016-07-29T09:12:46.841+0100,ATE_ABORT,New credit,Not speficied,22500.0,,User_121,,Workitem_2100080489,,,Deleted,,,,Workflow,,Workitem_2100080489
+295,Application_63322652,W_Validate application,2016-07-29T09:12:46.848+0100,SCHEDULE,New credit,Not speficied,22500.0,,User_121,,Workitem_1784084820,,,Created,,,,Workflow,,Workitem_1784084820
+296,Application_63322652,W_Validate application,2016-07-29T09:12:46.850+0100,START,New credit,Not speficied,22500.0,,User_121,,Workitem_766953225,,,Obtained,,,,Workflow,,Workitem_766953225
+297,Application_63322652,A_Validating,2016-07-29T09:12:46.921+0100,COMPLETE,New credit,Not speficied,22500.0,,User_121,,ApplState_663370065,,,statechange,,,,Application,,ApplState_663370065
+298,Application_63322652,W_Validate application,2016-07-29T09:13:09.819+0100,SUSPEND,New credit,Not speficied,22500.0,,User_121,,Workitem_547958609,,,Released,,,,Workflow,,Workitem_547958609
+299,Application_63322652,W_Validate application,2016-07-29T10:11:41.128+0100,RESUME,New credit,Not speficied,22500.0,,User_83,,Workitem_1317319130,,,Obtained,,,,Workflow,,Workitem_1317319130
+300,Application_63322652,W_Validate application,2016-07-29T10:16:33.293+0100,SUSPEND,New credit,Not speficied,22500.0,,User_83,,Workitem_231568244,,,Released,,,,Workflow,,Workitem_231568244
+301,Application_63322652,W_Validate application,2016-07-29T10:29:13.771+0100,RESUME,New credit,Not speficied,22500.0,,User_83,,Workitem_540315663,,,Obtained,,,,Workflow,,Workitem_540315663
+302,Application_63322652,O_Accepted,2016-07-29T10:30:43.896+0100,COMPLETE,New credit,Not speficied,22500.0,,User_83,,OfferState_1034230663,Offer_873379117,,statechange,,,,Offer,,OfferState_1034230663
+303,Application_63322652,A_Pending,2016-07-29T10:30:43.899+0100,COMPLETE,New credit,Not speficied,22500.0,,User_83,,ApplState_253764107,,,statechange,,,,Application,,ApplState_253764107
+304,Application_63322652,W_Validate application,2016-07-29T10:30:43.902+0100,COMPLETE,New credit,Not speficied,22500.0,,User_83,,Workitem_701956892,,,Deleted,,,,Workflow,,Workitem_701956892
+518,Application_636773198,A_Create Application,2016-10-17T14:52:18.670+0100,COMPLETE,New credit,"Other, see explanation",50000.0,,User_1,,Application_636773198,,,Created,,,,Application,,Application_636773198
+519,Application_636773198,A_Submitted,2016-10-17T14:52:19.479+0100,COMPLETE,New credit,"Other, see explanation",50000.0,,User_1,,ApplState_1983775220,,,statechange,,,,Application,,ApplState_1983775220
+520,Application_636773198,W_Handle leads,2016-10-17T14:52:19.720+0100,SCHEDULE,New credit,"Other, see explanation",50000.0,,User_1,,Workitem_1844647609,,,Created,,,,Workflow,,Workitem_1844647609
+521,Application_636773198,W_Handle leads,2016-10-17T14:53:29.143+0100,WITHDRAW,New credit,"Other, see explanation",50000.0,,User_1,,Workitem_301734870,,,Deleted,,,,Workflow,,Workitem_301734870
+522,Application_636773198,W_Complete application,2016-10-17T14:53:29.164+0100,SCHEDULE,New credit,"Other, see explanation",50000.0,,User_1,,Workitem_78388653,,,Created,,,,Workflow,,Workitem_78388653
+523,Application_636773198,A_Concept,2016-10-17T14:53:29.171+0100,COMPLETE,New credit,"Other, see explanation",50000.0,,User_1,,ApplState_1681203707,,,statechange,,,,Application,,ApplState_1681203707
+524,Application_636773198,A_Accepted,2016-10-19T10:12:35.830+0100,COMPLETE,New credit,"Other, see explanation",50000.0,,User_14,,ApplState_732503274,,,statechange,,,,Application,,ApplState_732503274
+525,Application_636773198,O_Create Offer,2016-10-19T10:15:28.242+0100,COMPLETE,New credit,"Other, see explanation",50000.0,509.11,User_14,True,Offer_600643615,Offer_600643615,50000.0,Created,True,976.0,120.0,Offer,50000.0,Offer_600643615
+526,Application_636773198,O_Created,2016-10-19T10:15:29.011+0100,COMPLETE,New credit,"Other, see explanation",50000.0,,User_14,,OfferState_1566042151,Offer_600643615,,statechange,,,,Offer,,OfferState_1566042151
+527,Application_636773198,O_Sent (mail and online),2016-10-19T10:15:39.453+0100,COMPLETE,New credit,"Other, see explanation",50000.0,,User_14,,OfferState_730212839,Offer_600643615,,statechange,,,,Offer,,OfferState_730212839
+528,Application_636773198,W_Complete application,2016-10-19T10:15:39.464+0100,WITHDRAW,New credit,"Other, see explanation",50000.0,,User_14,,Workitem_1390645448,,,Deleted,,,,Workflow,,Workitem_1390645448
+529,Application_636773198,W_Call after offers,2016-10-19T10:15:39.469+0100,SCHEDULE,New credit,"Other, see explanation",50000.0,,User_14,,Workitem_1201292010,,,Created,,,,Workflow,,Workitem_1201292010
+530,Application_636773198,W_Call after offers,2016-10-19T10:15:39.471+0100,START,New credit,"Other, see explanation",50000.0,,User_14,,Workitem_742103528,,,Obtained,,,,Workflow,,Workitem_742103528
+531,Application_636773198,A_Complete,2016-10-19T10:15:39.472+0100,COMPLETE,New credit,"Other, see explanation",50000.0,,User_14,,ApplState_1506130562,,,statechange,,,,Application,,ApplState_1506130562
+532,Application_636773198,W_Call after offers,2016-10-19T10:22:00.308+0100,SUSPEND,New credit,"Other, see explanation",50000.0,,User_14,,Workitem_503464828,,,Released,,,,Workflow,,Workitem_503464828
+533,Application_636773198,W_Call after offers,2016-10-24T09:15:38.933+0100,RESUME,New credit,"Other, see explanation",50000.0,,User_49,,Workitem_1219196553,,,Obtained,,,,Workflow,,Workitem_1219196553
+534,Application_636773198,W_Call after offers,2016-10-24T09:16:04.029+0100,SUSPEND,New credit,"Other, see explanation",50000.0,,User_49,,Workitem_788919867,,,Released,,,,Workflow,,Workitem_788919867
+535,Application_636773198,W_Call after offers,2016-10-24T12:13:27.266+0100,ATE_ABORT,New credit,"Other, see explanation",50000.0,,User_27,,Workitem_1813578221,,,Deleted,,,,Workflow,,Workitem_1813578221
+536,Application_636773198,W_Validate application,2016-10-24T12:13:27.273+0100,SCHEDULE,New credit,"Other, see explanation",50000.0,,User_27,,Workitem_1693625337,,,Created,,,,Workflow,,Workitem_1693625337
+537,Application_636773198,W_Validate application,2016-10-24T12:13:27.275+0100,START,New credit,"Other, see explanation",50000.0,,User_27,,Workitem_1114650064,,,Obtained,,,,Workflow,,Workitem_1114650064
+538,Application_636773198,A_Validating,2016-10-24T12:13:28.023+0100,COMPLETE,New credit,"Other, see explanation",50000.0,,User_27,,ApplState_295331756,,,statechange,,,,Application,,ApplState_295331756
+539,Application_636773198,O_Returned,2016-10-24T12:13:42.966+0100,COMPLETE,New credit,"Other, see explanation",50000.0,,User_27,,OfferState_905430330,Offer_600643615,,statechange,,,,Offer,,OfferState_905430330
+540,Application_636773198,W_Validate application,2016-10-24T12:49:39.179+0100,SUSPEND,New credit,"Other, see explanation",50000.0,,User_27,,Workitem_1216299618,,,Released,,,,Workflow,,Workitem_1216299618
+541,Application_636773198,W_Validate application,2016-10-24T15:11:54.445+0100,RESUME,New credit,"Other, see explanation",50000.0,,User_99,,Workitem_161447250,,,Obtained,,,,Workflow,,Workitem_161447250
+542,Application_636773198,W_Validate application,2016-10-24T15:26:22.820+0100,COMPLETE,New credit,"Other, see explanation",50000.0,,User_99,,Workitem_1461612463,,,Deleted,,,,Workflow,,Workitem_1461612463
+543,Application_636773198,W_Call incomplete files,2016-10-24T15:26:22.833+0100,SCHEDULE,New credit,"Other, see explanation",50000.0,,User_99,,Workitem_798533670,,,Created,,,,Workflow,,Workitem_798533670
+544,Application_636773198,W_Call incomplete files,2016-10-24T15:26:22.834+0100,START,New credit,"Other, see explanation",50000.0,,User_99,,Workitem_2134804899,,,Obtained,,,,Workflow,,Workitem_2134804899
+545,Application_636773198,A_Incomplete,2016-10-24T15:26:22.836+0100,COMPLETE,New credit,"Other, see explanation",50000.0,,User_99,,ApplState_94646580,,,statechange,,,,Application,,ApplState_94646580
+546,Application_636773198,W_Call incomplete files,2016-10-24T15:26:52.259+0100,SUSPEND,New credit,"Other, see explanation",50000.0,,User_99,,Workitem_723938002,,,Released,,,,Workflow,,Workitem_723938002
+547,Application_636773198,W_Call incomplete files,2016-10-24T17:22:35.130+0100,RESUME,New credit,"Other, see explanation",50000.0,,User_48,,Workitem_1599969096,,,Obtained,,,,Workflow,,Workitem_1599969096
+548,Application_636773198,W_Call incomplete files,2016-10-24T17:23:43.315+0100,SUSPEND,New credit,"Other, see explanation",50000.0,,User_48,,Workitem_948157438,,,Released,,,,Workflow,,Workitem_948157438
+549,Application_636773198,W_Call incomplete files,2016-10-24T18:02:57.993+0100,RESUME,New credit,"Other, see explanation",50000.0,,User_5,,Workitem_1129280696,,,Obtained,,,,Workflow,,Workitem_1129280696
+550,Application_636773198,W_Call incomplete files,2016-10-24T18:03:14.994+0100,SUSPEND,New credit,"Other, see explanation",50000.0,,User_5,,Workitem_1445113920,,,Released,,,,Workflow,,Workitem_1445113920
+551,Application_636773198,W_Call incomplete files,2016-10-24T20:09:53.041+0100,RESUME,New credit,"Other, see explanation",50000.0,,User_15,,Workitem_1267296442,,,Obtained,,,,Workflow,,Workitem_1267296442
+552,Application_636773198,W_Call incomplete files,2016-10-24T20:15:48.282+0100,SUSPEND,New credit,"Other, see explanation",50000.0,,User_15,,Workitem_355141021,,,Released,,,,Workflow,,Workitem_355141021
+553,Application_636773198,W_Call incomplete files,2016-10-24T20:15:58.949+0100,RESUME,New credit,"Other, see explanation",50000.0,,User_15,,Workitem_2005483846,,,Obtained,,,,Workflow,,Workitem_2005483846
+554,Application_636773198,W_Call incomplete files,2016-10-24T20:16:14.335+0100,COMPLETE,New credit,"Other, see explanation",50000.0,,User_15,,Workitem_1658516933,,,Deleted,,,,Workflow,,Workitem_1658516933
+555,Application_636773198,W_Validate application,2016-10-24T20:16:14.343+0100,SCHEDULE,New credit,"Other, see explanation",50000.0,,User_15,,Workitem_1367735530,,,Created,,,,Workflow,,Workitem_1367735530
+556,Application_636773198,W_Validate application,2016-10-24T20:16:14.345+0100,START,New credit,"Other, see explanation",50000.0,,User_15,,Workitem_1059556861,,,Obtained,,,,Workflow,,Workitem_1059556861
+557,Application_636773198,A_Validating,2016-10-24T20:16:14.403+0100,COMPLETE,New credit,"Other, see explanation",50000.0,,User_15,,ApplState_98610589,,,statechange,,,,Application,,ApplState_98610589
+558,Application_636773198,W_Validate application,2016-10-24T20:16:18.728+0100,SUSPEND,New credit,"Other, see explanation",50000.0,,User_15,,Workitem_701592909,,,Released,,,,Workflow,,Workitem_701592909
+559,Application_636773198,W_Validate application,2016-10-26T09:46:40.238+0100,RESUME,New credit,"Other, see explanation",50000.0,,User_30,,Workitem_109116566,,,Obtained,,,,Workflow,,Workitem_109116566
+560,Application_636773198,W_Validate application,2016-10-26T09:47:39.551+0100,SUSPEND,New credit,"Other, see explanation",50000.0,,User_30,,Workitem_810730403,,,Released,,,,Workflow,,Workitem_810730403
+561,Application_636773198,W_Validate application,2016-10-26T10:14:11.446+0100,RESUME,New credit,"Other, see explanation",50000.0,,User_99,,Workitem_917494318,,,Obtained,,,,Workflow,,Workitem_917494318
+562,Application_636773198,W_Validate application,2016-10-26T10:16:34.012+0100,SUSPEND,New credit,"Other, see explanation",50000.0,,User_99,,Workitem_1839034996,,,Released,,,,Workflow,,Workitem_1839034996
+563,Application_636773198,W_Validate application,2016-10-26T10:46:32.255+0100,RESUME,New credit,"Other, see explanation",50000.0,,User_99,,Workitem_461899721,,,Obtained,,,,Workflow,,Workitem_461899721
+564,Application_636773198,W_Validate application,2016-10-26T10:48:18.019+0100,SUSPEND,New credit,"Other, see explanation",50000.0,,User_99,,Workitem_1530640999,,,Released,,,,Workflow,,Workitem_1530640999
+565,Application_636773198,W_Validate application,2016-10-26T15:22:30.852+0100,RESUME,New credit,"Other, see explanation",50000.0,,User_99,,Workitem_1016557181,,,Obtained,,,,Workflow,,Workitem_1016557181
+566,Application_636773198,W_Validate application,2016-10-26T15:22:41.787+0100,SUSPEND,New credit,"Other, see explanation",50000.0,,User_99,,Workitem_128079718,,,Released,,,,Workflow,,Workitem_128079718
+567,Application_636773198,W_Validate application,2016-10-26T15:25:34.815+0100,RESUME,New credit,"Other, see explanation",50000.0,,User_93,,Workitem_1759600437,,,Obtained,,,,Workflow,,Workitem_1759600437
+568,Application_636773198,W_Validate application,2016-10-26T15:26:18.770+0100,SUSPEND,New credit,"Other, see explanation",50000.0,,User_93,,Workitem_527583077,,,Released,,,,Workflow,,Workitem_527583077
+569,Application_636773198,W_Validate application,2016-10-26T15:32:17.100+0100,RESUME,New credit,"Other, see explanation",50000.0,,User_100,,Workitem_1122728638,,,Obtained,,,,Workflow,,Workitem_1122728638
+570,Application_636773198,W_Validate application,2016-10-26T15:32:41.885+0100,SUSPEND,New credit,"Other, see explanation",50000.0,,User_100,,Workitem_490471338,,,Released,,,,Workflow,,Workitem_490471338
+571,Application_636773198,O_Accepted,2016-10-27T08:21:14.702+0100,COMPLETE,New credit,"Other, see explanation",50000.0,,User_109,,OfferState_460234035,Offer_600643615,,statechange,,,,Offer,,OfferState_460234035
+572,Application_636773198,A_Pending,2016-10-27T08:21:14.708+0100,COMPLETE,New credit,"Other, see explanation",50000.0,,User_109,,ApplState_1786968849,,,statechange,,,,Application,,ApplState_1786968849
+573,Application_636773198,W_Validate application,2016-10-27T08:21:14.711+0100,ATE_ABORT,New credit,"Other, see explanation",50000.0,,User_109,,Workitem_1667598858,,,Deleted,,,,Workflow,,Workitem_1667598858
+736,Application_698131674,A_Create Application,2016-12-02T11:50:10.592+0100,COMPLETE,Limit raise,Home improvement,64500.0,,User_40,,Application_698131674,,,Created,,,,Application,,Application_698131674
+737,Application_698131674,A_Concept,2016-12-02T11:50:10.599+0100,COMPLETE,Limit raise,Home improvement,64500.0,,User_40,,ApplState_329119442,,,statechange,,,,Application,,ApplState_329119442
+738,Application_698131674,W_Complete application,2016-12-02T11:50:10.608+0100,SCHEDULE,Limit raise,Home improvement,64500.0,,User_40,,Workitem_648805955,,,Created,,,,Workflow,,Workitem_648805955
+739,Application_698131674,W_Complete application,2016-12-02T11:50:10.621+0100,START,Limit raise,Home improvement,64500.0,,User_40,,Workitem_103656062,,,Obtained,,,,Workflow,,Workitem_103656062
+740,Application_698131674,W_Complete application,2016-12-02T11:50:19.568+0100,SUSPEND,Limit raise,Home improvement,64500.0,,User_40,,Workitem_1301610034,,,Released,,,,Workflow,,Workitem_1301610034
+741,Application_698131674,W_Complete application,2016-12-03T15:19:18.158+0100,RESUME,Limit raise,Home improvement,64500.0,,User_77,,Workitem_1876175055,,,Obtained,,,,Workflow,,Workitem_1876175055
+742,Application_698131674,A_Accepted,2016-12-03T15:20:02.399+0100,COMPLETE,Limit raise,Home improvement,64500.0,,User_77,,ApplState_838736217,,,statechange,,,,Application,,ApplState_838736217
+743,Application_698131674,W_Complete application,2016-12-03T15:21:40.857+0100,SUSPEND,Limit raise,Home improvement,64500.0,,User_77,,Workitem_1872817108,,,Released,,,,Workflow,,Workitem_1872817108
+744,Application_698131674,W_Complete application,2016-12-05T10:06:09.511+0100,RESUME,Limit raise,Home improvement,64500.0,,User_77,,Workitem_774290629,,,Obtained,,,,Workflow,,Workitem_774290629
+745,Application_698131674,W_Complete application,2016-12-05T10:08:11.630+0100,SUSPEND,Limit raise,Home improvement,64500.0,,User_77,,Workitem_1287028389,,,Released,,,,Workflow,,Workitem_1287028389
+746,Application_698131674,O_Create Offer,2016-12-08T10:33:28.716+0100,COMPLETE,Limit raise,Home improvement,64500.0,800.0,User_61,True,Offer_721067270,Offer_721067270,500.0,Created,True,846.0,97.0,Offer,64500.0,Offer_721067270
+747,Application_698131674,O_Created,2016-12-08T10:33:29.390+0100,COMPLETE,Limit raise,Home improvement,64500.0,,User_61,,OfferState_1435857794,Offer_721067270,,statechange,,,,Offer,,OfferState_1435857794
+748,Application_698131674,O_Sent (mail and online),2016-12-08T10:33:55.749+0100,COMPLETE,Limit raise,Home improvement,64500.0,,User_61,,OfferState_1360096885,Offer_721067270,,statechange,,,,Offer,,OfferState_1360096885
+749,Application_698131674,W_Complete application,2016-12-08T10:33:55.760+0100,ATE_ABORT,Limit raise,Home improvement,64500.0,,User_61,,Workitem_1958115889,,,Deleted,,,,Workflow,,Workitem_1958115889
+750,Application_698131674,W_Call after offers,2016-12-08T10:33:55.765+0100,SCHEDULE,Limit raise,Home improvement,64500.0,,User_61,,Workitem_1616098903,,,Created,,,,Workflow,,Workitem_1616098903
+751,Application_698131674,W_Call after offers,2016-12-08T10:33:55.767+0100,START,Limit raise,Home improvement,64500.0,,User_61,,Workitem_2106977736,,,Obtained,,,,Workflow,,Workitem_2106977736
+752,Application_698131674,A_Complete,2016-12-08T10:33:55.768+0100,COMPLETE,Limit raise,Home improvement,64500.0,,User_61,,ApplState_571516673,,,statechange,,,,Application,,ApplState_571516673
+753,Application_698131674,W_Call after offers,2016-12-08T10:34:22.102+0100,SUSPEND,Limit raise,Home improvement,64500.0,,User_61,,Workitem_2065074864,,,Released,,,,Workflow,,Workitem_2065074864
+754,Application_698131674,W_Call after offers,2016-12-12T07:32:09.716+0100,ATE_ABORT,Limit raise,Home improvement,64500.0,,User_1,,Workitem_2107825816,,,Deleted,,,,Workflow,,Workitem_2107825816
+755,Application_698131674,W_Call after offers,2016-12-12T07:32:09.722+0100,SCHEDULE,Limit raise,Home improvement,64500.0,,User_1,,Workitem_1024488170,,,Created,,,,Workflow,,Workitem_1024488170
+756,Application_698131674,W_Call after offers,2016-12-16T12:26:57.356+0100,WITHDRAW,Limit raise,Home improvement,64500.0,,User_121,,Workitem_819076305,,,Deleted,,,,Workflow,,Workitem_819076305
+757,Application_698131674,W_Validate application,2016-12-16T12:26:57.361+0100,SCHEDULE,Limit raise,Home improvement,64500.0,,User_121,,Workitem_289292361,,,Created,,,,Workflow,,Workitem_289292361
+758,Application_698131674,W_Validate application,2016-12-16T12:26:57.363+0100,START,Limit raise,Home improvement,64500.0,,User_121,,Workitem_807367471,,,Obtained,,,,Workflow,,Workitem_807367471
+759,Application_698131674,A_Validating,2016-12-16T12:26:58.204+0100,COMPLETE,Limit raise,Home improvement,64500.0,,User_121,,ApplState_1465136188,,,statechange,,,,Application,,ApplState_1465136188
+760,Application_698131674,O_Returned,2016-12-16T12:26:59.711+0100,COMPLETE,Limit raise,Home improvement,64500.0,,User_121,,OfferState_1611868024,Offer_721067270,,statechange,,,,Offer,,OfferState_1611868024
+761,Application_698131674,W_Validate application,2016-12-16T12:28:08.151+0100,SUSPEND,Limit raise,Home improvement,64500.0,,User_121,,Workitem_1727871719,,,Released,,,,Workflow,,Workitem_1727871719
+762,Application_698131674,O_Accepted,2016-12-19T11:01:55.096+0100,COMPLETE,Limit raise,Home improvement,64500.0,,User_75,,OfferState_1560211202,Offer_721067270,,statechange,,,,Offer,,OfferState_1560211202
+763,Application_698131674,A_Pending,2016-12-19T11:01:55.102+0100,COMPLETE,Limit raise,Home improvement,64500.0,,User_75,,ApplState_169936415,,,statechange,,,,Application,,ApplState_169936415
+764,Application_698131674,W_Validate application,2016-12-19T11:01:55.111+0100,ATE_ABORT,Limit raise,Home improvement,64500.0,,User_75,,Workitem_1727835995,,,Deleted,,,,Workflow,,Workitem_1727835995
+661,Application_758200875,A_Create Application,2016-11-15T07:06:24.186+0100,COMPLETE,New credit,Car,12000.0,,User_1,,Application_758200875,,,Created,,,,Application,,Application_758200875
+662,Application_758200875,A_Submitted,2016-11-15T07:06:25.405+0100,COMPLETE,New credit,Car,12000.0,,User_1,,ApplState_587461020,,,statechange,,,,Application,,ApplState_587461020
+663,Application_758200875,W_Handle leads,2016-11-15T07:06:25.593+0100,SCHEDULE,New credit,Car,12000.0,,User_1,,Workitem_917421105,,,Created,,,,Workflow,,Workitem_917421105
+664,Application_758200875,W_Handle leads,2016-11-15T07:07:23.021+0100,WITHDRAW,New credit,Car,12000.0,,User_1,,Workitem_95827289,,,Deleted,,,,Workflow,,Workitem_95827289
+665,Application_758200875,W_Complete application,2016-11-15T07:07:23.028+0100,SCHEDULE,New credit,Car,12000.0,,User_1,,Workitem_607983474,,,Created,,,,Workflow,,Workitem_607983474
+666,Application_758200875,A_Concept,2016-11-15T07:07:23.034+0100,COMPLETE,New credit,Car,12000.0,,User_1,,ApplState_19326069,,,statechange,,,,Application,,ApplState_19326069
+667,Application_758200875,W_Complete application,2016-11-15T20:23:20.651+0100,START,New credit,Car,12000.0,,User_65,,Workitem_1506940093,,,Obtained,,,,Workflow,,Workitem_1506940093
+668,Application_758200875,W_Complete application,2016-11-15T20:28:26.506+0100,SUSPEND,New credit,Car,12000.0,,User_65,,Workitem_1500496699,,,Released,,,,Workflow,,Workitem_1500496699
+669,Application_758200875,A_Accepted,2016-11-16T11:58:50.301+0100,COMPLETE,New credit,Car,12000.0,,User_49,,ApplState_2137787372,,,statechange,,,,Application,,ApplState_2137787372
+670,Application_758200875,O_Create Offer,2016-11-16T11:59:12.898+0100,COMPLETE,New credit,Car,12000.0,226.9,User_49,False,Offer_303218140,Offer_303218140,12000.0,Created,False,0.0,60.0,Offer,12000.0,Offer_303218140
+671,Application_758200875,O_Created,2016-11-16T11:59:13.484+0100,COMPLETE,New credit,Car,12000.0,,User_49,,OfferState_41646805,Offer_303218140,,statechange,,,,Offer,,OfferState_41646805
+672,Application_758200875,O_Sent (mail and online),2016-11-16T11:59:21.328+0100,COMPLETE,New credit,Car,12000.0,,User_49,,OfferState_391284350,Offer_303218140,,statechange,,,,Offer,,OfferState_391284350
+673,Application_758200875,W_Complete application,2016-11-16T11:59:21.342+0100,ATE_ABORT,New credit,Car,12000.0,,User_49,,Workitem_1820349325,,,Deleted,,,,Workflow,,Workitem_1820349325
+674,Application_758200875,W_Call after offers,2016-11-16T11:59:21.350+0100,SCHEDULE,New credit,Car,12000.0,,User_49,,Workitem_1638729427,,,Created,,,,Workflow,,Workitem_1638729427
+675,Application_758200875,W_Call after offers,2016-11-16T11:59:21.352+0100,START,New credit,Car,12000.0,,User_49,,Workitem_109575868,,,Obtained,,,,Workflow,,Workitem_109575868
+676,Application_758200875,A_Complete,2016-11-16T11:59:21.353+0100,COMPLETE,New credit,Car,12000.0,,User_49,,ApplState_1072935132,,,statechange,,,,Application,,ApplState_1072935132
+677,Application_758200875,W_Call after offers,2016-11-16T11:59:53.051+0100,SUSPEND,New credit,Car,12000.0,,User_49,,Workitem_556243790,,,Released,,,,Workflow,,Workitem_556243790
+678,Application_758200875,W_Call after offers,2016-11-21T15:49:09.089+0100,RESUME,New credit,Car,12000.0,,User_35,,Workitem_1712372908,,,Obtained,,,,Workflow,,Workitem_1712372908
+679,Application_758200875,W_Call after offers,2016-11-21T15:50:02.499+0100,SUSPEND,New credit,Car,12000.0,,User_35,,Workitem_1121724491,,,Released,,,,Workflow,,Workitem_1121724491
+680,Application_758200875,W_Call after offers,2016-11-23T11:10:02.196+0100,ATE_ABORT,New credit,Car,12000.0,,User_27,,Workitem_646821880,,,Deleted,,,,Workflow,,Workitem_646821880
+681,Application_758200875,W_Validate application,2016-11-23T11:10:02.201+0100,SCHEDULE,New credit,Car,12000.0,,User_27,,Workitem_448281367,,,Created,,,,Workflow,,Workitem_448281367
+682,Application_758200875,W_Validate application,2016-11-23T11:10:02.205+0100,START,New credit,Car,12000.0,,User_27,,Workitem_199813684,,,Obtained,,,,Workflow,,Workitem_199813684
+683,Application_758200875,A_Validating,2016-11-23T11:10:02.986+0100,COMPLETE,New credit,Car,12000.0,,User_27,,ApplState_1508321510,,,statechange,,,,Application,,ApplState_1508321510
+684,Application_758200875,O_Returned,2016-11-23T11:10:16.316+0100,COMPLETE,New credit,Car,12000.0,,User_27,,OfferState_846668143,Offer_303218140,,statechange,,,,Offer,,OfferState_846668143
+685,Application_758200875,W_Validate application,2016-11-23T11:15:03.715+0100,SUSPEND,New credit,Car,12000.0,,User_27,,Workitem_279944291,,,Released,,,,Workflow,,Workitem_279944291
+686,Application_758200875,W_Validate application,2016-11-25T14:32:48.559+0100,RESUME,New credit,Car,12000.0,,User_68,,Workitem_837052927,,,Obtained,,,,Workflow,,Workitem_837052927
+687,Application_758200875,W_Validate application,2016-11-25T14:47:52.092+0100,COMPLETE,New credit,Car,12000.0,,User_68,,Workitem_1452876577,,,Deleted,,,,Workflow,,Workitem_1452876577
+688,Application_758200875,W_Call incomplete files,2016-11-25T14:47:52.098+0100,SCHEDULE,New credit,Car,12000.0,,User_68,,Workitem_1196329081,,,Created,,,,Workflow,,Workitem_1196329081
+689,Application_758200875,W_Call incomplete files,2016-11-25T14:47:52.099+0100,START,New credit,Car,12000.0,,User_68,,Workitem_274187229,,,Obtained,,,,Workflow,,Workitem_274187229
+690,Application_758200875,A_Incomplete,2016-11-25T14:47:52.101+0100,COMPLETE,New credit,Car,12000.0,,User_68,,ApplState_1157223394,,,statechange,,,,Application,,ApplState_1157223394
+691,Application_758200875,W_Call incomplete files,2016-11-25T14:49:50.626+0100,SUSPEND,New credit,Car,12000.0,,User_68,,Workitem_423221280,,,Released,,,,Workflow,,Workitem_423221280
+692,Application_758200875,W_Call incomplete files,2016-11-25T16:08:39.622+0100,RESUME,New credit,Car,12000.0,,User_3,,Workitem_1702965948,,,Obtained,,,,Workflow,,Workitem_1702965948
+693,Application_758200875,W_Call incomplete files,2016-11-25T16:10:26.636+0100,SUSPEND,New credit,Car,12000.0,,User_3,,Workitem_1542618038,,,Released,,,,Workflow,,Workitem_1542618038
+694,Application_758200875,W_Call incomplete files,2016-11-26T14:02:35.464+0100,ATE_ABORT,New credit,Car,12000.0,,User_122,,Workitem_1409191781,,,Deleted,,,,Workflow,,Workitem_1409191781
+695,Application_758200875,W_Validate application,2016-11-26T14:02:35.470+0100,SCHEDULE,New credit,Car,12000.0,,User_122,,Workitem_56683294,,,Created,,,,Workflow,,Workitem_56683294
+696,Application_758200875,W_Validate application,2016-11-26T14:02:35.472+0100,START,New credit,Car,12000.0,,User_122,,Workitem_301304764,,,Obtained,,,,Workflow,,Workitem_301304764
+697,Application_758200875,A_Validating,2016-11-26T14:02:35.525+0100,COMPLETE,New credit,Car,12000.0,,User_122,,ApplState_1217772565,,,statechange,,,,Application,,ApplState_1217772565
+698,Application_758200875,W_Validate application,2016-11-26T14:03:43.119+0100,SUSPEND,New credit,Car,12000.0,,User_122,,Workitem_802332908,,,Released,,,,Workflow,,Workitem_802332908
+699,Application_758200875,W_Validate application,2016-11-28T07:53:50.489+0100,RESUME,New credit,Car,12000.0,,User_68,,Workitem_1464054318,,,Obtained,,,,Workflow,,Workitem_1464054318
+700,Application_758200875,W_Validate application,2016-11-28T07:56:30.268+0100,SUSPEND,New credit,Car,12000.0,,User_68,,Workitem_1148335603,,,Released,,,,Workflow,,Workitem_1148335603
+701,Application_758200875,W_Validate application,2016-11-28T11:28:35.633+0100,RESUME,New credit,Car,12000.0,,User_68,,Workitem_248110160,,,Obtained,,,,Workflow,,Workitem_248110160
+702,Application_758200875,W_Validate application,2016-11-28T12:00:41.436+0100,COMPLETE,New credit,Car,12000.0,,User_68,,Workitem_1548066123,,,Deleted,,,,Workflow,,Workitem_1548066123
+703,Application_758200875,W_Call incomplete files,2016-11-28T12:00:41.441+0100,SCHEDULE,New credit,Car,12000.0,,User_68,,Workitem_913029406,,,Created,,,,Workflow,,Workitem_913029406
+704,Application_758200875,W_Call incomplete files,2016-11-28T12:00:41.443+0100,START,New credit,Car,12000.0,,User_68,,Workitem_1270985166,,,Obtained,,,,Workflow,,Workitem_1270985166
+705,Application_758200875,A_Incomplete,2016-11-28T12:00:41.445+0100,COMPLETE,New credit,Car,12000.0,,User_68,,ApplState_628931309,,,statechange,,,,Application,,ApplState_628931309
+706,Application_758200875,W_Call incomplete files,2016-11-28T12:00:56.800+0100,SUSPEND,New credit,Car,12000.0,,User_68,,Workitem_1062186237,,,Released,,,,Workflow,,Workitem_1062186237
+707,Application_758200875,W_Call incomplete files,2016-11-28T14:37:10.387+0100,RESUME,New credit,Car,12000.0,,User_3,,Workitem_1383896126,,,Obtained,,,,Workflow,,Workitem_1383896126
+708,Application_758200875,W_Call incomplete files,2016-11-28T14:39:08.998+0100,SUSPEND,New credit,Car,12000.0,,User_3,,Workitem_1717932080,,,Released,,,,Workflow,,Workitem_1717932080
+709,Application_758200875,O_Cancelled,2016-11-28T17:36:25.190+0100,COMPLETE,New credit,Car,12000.0,,User_56,,OfferState_336225018,Offer_303218140,,statechange,,,,Offer,,OfferState_336225018
+710,Application_758200875,O_Create Offer,2016-11-28T17:39:20.403+0100,COMPLETE,New credit,Car,12000.0,226.9,User_56,True,Offer_275947197,Offer_275947197,12000.0,Created,True,0.0,60.0,Offer,12000.0,Offer_275947197
+711,Application_758200875,O_Created,2016-11-28T17:39:21.652+0100,COMPLETE,New credit,Car,12000.0,,User_56,,OfferState_1525821400,Offer_275947197,,statechange,,,,Offer,,OfferState_1525821400
+712,Application_758200875,O_Sent (mail and online),2016-11-28T17:46:15.493+0100,COMPLETE,New credit,Car,12000.0,,User_56,,OfferState_1850920611,Offer_275947197,,statechange,,,,Offer,,OfferState_1850920611
+713,Application_758200875,W_Call incomplete files,2016-12-05T08:44:28.018+0100,RESUME,New credit,Car,12000.0,,User_14,,Workitem_429770178,,,Obtained,,,,Workflow,,Workitem_429770178
+714,Application_758200875,W_Call incomplete files,2016-12-05T08:45:00.175+0100,SUSPEND,New credit,Car,12000.0,,User_14,,Workitem_1887138189,,,Released,,,,Workflow,,Workitem_1887138189
+715,Application_758200875,W_Call incomplete files,2016-12-05T14:38:56.196+0100,RESUME,New credit,Car,12000.0,,User_67,,Workitem_1634869846,,,Obtained,,,,Workflow,,Workitem_1634869846
+716,Application_758200875,W_Call incomplete files,2016-12-05T14:44:15.061+0100,SUSPEND,New credit,Car,12000.0,,User_67,,Workitem_1806610036,,,Released,,,,Workflow,,Workitem_1806610036
+717,Application_758200875,O_Returned,2016-12-06T09:03:21.103+0100,COMPLETE,New credit,Car,12000.0,,User_118,,OfferState_1342717557,Offer_275947197,,statechange,,,,Offer,,OfferState_1342717557
+718,Application_758200875,W_Call incomplete files,2016-12-06T09:03:26.344+0100,ATE_ABORT,New credit,Car,12000.0,,User_118,,Workitem_1438283045,,,Deleted,,,,Workflow,,Workitem_1438283045
+719,Application_758200875,W_Validate application,2016-12-06T09:03:26.349+0100,SCHEDULE,New credit,Car,12000.0,,User_118,,Workitem_1305868105,,,Created,,,,Workflow,,Workitem_1305868105
+720,Application_758200875,W_Validate application,2016-12-06T09:03:26.351+0100,START,New credit,Car,12000.0,,User_118,,Workitem_1217284124,,,Obtained,,,,Workflow,,Workitem_1217284124
+721,Application_758200875,A_Validating,2016-12-06T09:03:26.406+0100,COMPLETE,New credit,Car,12000.0,,User_118,,ApplState_1480739158,,,statechange,,,,Application,,ApplState_1480739158
+722,Application_758200875,W_Validate application,2016-12-06T09:04:12.929+0100,SUSPEND,New credit,Car,12000.0,,User_118,,Workitem_1789375546,,,Released,,,,Workflow,,Workitem_1789375546
+723,Application_758200875,W_Validate application,2016-12-06T09:33:45.787+0100,RESUME,New credit,Car,12000.0,,User_68,,Workitem_387316182,,,Obtained,,,,Workflow,,Workitem_387316182
+724,Application_758200875,W_Validate application,2016-12-06T09:34:03.851+0100,SUSPEND,New credit,Car,12000.0,,User_68,,Workitem_2082826039,,,Released,,,,Workflow,,Workitem_2082826039
+725,Application_758200875,W_Validate application,2016-12-07T08:05:51.600+0100,RESUME,New credit,Car,12000.0,,User_83,,Workitem_1368305426,,,Obtained,,,,Workflow,,Workitem_1368305426
+726,Application_758200875,W_Validate application,2016-12-07T08:10:31.342+0100,COMPLETE,New credit,Car,12000.0,,User_83,,Workitem_1683021796,,,Deleted,,,,Workflow,,Workitem_1683021796
+727,Application_758200875,W_Call incomplete files,2016-12-07T08:10:31.348+0100,SCHEDULE,New credit,Car,12000.0,,User_83,,Workitem_114403738,,,Created,,,,Workflow,,Workitem_114403738
+728,Application_758200875,W_Call incomplete files,2016-12-07T08:10:31.350+0100,START,New credit,Car,12000.0,,User_83,,Workitem_462693792,,,Obtained,,,,Workflow,,Workitem_462693792
+729,Application_758200875,A_Incomplete,2016-12-07T08:10:31.352+0100,COMPLETE,New credit,Car,12000.0,,User_83,,ApplState_926570428,,,statechange,,,,Application,,ApplState_926570428
+730,Application_758200875,W_Call incomplete files,2016-12-07T08:11:35.975+0100,SUSPEND,New credit,Car,12000.0,,User_83,,Workitem_1347569927,,,Released,,,,Workflow,,Workitem_1347569927
+731,Application_758200875,W_Call incomplete files,2016-12-07T10:34:26.101+0100,RESUME,New credit,Car,12000.0,,User_66,,Workitem_1452431745,,,Obtained,,,,Workflow,,Workitem_1452431745
+732,Application_758200875,W_Call incomplete files,2016-12-07T10:37:21.071+0100,SUSPEND,New credit,Car,12000.0,,User_66,,Workitem_86288162,,,Released,,,,Workflow,,Workitem_86288162
+733,Application_758200875,A_Cancelled,2016-12-07T12:34:13.147+0100,COMPLETE,New credit,Car,12000.0,,User_77,,ApplState_1326435492,,,statechange,,,,Application,,ApplState_1326435492
+734,Application_758200875,O_Cancelled,2016-12-07T12:34:13.190+0100,COMPLETE,New credit,Car,12000.0,,User_77,,OfferState_1637811401,Offer_275947197,,statechange,,,,Offer,,OfferState_1637811401
+735,Application_758200875,W_Call incomplete files,2016-12-07T12:34:13.207+0100,ATE_ABORT,New credit,Car,12000.0,,User_77,,Workitem_1677308530,,,Deleted,,,,Workflow,,Workitem_1677308530
+27,Application_977257239,A_Create Application,2016-01-29T12:16:23.254+0100,COMPLETE,New credit,Existing loan takeover,20000.0,,User_1,,Application_977257239,,,Created,,,,Application,,Application_977257239
+28,Application_977257239,A_Submitted,2016-01-29T12:16:23.309+0100,COMPLETE,New credit,Existing loan takeover,20000.0,,User_1,,ApplState_635271198,,,statechange,,,,Application,,ApplState_635271198
+29,Application_977257239,W_Handle leads,2016-01-29T12:16:23.493+0100,SCHEDULE,New credit,Existing loan takeover,20000.0,,User_1,,Workitem_568415199,,,Created,,,,Workflow,,Workitem_568415199
+30,Application_977257239,W_Handle leads,2016-01-29T17:00:41.469+0100,START,New credit,Existing loan takeover,20000.0,,User_36,,Workitem_1287135693,,,Obtained,,,,Workflow,,Workitem_1287135693
+31,Application_977257239,W_Handle leads,2016-01-30T00:00:22.145+0100,SUSPEND,New credit,Existing loan takeover,20000.0,,User_1,,Workitem_803738687,,,Released,,,,Workflow,,Workitem_803738687
+32,Application_977257239,W_Handle leads,2016-01-30T11:49:52.950+0100,RESUME,New credit,Existing loan takeover,20000.0,,User_24,,Workitem_292838012,,,Obtained,,,,Workflow,,Workitem_292838012
+33,Application_977257239,W_Handle leads,2016-01-30T11:51:18.156+0100,COMPLETE,New credit,Existing loan takeover,20000.0,,User_24,,Workitem_454399996,,,Deleted,,,,Workflow,,Workitem_454399996
+34,Application_977257239,W_Complete application,2016-01-30T11:51:18.187+0100,SCHEDULE,New credit,Existing loan takeover,20000.0,,User_24,,Workitem_232114592,,,Created,,,,Workflow,,Workitem_232114592
+35,Application_977257239,W_Complete application,2016-01-30T11:51:18.189+0100,START,New credit,Existing loan takeover,20000.0,,User_24,,Workitem_901119758,,,Obtained,,,,Workflow,,Workitem_901119758
+36,Application_977257239,A_Concept,2016-01-30T11:51:18.192+0100,COMPLETE,New credit,Existing loan takeover,20000.0,,User_24,,ApplState_1570427249,,,statechange,,,,Application,,ApplState_1570427249
+37,Application_977257239,W_Complete application,2016-01-30T11:51:21.788+0100,SUSPEND,New credit,Existing loan takeover,20000.0,,User_24,,Workitem_677666007,,,Released,,,,Workflow,,Workitem_677666007
+38,Application_977257239,W_Complete application,2016-02-01T11:47:50.941+0100,RESUME,New credit,Existing loan takeover,20000.0,,User_49,,Workitem_69120995,,,Obtained,,,,Workflow,,Workitem_69120995
+39,Application_977257239,A_Accepted,2016-02-01T12:03:41.891+0100,COMPLETE,New credit,Existing loan takeover,20000.0,,User_49,,ApplState_115489284,,,statechange,,,,Application,,ApplState_115489284
+40,Application_977257239,O_Create Offer,2016-02-01T12:07:22.567+0100,COMPLETE,New credit,Existing loan takeover,20000.0,260.0,User_49,True,Offer_751443796,Offer_751443796,0.0,Created,False,0.0,89.0,Offer,19500.0,Offer_751443796
+41,Application_977257239,O_Created,2016-02-01T12:07:24.110+0100,COMPLETE,New credit,Existing loan takeover,20000.0,,User_49,,OfferState_1054725329,Offer_751443796,,statechange,,,,Offer,,OfferState_1054725329
+42,Application_977257239,O_Sent (mail and online),2016-02-01T12:12:10.495+0100,COMPLETE,New credit,Existing loan takeover,20000.0,,User_49,,OfferState_2004150654,Offer_751443796,,statechange,,,,Offer,,OfferState_2004150654
+43,Application_977257239,W_Complete application,2016-02-01T12:12:10.526+0100,COMPLETE,New credit,Existing loan takeover,20000.0,,User_49,,Workitem_480601619,,,Deleted,,,,Workflow,,Workitem_480601619
+44,Application_977257239,W_Call after offers,2016-02-01T12:12:10.539+0100,SCHEDULE,New credit,Existing loan takeover,20000.0,,User_49,,Workitem_212538115,,,Created,,,,Workflow,,Workitem_212538115
+45,Application_977257239,W_Call after offers,2016-02-01T12:12:10.542+0100,START,New credit,Existing loan takeover,20000.0,,User_49,,Workitem_31469471,,,Obtained,,,,Workflow,,Workitem_31469471
+46,Application_977257239,A_Complete,2016-02-01T12:12:10.546+0100,COMPLETE,New credit,Existing loan takeover,20000.0,,User_49,,ApplState_1671227156,,,statechange,,,,Application,,ApplState_1671227156
+47,Application_977257239,W_Call after offers,2016-02-01T12:13:39.921+0100,SUSPEND,New credit,Existing loan takeover,20000.0,,User_49,,Workitem_601777719,,,Released,,,,Workflow,,Workitem_601777719
+48,Application_977257239,W_Call after offers,2016-02-03T15:50:42.453+0100,ATE_ABORT,New credit,Existing loan takeover,20000.0,,User_114,,Workitem_2028745689,,,Deleted,,,,Workflow,,Workitem_2028745689
+49,Application_977257239,W_Validate application,2016-02-03T15:50:42.574+0100,SCHEDULE,New credit,Existing loan takeover,20000.0,,User_114,,Workitem_1447094136,,,Created,,,,Workflow,,Workitem_1447094136
+50,Application_977257239,W_Validate application,2016-02-03T15:50:42.576+0100,START,New credit,Existing loan takeover,20000.0,,User_114,,Workitem_557993137,,,Obtained,,,,Workflow,,Workitem_557993137
+51,Application_977257239,A_Validating,2016-02-03T15:50:43.433+0100,COMPLETE,New credit,Existing loan takeover,20000.0,,User_114,,ApplState_100526586,,,statechange,,,,Application,,ApplState_100526586
+52,Application_977257239,O_Returned,2016-02-03T15:52:23.515+0100,COMPLETE,New credit,Existing loan takeover,20000.0,,User_114,,OfferState_1100115984,Offer_751443796,,statechange,,,,Offer,,OfferState_1100115984
+53,Application_977257239,W_Validate application,2016-02-03T15:53:15.633+0100,SUSPEND,New credit,Existing loan takeover,20000.0,,User_114,,Workitem_98225173,,,Released,,,,Workflow,,Workitem_98225173
+54,Application_977257239,W_Validate application,2016-02-05T16:04:01.391+0100,RESUME,New credit,Existing loan takeover,20000.0,,User_99,,Workitem_2054310921,,,Obtained,,,,Workflow,,Workitem_2054310921
+55,Application_977257239,A_Denied,2016-02-05T16:24:30.298+0100,COMPLETE,New credit,Existing loan takeover,20000.0,,User_99,,ApplState_1219651395,,,statechange,,,,Application,,ApplState_1219651395
+56,Application_977257239,O_Refused,2016-02-05T16:24:30.330+0100,COMPLETE,New credit,Existing loan takeover,20000.0,,User_99,,OfferState_1033926712,Offer_751443796,,statechange,,,,Offer,,OfferState_1033926712
+57,Application_977257239,W_Validate application,2016-02-05T16:24:30.342+0100,COMPLETE,New credit,Existing loan takeover,20000.0,,User_99,,Workitem_447725069,,,Deleted,,,,Workflow,,Workitem_447725069
+323,Application_99629453,A_Create Application,2016-07-16T22:49:40.414+0100,COMPLETE,New credit,Car,10000.0,,User_1,,Application_99629453,,,Created,,,,Application,,Application_99629453
+324,Application_99629453,A_Submitted,2016-07-16T22:49:40.463+0100,COMPLETE,New credit,Car,10000.0,,User_1,,ApplState_392278887,,,statechange,,,,Application,,ApplState_392278887
+325,Application_99629453,W_Handle leads,2016-07-16T22:49:40.871+0100,SCHEDULE,New credit,Car,10000.0,,User_1,,Workitem_473533300,,,Created,,,,Workflow,,Workitem_473533300
+326,Application_99629453,W_Handle leads,2016-07-16T22:50:46.723+0100,WITHDRAW,New credit,Car,10000.0,,User_1,,Workitem_204525339,,,Deleted,,,,Workflow,,Workitem_204525339
+327,Application_99629453,W_Complete application,2016-07-16T22:50:46.731+0100,SCHEDULE,New credit,Car,10000.0,,User_1,,Workitem_279781231,,,Created,,,,Workflow,,Workitem_279781231
+328,Application_99629453,A_Concept,2016-07-16T22:50:46.736+0100,COMPLETE,New credit,Car,10000.0,,User_1,,ApplState_750303297,,,statechange,,,,Application,,ApplState_750303297
+329,Application_99629453,W_Complete application,2016-07-18T14:01:46.268+0100,START,New credit,Car,10000.0,,User_54,,Workitem_1615412262,,,Obtained,,,,Workflow,,Workitem_1615412262
+330,Application_99629453,W_Complete application,2016-07-18T14:02:51.352+0100,SUSPEND,New credit,Car,10000.0,,User_54,,Workitem_450530846,,,Released,,,,Workflow,,Workitem_450530846
+331,Application_99629453,W_Complete application,2016-07-20T14:44:42.317+0100,RESUME,New credit,Car,10000.0,,User_85,,Workitem_1642122562,,,Obtained,,,,Workflow,,Workitem_1642122562
+332,Application_99629453,W_Complete application,2016-07-20T14:45:27.205+0100,SUSPEND,New credit,Car,10000.0,,User_85,,Workitem_1440499768,,,Released,,,,Workflow,,Workitem_1440499768
+333,Application_99629453,A_Accepted,2016-08-03T14:28:01.734+0100,COMPLETE,New credit,Car,10000.0,,User_4,,ApplState_165486174,,,statechange,,,,Application,,ApplState_165486174
+334,Application_99629453,O_Create Offer,2016-08-03T14:30:05.802+0100,COMPLETE,New credit,Car,10000.0,300.07,User_4,False,Offer_1921350253,Offer_1921350253,10000.0,Created,True,0.0,36.0,Offer,10000.0,Offer_1921350253
+335,Application_99629453,O_Created,2016-08-03T14:30:06.449+0100,COMPLETE,New credit,Car,10000.0,,User_4,,OfferState_497134624,Offer_1921350253,,statechange,,,,Offer,,OfferState_497134624
+336,Application_99629453,O_Sent (mail and online),2016-08-03T14:30:20.627+0100,COMPLETE,New credit,Car,10000.0,,User_4,,OfferState_1580005445,Offer_1921350253,,statechange,,,,Offer,,OfferState_1580005445
+337,Application_99629453,W_Complete application,2016-08-03T14:30:20.655+0100,ATE_ABORT,New credit,Car,10000.0,,User_4,,Workitem_1315447778,,,Deleted,,,,Workflow,,Workitem_1315447778
+338,Application_99629453,W_Call after offers,2016-08-03T14:30:20.668+0100,SCHEDULE,New credit,Car,10000.0,,User_4,,Workitem_2120170931,,,Created,,,,Workflow,,Workitem_2120170931
+339,Application_99629453,W_Call after offers,2016-08-03T14:30:20.671+0100,START,New credit,Car,10000.0,,User_4,,Workitem_1311697602,,,Obtained,,,,Workflow,,Workitem_1311697602
+340,Application_99629453,A_Complete,2016-08-03T14:30:20.676+0100,COMPLETE,New credit,Car,10000.0,,User_4,,ApplState_699689004,,,statechange,,,,Application,,ApplState_699689004
+341,Application_99629453,W_Call after offers,2016-08-03T14:36:56.113+0100,SUSPEND,New credit,Car,10000.0,,User_4,,Workitem_1115161015,,,Released,,,,Workflow,,Workitem_1115161015
+342,Application_99629453,W_Call after offers,2016-08-09T08:54:41.039+0100,RESUME,New credit,Car,10000.0,,User_5,,Workitem_2103125180,,,Obtained,,,,Workflow,,Workitem_2103125180
+343,Application_99629453,W_Call after offers,2016-08-09T08:55:14.385+0100,SUSPEND,New credit,Car,10000.0,,User_5,,Workitem_1875727397,,,Released,,,,Workflow,,Workitem_1875727397
+344,Application_99629453,A_Cancelled,2016-09-03T08:00:27.766+0100,COMPLETE,New credit,Car,10000.0,,User_1,,ApplState_1199819405,,,statechange,,,,Application,,ApplState_1199819405
+345,Application_99629453,O_Cancelled,2016-09-03T08:00:27.796+0100,COMPLETE,New credit,Car,10000.0,,User_1,,OfferState_577801672,Offer_1921350253,,statechange,,,,Offer,,OfferState_577801672
+346,Application_99629453,W_Call after offers,2016-09-03T08:00:27.810+0100,ATE_ABORT,New credit,Car,10000.0,,User_1,,Workitem_309523980,,,Deleted,,,,Workflow,,Workitem_309523980

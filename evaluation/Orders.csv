@@ -1,0 +1,31 @@
+Event,Order,Time,Action,Life-cycle,User,Delivery,Type
+1,40,2018-12-20T11:02,Receive Order,Complete,System,,Phone
+2,40,2018-12-20T12:09,Pack Order,Start,Aaron,,Phone
+3,40,2018-12-20T12:10,Add Item,Complete,Bob,432,Phone
+4,40,2018-12-20T12:10,Add Item,Complete,Bob,432,Phone
+5,40,2018-12-20T12:15,Ship Parcel,Complete,Cooper,432,Phone
+6,40,2018-12-20T16:00,Pack Order,Complete,Aaron,,Phone
+7,40,2018-12-22T07:23,Receive Payment,Complete,System,,Phone
+8,40,2018-12-22T07:24,Archive,Complete,Matthew,,Phone
+9,50,2018-12-20T11:03,Receive Order,Complete,Sean,,Phone
+10,50,2018-12-23T23:11,Pack Order,Start,Bob,,Phone
+11,50,2018-12-23T23:46,Add Item,Complete,Bob,514,Phone
+12,50,2018-12-23T23:49,Ship Parcel,Complete,Sean,514,Phone
+13,50,2018-12-23T23:51,Add Item,Complete,Bob,623,Phone
+14,50,2018-12-23T23:59,Ship Parcel,Complete,Bob,623,Phone
+15,50,2018-12-27T09:01,Pack Order,Complete,Aaron,,Phone
+16,50,2018-12-27T09:02,Archive,Complete,Aaron,,Phone
+17,60,2018-12-20T11:04,Receive Order,Complete,System,,Online
+18,60,2018-12-20T11:12,Pack Order,Start,Bob,,Online
+19,60,2018-12-21T09:17,Add Item,Complete,System,623,Online
+20,60,2018-12-21T09:23,Pack Order,Complete,Aaron,,Online
+21,60,2018-12-21T09:28,Receive Payment,Complete,Cooper,,Online
+22,60,2018-12-21T10:15,Archive,Complete,Matthew,,Online
+23,70,2018-12-20T11:05,Receive Order,Complete,Cooper,,Online
+24,70,2018-12-20T14:05,Pack Order,Start,Aaron,,Online
+25,70,2018-12-20T14:08,Add Item,Complete,Aaron,775,Online
+26,70,2018-12-22T08:07,Add Item,Complete,Matthew,775,Online
+27,70,2018-12-22T09:01,Ship Parcel,Complete,Matthew,775,Online
+28,70,2018-12-22T09:05,Pack Order,Complete,Aaron,,Online
+29,70,2018-12-22T09:36,Receive Payment,Complete,Aaron,,Online
+30,70,2018-12-22T10:15,Archive,Complete,Cooper,,Online
