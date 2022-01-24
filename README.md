@@ -4,14 +4,14 @@ This repository contains the Java project for a Process Mining tool that works o
 
 ## Specifications
 
-- IDE: IntelliJ IDEA 2019.3.3 (Community Edition)
+- IDE: IntelliJ IDEA 2020.2.4 (Ultimate Edition)
 - Java:
     - jdk-13.0.1
     - java version "13.0.1" 2019-10-15
     - Java(TM) SE Runtime Environment (build 13.0.1+9)
     - Java HotSpot(TM) 64-Bit Server VM (build 13.0.1+9, mixed mode, sharing)
  - Neo4j:
-    - Version: 4.2.3
+    - Version: 4.4.2
     - Edition: Community
 
 ## Requirements
