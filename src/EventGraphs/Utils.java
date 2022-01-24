@@ -18,7 +18,7 @@ public class Utils {
     public static final String GRAPH_STYLE_FILE = PATH+"\\src\\EventGraphs\\resources\\GraphStyle.css";
     public static final String GUI_STYLE_FILE = "/EventGraphs/resources/GUIStyle.css";
     public static final String NEO4J_BAT_PATH = "\"C:\\Program Files\\neo4j-community-4.2.3\\bin\\neo4j.bat\"";
-    public static final String NEO4J_IMPORT_PATH = "C:\\Program Files\\neo4j-community-4.2.3\\import";
+    public static final String NEO4J_IMPORT_PATH = "C:\\Import";
 
     public static final String DEFAULT_URL = "bolt://localhost:7687";
     public static final String DEFAULT_DATABASE = "";

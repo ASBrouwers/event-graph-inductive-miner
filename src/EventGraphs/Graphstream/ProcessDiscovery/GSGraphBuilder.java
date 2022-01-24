@@ -103,7 +103,12 @@ public abstract class GSGraphBuilder {
         return nodePosY;
     }
 
-    public int arrangeNodesSugiyama(Graph g, int offset, boolean isPetriNet){
+
+    public int arrangeNodesSugiyama(Graph g, int offset, boolean isPetriNet) {
+        return arrangeNodesSugiyama(g, offset, isPetriNet, false);
+    }
+
+    public int arrangeNodesSugiyama(Graph g, int offset, boolean isPetriNet, boolean vertical){
         int newOffset = offset;
         int vSpacing = 1;
         boolean removeCycles = true;
@@ -152,7 +157,11 @@ public abstract class GSGraphBuilder {
 
                 Node graphNode = graph.getNode(n.getId());
                 if(graphNode != null){
-                    graphNode.setAttribute("xyz", x, y*vSpacing, 0);
+                    if (vertical) {
+                        graphNode.setAttribute("xyz", y * vSpacing, -x, 0);
+                    } else {
+                        graphNode.setAttribute("xyz", x, y * vSpacing, 0);
+                    }
                 }
             }
             if(newOffset > prevY) newOffset = prevY;

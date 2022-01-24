@@ -4,6 +4,7 @@ import EventGraphs.GUI.ModelFinder;
 import EventGraphs.Utils;
 import javafx.scene.control.Alert;
 import org.neo4j.driver.*;
+import org.neo4j.driver.Record;
 import org.neo4j.driver.types.Node;
 import org.neo4j.driver.types.Relationship;
 
@@ -107,7 +108,8 @@ public class N4JQueries {
         String deleteModel = "MATCH (m:Model{ID:\""+modelName+"\"})\n" +
                                 "OPTIONAL MATCH (m)-[:PRODUCES]-(a)\n" +
                                 "OPTIONAL MATCH (m)-[:CONTAINS]-(n)\n" +
-                                "OPTIONAL MATCH (m)-[:CONTAINS_PN]-(o)-[:MODEL_EDGE*]->(p)\n" +
+                                "OPTIONAL MATCH (m)-[:CONTAINS_PN]-(o)\n" +
+                                "OPTIONAL MATCH (a)-[:ALGORITHM_NODE]-(p)\n" +
                                 "DETACH DELETE a,m,n,o,p";
 
         try ( Session session = driver.session() ) {
@@ -809,6 +811,11 @@ public class N4JQueries {
                 "WITH DISTINCT e,c\n" +
                 "SET e.`"+typeName+"` = c.ID";
 
+        System.out.println("createClassNodes = " + createClassNodes);
+        System.out.println("relateClassToEvents = " + relateClassToEvents);
+        System.out.println("createDF_C = " + createDF_C);
+        System.out.println("setEventAttributes = " + setEventAttributes);
+
         try ( Session session = driver.session() ) {
             session.run(createClassNodes);
             session.run(relateClassToEvents);
@@ -1095,10 +1102,12 @@ public class N4JQueries {
 
     public List<Record> getPTNodes(String modelName){
         List<Record> queryAnswer;
-        String getPTNodes = "MATCH (m:Model{ID:\""+modelName+"\"})-[:Root]->(p:PT_node)-[:Child*]->(c)\n" +
+        String getPTNodes = "MATCH (m:Model{ID:\""+modelName+"\"})-[:CONTAINS]->(p:Model_node)-[:MODEL_EDGE*]->(c)\n" +
                 "WITH COLLECT(DISTINCT p)+COLLECT(DISTINCT c) AS nodes\n" +
                 "UNWIND nodes AS PT_Nodes\n" +
                 "RETURN DISTINCT PT_Nodes";
+
+        System.out.println(getPTNodes);
 
         try ( Session session = driver.session() ) {
             queryAnswer = session.writeTransaction(tx -> {
@@ -1112,7 +1121,7 @@ public class N4JQueries {
 
     public List<Record> getChildEdges(String modelName){
         List<Record> queryAnswer;
-        String getChildEdges = "MATCH (m:Model{ID:\""+modelName+"\"})-[:Root]->(p:PT_node)-[c:Child*]->(n)\n" +
+        String getChildEdges = "MATCH (m:Model{ID:\""+modelName+"\"})-[:CONTAINS]->(p:Model_node)-[c:MODEL_EDGE*]- (n)\n" +
                 "WITH DISTINCT c AS edges\n" +
                 "UNWIND edges AS Child\n" +
                 "RETURN DISTINCT Child";
@@ -1127,13 +1136,30 @@ public class N4JQueries {
         return queryAnswer;
     }
 
+    public List<Record> getSeqEdges(String modelName){
+        List<Record> queryAnswer;
+        String getSeqEdges = "MATCH (m:Model{ID:\""+modelName+"\"})-[:CONTAINS]->(p:Model_node)-[c:PT_SEQ*]- (n)\n" +
+                "WITH DISTINCT c AS edges\n" +
+                "UNWIND edges AS Seq\n" +
+                "RETURN DISTINCT Seq";
+
+        try ( Session session = driver.session() ) {
+            queryAnswer = session.writeTransaction(tx -> {
+                Result result = tx.run(getSeqEdges);
+                return result.list();
+            });
+        }
+
+        return queryAnswer;
+    }
+
     public List<Record> getPetriNetNodes(String modelName){
         List<Record> queryAnswer;
-        String getPNNodes = "MATCH (m:Model{ID:\""+modelName+"\"})-[:CONTAINS_PN]->(p:PetriNet)-[:MODEL_EDGE*]->(n)\n" +
-                "WITH COLLECT(DISTINCT p)+COLLECT(DISTINCT n) AS nodes\n" +
+        String getPNNodes = "MATCH (m:Model{ID:\""+modelName+"\"})-[:CONTAINS_PN]->(p:PetriNet)\n" +
+                "WITH COLLECT(DISTINCT p) AS nodes\n" +
                 "UNWIND nodes AS PN_Nodes\n" +
                 "RETURN DISTINCT PN_Nodes";
-
+        System.out.println(getPNNodes);
         try ( Session session = driver.session() ) {
             queryAnswer = session.writeTransaction(tx -> {
                 Result result = tx.run(getPNNodes);
@@ -1146,7 +1172,7 @@ public class N4JQueries {
 
     public List<Record> getPetriNetEdges(String modelName){
         List<Record> queryAnswer;
-        String getPNEdges = "MATCH (m:Model{ID:\""+modelName+"\"})-[:CONTAINS_PN]->(:PetriNet)-[p:MODEL_EDGE*]->(n)\n" +
+        String getPNEdges = "MATCH (m:Model{ID:\""+modelName+"\"})-[:CONTAINS_PN]->(:PetriNet)-[p:MODEL_EDGE]->(n)\n" +
                 "WITH DISTINCT p AS edges\n" +
                 "UNWIND edges AS PN\n" +
                 "RETURN DISTINCT PN";

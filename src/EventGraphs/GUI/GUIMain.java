@@ -86,7 +86,7 @@ public class GUIMain {
         }};
         algorithmUIClass = new HashMap<String,Class<?>>(){{
             put(Utils.ALGORITHM_LABEL.get("HM"), Class.forName("EventGraphs.GUI.ProcessDiscovery.HeuristicMinerUI"));
-//            put(Utils.ALGORITHM_LABEL.get("IM"), Class.forName("EventGraphs.GUI.ProcessDiscovery.InductiveMinerUI"));
+            put(Utils.ALGORITHM_LABEL.get("IM"), Class.forName("EventGraphs.GUI.ProcessDiscovery.InductiveMinerUI"));
         }};
     }
 

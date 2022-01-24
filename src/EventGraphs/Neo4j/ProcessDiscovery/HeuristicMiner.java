@@ -13,7 +13,7 @@ public class HeuristicMiner extends DiscoveryAlgorithm {
     String algorithm = Utils.ALGORITHM_LABEL.get("HM");
 
     public HeuristicMiner(Driver driver){
-        this.driver = driver;
+        super(driver);
     }
 
     public void generateProcessModel(Map<String,String> modelParams){

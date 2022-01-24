@@ -19,8 +19,13 @@ node.artificial{
 }
 node.ptNode{
     size: 50px, 50px;
-    text-size: 15;
 }
+
+node.main{
+    stroke-width: 3px;
+    stroke-color: #16ab3d;
+}
+
 node.pnPlace{
     size: 40px, 40px;
     fill-color: #FFFFFF;

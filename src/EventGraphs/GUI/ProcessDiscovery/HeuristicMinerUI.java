@@ -15,10 +15,7 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.*;
 import javafx.stage.Stage;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class HeuristicMinerUI extends ProcessModelUI {
     String logName;
@@ -246,12 +243,12 @@ public class HeuristicMinerUI extends ProcessModelUI {
         return event -> {
             String className = comboClass.getSelectionModel().getSelectedItem();
             String dfType = comboDF.getSelectionModel().getSelectedItem();
-            String freq = String.format("%.2f", slFreq.getValue());
-            String dep = String.format("%.2f", slDep.getValue());
-            String l1l = String.format("%.2f", slL1L.getValue());
-            String l2l = String.format("%.2f", slL2L.getValue());
-            String rel = String.format("%.2f", slRel.getValue());
-            String bind = String.format("%.2f", slBin.getValue());
+            String freq = String.format(Locale.US, "%.2f", slFreq.getValue());
+            String dep = String.format(Locale.US, "%.2f", slDep.getValue());
+            String l1l = String.format(Locale.US, "%.2f", slL1L.getValue());
+            String l2l = String.format(Locale.US, "%.2f", slL2L.getValue());
+            String rel = String.format(Locale.US, "%.2f", slRel.getValue());
+            String bind = String.format(Locale.US, "%.2f", slBin.getValue());
 
             Map<String,String> algParams = new HashMap<>();
             algParams.put("logName",logName);

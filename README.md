@@ -14,6 +14,11 @@ This repository contains the Java project for a Process Mining tool that works o
     - Version: 4.2.3
     - Edition: Community
 
+## Requirements
+
+In order to run this project, please ensure access to a running Neo4j 4.4.2 database, with the GDS and APOC libraries installed. 
+To the database settings file, add the line `cypher.lenient_create_relationship = true`.
+
 ## How to Run
 
 In this section we provide the instructions on how to run the project using IntelliJ IDEA 2019.3.3.
@@ -21,18 +26,16 @@ In this section we provide the instructions on how to run the project using Inte
 ### Update parameters
 1. Open the _"Utils.java"_ file located on the following path: _"src\EventGraphs\"_ (starting from the main project folder).
 
-2. Update the parameters following 2 parameters:
-    - **NEO4J_BAT_PATH**
+2. Update following parameters:
+<!--     - **NEO4J_BAT_PATH**
     This path, specified in line 20 of the _"Utils.java"_ file, is used to run the start command on Neo4j and enable the remote interface (available at http://localhost:7474/).
+    If using Neo4j Desktop, 
+    ![Alt text](./img/bat_path.png) -->
     
-    ![Alt text](./img/bat_path.png)
-    
-    - **NEO4J_IMPORT_PATH**
-    This path, specified in line 21 of the _"Utils.java"_ file, is used to indicate the Neo4j Import folder, where the CSV files must be placed to be imported into the graph database. The files shown in the next figure can be found in the _"evaluation/"_ folder of this repository. 
-    
-     ![Alt text](./img/import_path.png)
+- **NEO4J_IMPORT_PATH**
+This path, specified in line 21 of the _"Utils.java"_ file, is used to indicate the Neo4j Import folder, where the CSV files must be placed to be imported into the graph database.
 
-3. Also in the _"Utils.java"_ file, in lines 25 and 26, update the **DEFAULT_USER** and **DEFAULT_PASS** parameters if necessary.
+- Also in the _"Utils.java"_ file, in lines 25 and 26, update the **DEFAULT_USER** and **DEFAULT_PASS** parameters if necessary.
 
 ### Setup the Run Configuration
 
@@ -74,24 +77,21 @@ The main class of the application is the _"EventGraphs.java"_ file, located in _
 
 ### Importing the Data
 
-1. Place the _"Orders.csv"_ file in the **NEO4J_IMPORT_PATH** specified during the Run Configuration.
+1. Place the _"BPIC17_Sample_20cases.csv"_ file in the **NEO4J_IMPORT_PATH** specified during the Run Configuration.
 2. In the user interface, go to _File_ -> _Upload CSV File_
-    1. Choose the _"Orders.csv"_ file
-    2. Choose "Action" as the _"Activity"_ attribute and click on Continue.
+    1. Choose the _"BPIC17_Sample_20cases.csv"_ file
+    2. Choose "Activity" as the _"Activity"_ attribute and click on Continue.
     
         ![Alt text](./img/selAct.png)
     
-    3. On the next window, choose all the attributes from the list (using Ctrl + click), anc click Next.
+    3. On the next window, choose all the attributes from the list (using Ctrl + click), anc click Finish.
     
         ![Alt text](./img/selAttr.png)
     
-    4. On the next window, select the attributes "Delivery" and "Order" (in that order) and add them to the list on the right. Once both attributes are there, as seen in the figure below, click on Finish.
-
-        ![Alt text](./img/selDim.png)
     
 3.	On the _"Logs"_ panel on the left of the user interface, select the recently uploaded log so its name appears on the top label.
 
-        ![Alt text](./img/logsPanel.png)
+    ![Alt text](./img/logsPanel.png)
     
 4. Go to the _"Graph Data"_ panel and click on the Instance Level "View" button to visualize the Event nodes.
     1. Use the Mouse Scroll to zoom in or out of the Graph panel.
@@ -103,7 +103,7 @@ The main class of the application is the _"EventGraphs.java"_ file, located in _
 
 1. On the _"Entities"_ panel, click on "New Entity".
 
-2. On the window that appears, select the "Order" attribute and click on Create Entity.
+2. On the window that appears, select the "case" attribute and click on Create Entity.
 
     ![Alt text](./img/createEntity.png)
 
@@ -111,53 +111,33 @@ The main class of the application is the _"EventGraphs.java"_ file, located in _
 
     ![Alt text](./img/etAttrSel.png)
 
-4. Create a second entity type by repeating steps 1-3, this time selecting the "Delivery" attribute.
+4. On the _"Classes"_ panel, click on "New Class".
 
-5. On the _"Entities"_ panel, click on "New Derived Entity".
-
-6. On the window that appears, select both entities on the list and click on Create Derived Entity.
-
-    ![Alt text](./img/createDerived.png)
-
-7. On the _"Classes"_ panel, click on "New Class".
-
-8. On the window that appears, select both the "Activity" and the "Life-cycle" attributes and click on Continue.
+5. On the window that appears, select the "Activity" attribute and click on Continue.
 
     ![Alt text](./img/createClass1.png)
 
-9. On the next window, select the "DeliveryOrder" entity and click on Create Class.
+6. On the next window, select the "case" entity and click on Create Class.
 
     ![Alt text](./img/createClass2.png)
 
-10. Go to the _"Graph Data"_ panel and click on the Model Level "View" button to visualize the Entity and Class nodes.
-
-11. To visualize the "directly follows" (:DF) paths, in the _"Graph Data"_ panel, click on the "Edit" button next to the :DF/:CORR label.
-
-12. On the window that appears, select the "DeliveryOrder" entity and click Apply. This will indicate that their :DF relations will be included in the visualization.
-
-    ![Alt text](./img/displayOpts.png)
-
-13. On the _"Graph Data"_ panel, click on the Instance Level "View" button to visualize the Event nodes connected by the selected :DF relations.
-
-    ![Alt text](./img/dfPaths.png)
-
 ### Creating a Model
 
-1. On the _"Algorithms"_ panel, select "Heuristic Miner" from the dropdown menu and click on Generate Model.
+1. On the _"Algorithms"_ panel, select "Inductive Miner" from the dropdown menu and click on Generate Model.
 
 2. On the window that appears, do the following:
-    1. Make sure that the Class Type is "Activity+Life-cycle".
-    2. Make sure that the Entity Type is "DeliveryOrder".
-    3. Set the Dependency threshold at 0.6
+    1. Make sure that the Class Type is "Activity".
+    2. Make sure that the Entity Type is "case".
+    3. Select "DFG" as the splitting type
     4. Click on Generate Model.
     
-    ![Alt text](./img/hmSel.png)
+    ![Alt text](./img/imSel.png)
 
-3. To visualize the model, go to the _"Models"_ panel, select the recently generated model (whose name should be "HM_1") and click on Show Model.
+3. To visualize the model, go to the _"Models"_ panel, select the recently generated model (whose name should be "IM_1_BPIC17_Sample_20cases.csv") and click on Show Model.
 
     ![Alt text](./img/showModel.png)
 
-4. To visualize the Petri net that represents that model, select the "HM_1" model and click on Show Petri Net.
+4. To visualize the Petri net that represents that model, select the "IM_1_BPIC17_Sample_20cases.csv" model and click on Show Petri Net.
 
     ![Alt text](./img/showPetri.png)
 

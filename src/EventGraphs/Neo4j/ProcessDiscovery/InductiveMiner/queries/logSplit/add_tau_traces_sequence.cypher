@@ -1,0 +1,10 @@
+MATCH (st) WHERE id(st) = $stepId
+MATCH (pt) -[:TRIED_STEP]-> (st)
+MATCH (alg:Algorithm) -[:PRODUCES]-> () -[:CONTAINS]-> (pt)
+MATCH (st) -[:STEP_NODE]-> (comp) <-[:LOG_COMP]- (l_c)
+MATCH (comp) -[:COMP_CL]-> (tau:Tau)
+CREATE (l_c) -[:HAS]-> (start:Event {Activity: "start", isStart: true})
+CREATE (l_c) -[:HAS]-> (end:Event {Activity: "end", isEnd: true})
+CREATE (start) -[:DF {EntityType: $entityType, logs: [id(l_c)]}]-> (end)
+MERGE (alg) -[:ALGORITHM_NODE]-> (start)
+MERGE (alg) -[:ALGORITHM_NODE]-> (end)
